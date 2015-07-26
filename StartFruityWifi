@@ -1,4 +1,4 @@
 #!/bin/bash
 /etc/init.d/fruitywifi start
 /etc/init.d/php5-fpm start
-iceweasel heetp://localhost:8000
+iceweasel http://localhost:8000
