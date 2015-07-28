@@ -1,3 +1,3 @@
 #!/bin/bash
 service postgresql start
-service Metssploit start
+service metssploit start
