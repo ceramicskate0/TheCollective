@@ -1,5 +1,14 @@
 #!/bin/bash
-apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y 
+cd /etc/apt
+echo " ">sources.list
+echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
+echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
+echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+cd /
+apt-get update 
+apt-get upgrade -y
+apt-get dist-upgrade -y 
 service metsploit start
 service postgresql start
 msfupdate
@@ -7,6 +16,6 @@ apt-get install geany -y
 apt-get install mitmf -y
 apt-get install fruitywifi -y
 apt-get install tor -y
-apt-get install -f
+apt-get install veil-evasion -y
 service tor start
 apt-get --force-yes install firefox-mozilla-build
