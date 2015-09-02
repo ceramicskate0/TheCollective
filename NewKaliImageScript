@@ -121,5 +121,6 @@ rm -rf /opt/BypassAV/Avoid/
 git clone https://github.com/nccgroup/metasploitavevasion.git /opt/BypassAV/Avoid/
 rm -rf /opt/Wireless/wifite/
 git clone https://github.com/derv82/wifite.git /opt/Wireless/wifite/
-
+rm -rf /opt/exploitation/set/
+git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/exploitation/set/
 apt-get autoremove -y && apt-get -y autoclean
