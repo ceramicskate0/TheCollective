@@ -15,6 +15,17 @@ msfupdate
 apt-get install geany -y 
 apt-get install mitmf -y
 apt-get install fruitywifi -y
+cd /root/Desktop
+wget https://www.torproject.org/dist/torbrowser/4.5.3/tor-browser-linux32-4.5.3_en-US.tar.xz
+tar -xf tor-browser-linux32-4.5.3_en-US.tar.xz
+cd /root/Desktop/tor-browser_en-US/Browser/
+mv start-tor-browser start-tor-browser.txt
+sed -i 's/`id -u`" -eq 0/`id -u`" -eq 1/g' start-tor-browser.txt
+mv start-tor-browser.txt start-tor-browser
+cd ..
+ls -ld
+chown -R root:root .
+ls -ld
 apt-get install tor -y
 apt-get install veil-evasion -y
 service tor start
