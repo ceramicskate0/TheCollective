@@ -19,3 +19,93 @@ apt-get install tor -y
 apt-get install veil-evasion -y
 service tor start
 apt-get --force-yes install firefox-mozilla-build
+apt-get -y install bleachbit
+apt-get -y install goldendict
+apt-get -y install flashplugin-nonfree
+update-flashplugin-nonfree --install
+apt-get -y install gtk-recordmydesktop
+apt-get -y install pinta
+apt-get -y install ibus && apt-get -y install ibus-unikey
+apt-get -y install libreoffice
+apt-get -y install knotes
+git clone https://github.com/Veil-Framework/Veil-Evasion.git /opt/BypassAV/Veil-Evasion/
+cd /opt/BypassAV/Veil-Evasion/setup
+./setup.sh -s
+cd /root/Desktop
+wget https://www.torproject.org/dist/torbrowser/4.5.3/tor-browser-linux32-4.5.3_en-US.tar.xz
+tar -xf tor-browser-linux32-4.5.3_en-US.tar.xz
+cd /root/Desktop/tor-browser_en-US/Browser/
+mv start-tor-browser start-tor-browser.txt
+sed -i 's/`id -u`" -eq 0/`id -u`" -eq 1/g' start-tor-browser.txt
+mv start-tor-browser.txt start-tor-browser
+cd ..
+ls -ld
+chown -R root:root .
+ls -ld
+apt-get -y install network-manager-openvpn
+apt-get -y install network-manager-openvpn-gnome
+apt-get -y install network-manager-pptp
+apt-get -y install network-manager-pptp-gnome
+apt-get -y install network-manager-strongswan
+apt-get -y install network-manager-vpnc
+apt-get -y install network-manager-vpnc-gnome
+cd /root/Desktop
+wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
+mv VeePeeNee.sh vpnbook.sh
+chmod a+x vpnbook.sh
+apt-get -y install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller
+apt-get -y install gdebi &>/dev/nul
+apt-get -y install deluge &>/dev/null
+git clone https://github.com/beefproject/beef.git /opt/exploitation/beef/
+cd /opt/BypassAV/
+rm -rf Veil-Evasion/
+git clone https://github.com/Veil-Framework/Veil-Evasion.git /opt/BypassAV/Veil-Evasion/
+cd /opt/BypassAV/
+rm -rf unicorn-master/
+git clone https://github.com/trustedsec/unicorn.git /opt/BypassAV/unicorn-master/
+cd /opt/BypassAV/
+rm -rf the-backdoor-factory/
+git clone https://github.com/secretsquirrel/the-backdoor-factory.git /opt/BypassAV/the-backdoor-factory/
+git clone https://github.com/byt3bl33d3r/pyobfuscate.git /opt/BypassAV/pyobfuscate-master/
+cd /opt/BypassAV/pyobfuscate-master/
+python setup.py install
+apt-get -y install shellter
+git clone https://github.com/trustedsec/unicorn.git /opt/BypassAV/unicorn-master
+git clone https://github.com/nccgroup/autopwn.git /opt/autopwn-master/
+cd /opt/autopwn-master/
+pip install -r requirements.txt
+python setup.py install
+git clone https://github.com/stasinopoulos/commix.git /opt/commix-master/
+git clone https://github.com/ChrisTruncer/EyeWitness.git /opt/EyeWitness-master/
+cd /opt/EyeWitness-master/setup/
+chmod a+x setup.sh
+./setup.sh
+git clone https://github.com/byt3bl33d3r/gcat.git /opt/gcat-master/
+mkdir /opt/BypassAV/maligno
+cd /opt/BypassAV/maligno
+wget https://www.encripto.no/tools/maligno-2.2.tar.gz
+tar -zxvf maligno-2.2.tar.gz
+git clone https://github.com/jekyc/wig.git /opt/wig/
+git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git /opt/Windows-Exploit-Suggester/
+git clone https://github.com/MarioVilas/shellcode_tools.git /opt/shellcode_tools-master/
+git clone https://github.com/dotcppfile/DAws.git /opt/DAws-master/
+git clone https://github.com/dotcppfile/Serbot.git /opt/Serbot-master/
+git clone https://github.com/rfunix/Pompem.git /opt/Pompem-master/
+git clone https://github.com/AlessandroZ/LaZagne.git /opt/LaZagne-master/
+git clone https://github.com/PenturaLabs/Linux_Exploit_Suggester.git /opt/Linux_Exploit_Suggester-master/
+rm -rf /usr/share/sparta/
+git clone https://github.com/SECFORCE/sparta.git /usr/share/sparta/
+apt-get -y install python-elixir
+apt-get -y install ldap-utils rwho rsh-client x11-apps finger
+cd  /usr/share/
+chmod a+x sparta/
+cd /usr/share/sparta/
+cp sparta /usr/bin/
+cd /usr/bin/
+chmod a+x sparta
+rm -rf /opt/BypassAV/Avoid/
+git clone https://github.com/nccgroup/metasploitavevasion.git /opt/BypassAV/Avoid/
+rm -rf /opt/Wireless/wifite/
+git clone https://github.com/derv82/wifite.git /opt/Wireless/wifite/
+
+apt-get autoremove -y && apt-get -y autoclean
