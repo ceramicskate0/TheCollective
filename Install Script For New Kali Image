@@ -94,10 +94,6 @@ cd /opt/EyeWitness-master/setup/
 chmod a+x setup.sh
 ./setup.sh
 git clone https://github.com/byt3bl33d3r/gcat.git /opt/gcat-master/
-mkdir /opt/BypassAV/maligno
-cd /opt/BypassAV/maligno
-wget https://www.encripto.no/tools/maligno-2.2.tar.gz
-tar -zxvf maligno-2.2.tar.gz
 git clone https://github.com/jekyc/wig.git /opt/wig/
 git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git /opt/Windows-Exploit-Suggester/
 git clone https://github.com/MarioVilas/shellcode_tools.git /opt/shellcode_tools-master/
