@@ -28,7 +28,6 @@ chown -R root:root .
 ls -ld
 apt-get install tor -y
 apt-get install veil-evasion -y
-service tor start
 echo -e deb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main | tee -a /etc/apt/sources.list > /dev/null
 apt-key adv –recv-keys –keyserver keyserver.ubuntu.com C1289A29
 apt-get update
@@ -127,3 +126,4 @@ apt-get update --fix-missing
 apt-get upgrade -y
 apt-get -y dist-upgrade
 apt-get autoremove -y && apt-get -y autoclean
+service tor start
