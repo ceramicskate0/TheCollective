@@ -32,7 +32,7 @@ service tor start
 echo -e deb http://downloads.sourceforge.net/project/ubuntuzilla/mozilla/apt all main | tee -a /etc/apt/sources.list > /dev/null
 apt-key adv –recv-keys –keyserver keyserver.ubuntu.com C1289A29
 apt-get update
-apt-get --force-yes install firefox-mozilla-build
+apt-get --force-yes install firefox-mozilla-build -y
 apt-get -y install bleachbit
 apt-get -y install goldendict
 apt-get -y install flashplugin-nonfree
