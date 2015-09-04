@@ -123,5 +123,7 @@ rm -rf /opt/Wireless/wifite/
 git clone https://github.com/derv82/wifite.git /opt/Wireless/wifite/
 rm -rf /opt/exploitation/set/
 git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/exploitation/set/
+apt-get update --fix-missing
+apt-get upgrade -y
 apt-get -y dist-upgrade
 apt-get autoremove -y && apt-get -y autoclean
