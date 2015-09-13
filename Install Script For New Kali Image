@@ -124,10 +124,15 @@ apt-get install openvas
 openvas-setup
 netstat -antp
 openvas-check-setup
-openvas-mkcert
-openvas-mkcert-client -n -i
 openvas-nvt-sync
 greenbone-nvt-sync
+openvas-mkcert
+openvas-mkcert-client -n -i
+openvasmd --create-user=root --role=Admin
+#ADD YOUR USER NAME BY ADDING INFO ON NEXT LINE AND UNCOMMENT
+#openvasmd --create-user=admin --new-password=admin
+openvasmd --rebuild
+openvas-check-setup
 openvas-start
 apt-get update
 apt-get dist-upgrade
