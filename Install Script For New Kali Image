@@ -124,6 +124,9 @@ apt-get install openvas
 openvas-setup
 netstat -antp
 openvas-check-setup
+openvas-mkcert
+openvas-nvt-sync
+greenbone-nvt-sync
 openvas-start
 apt-get update
 apt-get dist-upgrade
