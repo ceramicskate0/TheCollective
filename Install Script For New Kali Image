@@ -125,4 +125,12 @@ openvas-setup
 netstat -antp
 openvas-check-setup
 openvas-start
-
+apt-get update
+apt-get dist-upgrade
+apt-get install passing-the-hash unicornscan winexe
+apt-get install unicornscan enum4linux polenum 
+apt-get install nfspy firmware-mod-kit wmis
+# and if you haven't already:
+apt-get install nipper-ng jsql oclgausscrack ghost-phisher uniscan 
+apt-get install lbd automater arachni bully inguma sslsplit dumpzilla 
+apt-get install owasp-mantra-ff recon-ng ridenum regripper jd-gui
