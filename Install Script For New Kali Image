@@ -125,6 +125,7 @@ openvas-setup
 netstat -antp
 openvas-check-setup
 openvas-mkcert
+openvas-mkcert-client -n -i
 openvas-nvt-sync
 greenbone-nvt-sync
 openvas-start
