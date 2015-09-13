@@ -134,3 +134,4 @@ apt-get install nfspy firmware-mod-kit wmis
 apt-get install nipper-ng jsql oclgausscrack ghost-phisher uniscan 
 apt-get install lbd automater arachni bully inguma sslsplit dumpzilla 
 apt-get install owasp-mantra-ff recon-ng ridenum regripper jd-gui
+apt-get install freerdp-x11
