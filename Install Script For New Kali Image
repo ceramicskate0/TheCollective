@@ -122,8 +122,6 @@ apt-get autoremove -y && apt-get -y autoclean
 service tor start
 apt-get install openvas
 openvas-setup
-/var/lib/openvas/private/CA created
-/var/lib/openvas/CA created
 netstat -antp
 openvas-start
 
