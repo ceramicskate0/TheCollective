@@ -1,3 +1,4 @@
+#!/bin/bash
 openvas-start
 openvas-check-setup
-https://127.0.0.1:9392
+iceweasel https://127.0.0.1:9392
