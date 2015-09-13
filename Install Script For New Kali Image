@@ -123,5 +123,6 @@ service tor start
 apt-get install openvas
 openvas-setup
 netstat -antp
+openvas-check-setup
 openvas-start
 
