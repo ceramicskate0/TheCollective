@@ -1,11 +1,11 @@
 #!/bin/bash
-cd /etc/apt
-echo " ">sources.list
-echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
-echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
-echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
-echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
-cd /
+#cd /etc/apt
+#echo " ">sources.list
+#echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
+#echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+#echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
+#echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+#cd /
 apt-get update 
 apt-get upgrade -y
 apt-get dist-upgrade -y 
