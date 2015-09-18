@@ -10,4 +10,4 @@ os.system("echo"^C"")
 
 MACinput=raw_input("Enter MAC Address for Accesspoint:")
 
-os.system("reaver -i wlanomon -b" + MACinput + " -b 60 -l 43 -S -vv")
+os.system("reaver -i wlanomon -b " + MACinput + " -d 30 -S -N -vv")
