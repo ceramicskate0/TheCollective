@@ -1,4 +1,4 @@
-#!/usr/bin/phython
+#!/usr/bin/python
 import os
 import socket
 
@@ -6,7 +6,6 @@ os.system("clear")
 os.system("airmon-ng check kill")
 os.system("airmon-ng start wlan0")
 os.system("wash -i wlan0mon")
-os.system("echo"^C"")
 
 MACinput=raw_input("Enter MAC Address for Accesspoint:")
 
