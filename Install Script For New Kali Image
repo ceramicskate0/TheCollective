@@ -147,3 +147,6 @@ apt-get install freerdp-x11 -y
 apt-get install libssl-dev -y
 apt-get install libpcap-dev -y
 apt-get install libsqlite3-dev -y
+cd /root/Desktop
+git clone https://github.com/CeramicSkate0/Kali-Scripts
+git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
