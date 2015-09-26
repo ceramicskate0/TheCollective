@@ -19,5 +19,5 @@ os.system("echo FILL IN ANY DATA IN QUOTES WITH THE EXACT VALUES FOUND IN THE RE
 os.system("echo ")
 os.system("echo ")
 os.system("echo TYPE THIS COMMAND: pixiewps -e \'PKE\' -s \'E-HASH1\' -z \'E-HASH2\' -a \'AUTHKEY\' -n \'E-NONCE\' -S")
-FinalInput=raw_input("\nEnter the pixie command above with proper data:")
+FinalInput=raw_input("\nEnter the pixiewps command above with proper data:")
 os.system(FinalInput)
