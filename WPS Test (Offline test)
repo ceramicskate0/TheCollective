@@ -1,12 +1,7 @@
-
-#!/usr/bin/python
-import os
-import socket
-
 os.system("clear")
 os.system("airmon-ng check kill")
 os.system("iwconfig")
-WLANinput=raw_input("\nEnter your adapter number:")
+WLANinput=raw_input("\nEnter your adapter NUMBER (ie \'0\' for wlan0:")
 os.system("airmon-ng start " + "wlan"+WLANinput+"mon")
 os.system("clear")
 os.system("echo PRESS Control+C when your done looking")
