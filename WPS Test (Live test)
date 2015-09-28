@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import os
-import socket
 
 os.system("clear")
 os.system("airmon-ng check kill")
