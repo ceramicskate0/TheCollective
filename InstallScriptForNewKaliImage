@@ -1,11 +1,12 @@
 #!/bin/bash
-#cd /etc/apt
-#echo " ">sources.list
-#echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
-#echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
-#echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
-#echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
-#cd /
+cd /etc/apt
+echo " ">sources.list
+echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
+echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
+echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+cd /
+echo "FIXED THE REPO SOURCE.LIST.You Welcome!"
 apt-get update 
 apt-get upgrade -y
 apt-get dist-upgrade -y 
@@ -120,7 +121,7 @@ apt-get upgrade -y
 apt-get -y dist-upgrade
 apt-get autoremove -y && apt-get -y autoclean
 service tor start
-apt-get install openvas
+apt-get -y install openvas
 openvas-setup
 netstat -antp
 openvas-check-setup
@@ -130,7 +131,9 @@ openvas-mkcert
 openvas-mkcert-client -n -i
 openvasmd --create-user=root --role=Admin
 #ADD YOUR USER NAME BY ADDING INFO ON NEXT LINE AND UNCOMMENT
-#openvasmd --create-user=admin --new-password=admin
+openvasmd --create-user=admin --new-password=admin
+openvasmd --user=admin --new-passwod=admin
+echo "Created OPENVAS User. UN=admin PW=admin"
 openvasmd --rebuild
 openvas-check-setup
 openvas-start
