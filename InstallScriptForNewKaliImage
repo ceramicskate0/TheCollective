@@ -154,3 +154,6 @@ apt-get install metagoofil
 cd /root/Desktop
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
+echo "Now to Download Nessus"
+Iceweasel "https://www.tenable.com/products/nessus/select-your-operating-system"
+
