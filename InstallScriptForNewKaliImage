@@ -155,6 +155,9 @@ cd /root/Desktop
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
+git clone https://github.com/PyroTek3/PowerShell-AD-Recon
+git clone https://github.com/nidem/kerberoast
+git clone https://github.com/trustedsec/ptf
 echo "Now to Download Nessus"
 iceweasel https://www.tenable.com/products/nessus/select-your-operating-system
 
