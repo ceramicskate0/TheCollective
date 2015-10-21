@@ -159,6 +159,7 @@ git clone https://github.com/PyroTek3/PowerShell-AD-Recon
 git clone https://github.com/nidem/kerberoast
 git clone https://github.com/trustedsec/ptf
 git clone https://github.com/michenriksen/gitrob
+ln -s /opt /root/Desktop
 echo "Now to Download Nessus"
 iceweasel https://www.tenable.com/products/nessus/select-your-operating-system
 
