@@ -77,6 +77,7 @@ openvas-check-setup
 openvas-start
 #-----------------------------START GETTING FROM GITHUB------------------------
 cd /root/Desktop
+mkdir HackerTools
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
