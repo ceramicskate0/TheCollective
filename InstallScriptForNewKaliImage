@@ -10,49 +10,22 @@ echo "FIXED THE REPO SOURCE.LIST.You Welcome!"
 apt-get update 
 apt-get upgrade -y
 apt-get dist-upgrade -y 
+apt-get update --fix-missing
 service metsploit start
 service postgresql start
 msfupdate
+#----------------INSTALL REPOS--------------------------------
 apt-get install geany -y 
 apt-get install mitmf -y
 apt-get install fruitywifi -y
-cd /root/Desktop
-wget https://www.torproject.org/dist/torbrowser/4.5.3/tor-browser-linux32-4.5.3_en-US.tar.xz
-tar -xf tor-browser-linux32-4.5.3_en-US.tar.xz
-cd /root/Desktop/tor-browser_en-US/Browser/
-mv start-tor-browser start-tor-browser.txt
-sed -i 's/`id -u`" -eq 0/`id -u`" -eq 1/g' start-tor-browser.txt
-mv start-tor-browser.txt start-tor-browser
-cd ..
-ls -ld
-chown -R root:root .
-ls -ld
-apt-get install tor -y
 apt-get install veil-evasion -y
-apt-get update
 apt-get -y install bleachbit
 apt-get -y install goldendict
-apt-get -y install flashplugin-nonfree
-update-flashplugin-nonfree --install
 apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
 apt-get -y install ibus && apt-get -y install ibus-unikey
 apt-get -y install libreoffice
 apt-get -y install knotes
-git clone https://github.com/Veil-Framework/Veil-Evasion.git /opt/BypassAV/Veil-Evasion/
-cd /opt/BypassAV/Veil-Evasion/setup
-./setup.sh -s
-cd /root/Desktop
-wget https://www.torproject.org/dist/torbrowser/4.5.3/tor-browser-linux32-4.5.3_en-US.tar.xz
-tar -xf tor-browser-linux32-4.5.3_en-US.tar.xz
-cd /root/Desktop/tor-browser_en-US/Browser/
-mv start-tor-browser start-tor-browser.txt
-sed -i 's/`id -u`" -eq 0/`id -u`" -eq 1/g' start-tor-browser.txt
-mv start-tor-browser.txt start-tor-browser
-cd ..
-ls -ld
-chown -R root:root .
-ls -ld
 apt-get -y install network-manager-openvpn
 apt-get -y install network-manager-openvpn-gnome
 apt-get -y install network-manager-pptp
@@ -60,67 +33,32 @@ apt-get -y install network-manager-pptp-gnome
 apt-get -y install network-manager-strongswan
 apt-get -y install network-manager-vpnc
 apt-get -y install network-manager-vpnc-gnome
-cd /root/Desktop
-wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
-mv VeePeeNee.sh vpnbook.sh
-chmod a+x vpnbook.sh
 apt-get -y install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller
 apt-get -y install gdebi &>/dev/nul
 apt-get -y install deluge &>/dev/null
-git clone https://github.com/beefproject/beef.git /opt/exploitation/beef/
-cd /opt/BypassAV/
-rm -rf Veil-Evasion/
-git clone https://github.com/Veil-Framework/Veil-Evasion.git /opt/BypassAV/Veil-Evasion/
-cd /opt/BypassAV/
-rm -rf unicorn-master/
-git clone https://github.com/trustedsec/unicorn.git /opt/BypassAV/unicorn-master/
-cd /opt/BypassAV/
-rm -rf the-backdoor-factory/
-git clone https://github.com/secretsquirrel/the-backdoor-factory.git /opt/BypassAV/the-backdoor-factory/
-git clone https://github.com/byt3bl33d3r/pyobfuscate.git /opt/BypassAV/pyobfuscate-master/
-cd /opt/BypassAV/pyobfuscate-master/
-python setup.py install
-apt-get -y install shellter
-git clone https://github.com/trustedsec/unicorn.git /opt/BypassAV/unicorn-master
-git clone https://github.com/nccgroup/autopwn.git /opt/autopwn-master/
-cd /opt/autopwn-master/
-pip install -r requirements.txt
-python setup.py install
-git clone https://github.com/stasinopoulos/commix.git /opt/commix-master/
-git clone https://github.com/ChrisTruncer/EyeWitness.git /opt/EyeWitness-master/
-cd /opt/EyeWitness-master/setup/
-chmod a+x setup.sh
-./setup.sh
-git clone https://github.com/byt3bl33d3r/gcat.git /opt/gcat-master/
-git clone https://github.com/jekyc/wig.git /opt/wig/
-git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git /opt/Windows-Exploit-Suggester/
-git clone https://github.com/MarioVilas/shellcode_tools.git /opt/shellcode_tools-master/
-git clone https://github.com/dotcppfile/DAws.git /opt/DAws-master/
-git clone https://github.com/dotcppfile/Serbot.git /opt/Serbot-master/
-git clone https://github.com/rfunix/Pompem.git /opt/Pompem-master/
-git clone https://github.com/AlessandroZ/LaZagne.git /opt/LaZagne-master/
-git clone https://github.com/PenturaLabs/Linux_Exploit_Suggester.git /opt/Linux_Exploit_Suggester-master/
-rm -rf /usr/share/sparta/
-git clone https://github.com/SECFORCE/sparta.git /usr/share/sparta/
 apt-get -y install python-elixir
 apt-get -y install ldap-utils rwho rsh-client x11-apps finger
-cd  /usr/share/
-chmod a+x sparta/
-cd /usr/share/sparta/
-cp sparta /usr/bin/
-cd /usr/bin/
-chmod a+x sparta
-rm -rf /opt/BypassAV/Avoid/
-git clone https://github.com/nccgroup/metasploitavevasion.git /opt/BypassAV/Avoid/
-rm -rf /opt/Wireless/wifite/
-git clone https://github.com/derv82/wifite.git /opt/Wireless/wifite/
-rm -rf /opt/exploitation/set/
-git clone https://github.com/trustedsec/social-engineer-toolkit.git /opt/exploitation/set/
-apt-get update --fix-missing
-apt-get upgrade -y
-apt-get -y dist-upgrade
-apt-get autoremove -y && apt-get -y autoclean
-service tor start
+apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
+apt-get -y install lbd automater arachni bully inguma sslsplit dumpzilla -y 
+apt-get -y install owasp-mantra-ff recon-ng ridenum regripper jd-gui -y
+apt-get -y install freerdp-x11 -y
+apt-get -y install libssl-dev -y
+apt-get -y install libpcap-dev -y
+apt-get -y install libsqlite3-dev -y
+apt-get -y install metagoofil
+apt-get -y install passing-the-hash unicornscan winexe
+apt-get -y install unicornscan enum4linux polenum 
+apt-get -y install nfspy firmware-mod-kit wmis
+apt-get -y install Beef
+apt-get -y install veil-catapult
+apt-get -y install unicornscan
+apt-get -y install backdoor-factory
+apt-get -y install shellter
+apt-get -y install jboss-autopwn
+apt-get -y install eyewitness
+apt-get -y install wifite
+apt-get -y install set
+#-------------------FIX FUCKING OPENVAS-----------------------------
 apt-get -y install openvas
 openvas-setup
 netstat -antp
@@ -130,27 +68,14 @@ greenbone-nvt-sync
 openvas-mkcert
 openvas-mkcert-client -n -i
 openvasmd --create-user=root --role=Admin
-#ADD YOUR USER NAME BY ADDING INFO ON NEXT LINE AND UNCOMMENT
+echo "ADD YOUR USER NAME BY ADDING INFO ON NEXT LINE AND UNCOMMENT""
 openvasmd --create-user=admin --new-password=admin
 openvasmd --user=admin --new-passwod=admin
 echo "Created OPENVAS User. UN=admin PW=admin"
 openvasmd --rebuild
 openvas-check-setup
 openvas-start
-apt-get update
-apt-get -y dist-upgrade
-apt-get install passing-the-hash unicornscan winexe
-apt-get install unicornscan enum4linux polenum 
-apt-get install nfspy firmware-mod-kit wmis
-# and if you haven't already:
-apt-get install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
-apt-get install lbd automater arachni bully inguma sslsplit dumpzilla -y 
-apt-get install owasp-mantra-ff recon-ng ridenum regripper jd-gui -y
-apt-get install freerdp-x11 -y
-apt-get install libssl-dev -y
-apt-get install libpcap-dev -y
-apt-get install libsqlite3-dev -y
-apt-get install metagoofil
+#-----------------------------START GETTING FROM GITHUB------------------------
 cd /root/Desktop
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
@@ -159,7 +84,31 @@ git clone https://github.com/PyroTek3/PowerShell-AD-Recon
 git clone https://github.com/nidem/kerberoast
 git clone https://github.com/trustedsec/ptf
 git clone https://github.com/michenriksen/gitrob
+git clone https://github.com/byt3bl33d3r/gcat.git
+git clone https://github.com/jekyc/wig.git 
+git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git 
+git clone https://github.com/MarioVilas/shellcode_tools.git 
+git clone https://github.com/dotcppfile/DAws.git 
+git clone https://github.com/dotcppfile/Serbot.git 
+git clone https://github.com/rfunix/Pompem.git 
+git clone https://github.com/AlessandroZ/LaZagne.git 
+git clone https://github.com/PenturaLabs/Linux_Exploit_Suggester.git 
+git clone https://github.com/stasinopoulos/commix.git 
+#-------------------------------------------------------------------------------
+wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
+mv VeePeeNee.sh vpnbook.sh
+chmod a+x vpnbook.sh
+#-------------------------------------------------------------------------------
+git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
+cd /opt/BypassAV/pyobfuscate-master/
+python setup.py install
+#-------------------------------------------------------------------------------
+rm -rf /opt/BypassAV/Avoid/
+git clone https://github.com/nccgroup/metasploitavevasion.git 
+#-------------------------------------------------------------------------------
+#Make shortcut to OPT
 ln -s /opt /root/Desktop
+apt-get autoremove -y && apt-get -y autoclean
 echo "Now to Download Nessus"
 iceweasel https://www.tenable.com/products/nessus/select-your-operating-system
 
