@@ -95,21 +95,21 @@ git clone https://github.com/rfunix/Pompem.git
 git clone https://github.com/AlessandroZ/LaZagne.git 
 git clone https://github.com/PenturaLabs/Linux_Exploit_Suggester.git 
 git clone https://github.com/stasinopoulos/commix.git 
+git clone https://github.com/0x90/bluetooth-arsenal
+git clone https://github.com/rsmudge/cortana-scripts
 #-------------------------------------------------------------------------------
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
 mv VeePeeNee.sh vpnbook.sh
 chmod a+x vpnbook.sh
 #-------------------------------------------------------------------------------
 git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
-cd /opt/BypassAV/pyobfuscate-master/
 python setup.py install
 #-------------------------------------------------------------------------------
-rm -rf /opt/BypassAV/Avoid/
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 #-------------------------------------------------------------------------------
 #Make shortcut to OPT
 ln -s /opt /root/Desktop
 apt-get autoremove -y && apt-get -y autoclean
-echo "Now to Download Nessus"
+echo "Now to Download Nessus and cobalt strike"
 iceweasel https://www.tenable.com/products/nessus/select-your-operating-system
-
+iceweasel https://www.cobaltstrike.com/download

