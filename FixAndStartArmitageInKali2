@@ -1,21 +1,21 @@
 #!/bin/bash
-echo "REMOVE DIR"
+echo "REMOVE DIR for ARMITAGE"
 rm -r /usr/share/armitage
 echo "CD to downloads"
 cd /root/Downloads
-echo "DOWNLOADING"
+echo "DOWNLOADING ARMITAGE"
 wget http://www.fastandeasyhacking.com/download/armitage150813.tgz
-echo "UNPACKING"
+echo "UNPACKING ARMITAGE"
 tar -xf armitage150813.tgz
-echo "Delete tgz"
+echo "Delete Armitage.tgz"
 rm -r armitage150813.tgz
-echo "COPY ARMITAGE"
+echo "COPY ARMITAGE to /USR/SHARE/"
 cp -r armitage /usr/share/armitage
-echo "STARTING SERVICES"
+echo "STARTING postgresql"
 /etc/init.d/postgresql start
-echo "FIX DB"
+echo "FIX msfdb DB"
 msfdb delete
 msfdb start
 msfdb init
-echo "START ARMITAGE"
+echo "hoping to START ARMITAGE......"
 armitage
