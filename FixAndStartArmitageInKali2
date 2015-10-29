@@ -1,0 +1,9 @@
+!#/bin/bash
+rm -r /usr/share/armitage
+cd /root/Downloads
+wget http://www.fastandeasyhacking.com/download/armitage150813.tgz
+tar -xf armitage150813.tgz
+cp -r armitage /usr/share/armitage
+/etc/init.d/postgresql start
+msfdb init
+armitage
