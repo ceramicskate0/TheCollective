@@ -18,4 +18,4 @@ msfdb delete
 msfdb start
 msfdb init
 echo "hoping to START ARMITAGE......"
-armitage
+
