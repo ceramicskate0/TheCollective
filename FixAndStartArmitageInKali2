@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 echo "REMOVE DIR"
 rm -r /usr/share/armitage
 echo "CD to downloads"
