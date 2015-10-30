@@ -5,6 +5,8 @@ echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
 echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
 echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
 echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>sources.list
+echo "deb http://security.kali.org/kali-security kali-rolling/updates main contrib non-free">>sources.list
 cd /
 echo "FIXED THE REPO SOURCE.LIST.You Welcome!"
 apt-get update 
