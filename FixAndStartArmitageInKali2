@@ -17,5 +17,5 @@ echo "FIX msfdb DB"
 msfdb delete
 msfdb start
 msfdb init
-echo "hoping to START ARMITAGE......"
+echo "Ready to try ARMITAGE......"
 
