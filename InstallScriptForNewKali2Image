@@ -113,4 +113,6 @@ echo "Created OPENVAS User. UN=admin PW=admin"
 openvasmd --rebuild
 openvas-check-setup
 openvas-start
-
+apt-get update
+apt-get -f install
+apt-get install --reinstall gnome-control-center --fix-missing
