@@ -57,7 +57,7 @@ apt-get -y install shellter
 apt-get -y install jboss-autopwn
 apt-get -y install eyewitness
 apt-get -y install wifite
-apt-get -y install set
+#apt-get -y install set
 apt-get -y install openvas
 #-----------------------------START GETTING FROM GITHUB------------------------
 cd /root/Desktop
@@ -93,10 +93,9 @@ python setup.py install
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 #---------------------------------Make shortcut to OPT--------------------------
 ln -s /opt /root/Desktop
-apt-get autoremove -y && apt-get -y autoclean
+#---------------------------------Get more goodys--------------------------
 echo "Now to Download Nessus and cobalt strike"
-iceweasel https://www.tenable.com/products/nessus/select-your-operating-system
-iceweasel --new-tab https://www.cobaltstrike.com/download
+iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download
 #-------------------FIX FUCKING OPENVAS-----------------------------
 openvas-setup
 netstat -antp
