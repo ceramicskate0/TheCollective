@@ -27,6 +27,7 @@ apt-get update
 #apt-get dist-upgrade -y 
 msfupdate
 #----------------INSTALL REPOS--------------------------------
+echo "Installing good packages to have"
 apt-get install geany -y 
 apt-get install mitmf -y
 apt-get install fruitywifi -y
@@ -72,6 +73,7 @@ apt-get -y install wifite
 #apt-get -y install set
 apt-get -y install openvas
 #-----------------------------START GETTING FROM GITHUB------------------------
+echo "Getting clones from Github"
 cd /root/Desktop
 mkdir HackerTools
 git clone https://github.com/CeramicSkate0/Kali-Scripts
@@ -124,6 +126,7 @@ iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operatin
 #openvasmd --rebuild
 #openvas-check-setup
 #openvas-start
+#-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
 apt-get install --reinstall gnome-control-center --fix-missing
