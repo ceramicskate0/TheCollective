@@ -138,4 +138,6 @@ apt-get install --reinstall gnome-control-center --fix-missing
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
 msfdb init
-echo "INSTALL VM TOOLS"
+#---------------Prep sys for wifi---------------------------------------
+airmon-ng check kill
+echo "INSTALL VM TOOLS!!!(I/A)"
