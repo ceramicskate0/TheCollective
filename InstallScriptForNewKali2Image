@@ -76,6 +76,7 @@ apt-get -y install eyewitness
 apt-get -y install wifite
 #apt-get -y install set
 apt-get -y install openvas
+apt-get -y install guake
 #-----------------------------START GETTING FROM GITHUB------------------------
 echo "Getting clones from Github"
 cd /root/Desktop
@@ -137,3 +138,4 @@ apt-get install --reinstall gnome-control-center --fix-missing
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
 msfdb init
+echo "INSTALL VM TOOLS"
