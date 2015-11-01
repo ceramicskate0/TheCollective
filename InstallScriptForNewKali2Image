@@ -42,6 +42,7 @@ apt-get -y install pinta
 apt-get -y install ibus && apt-get -y install ibus-unikey
 apt-get -y install libreoffice
 apt-get -y install knotes
+apt-get -y install network-manager-gnome
 apt-get -y install network-manager-openvpn
 apt-get -y install network-manager-openvpn-gnome
 apt-get -y install network-manager-pptp
