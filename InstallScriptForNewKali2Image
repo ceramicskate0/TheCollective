@@ -133,4 +133,6 @@ iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operatin
 apt-get update --fix-missing
 apt-get -f install
 apt-get install --reinstall gnome-control-center --fix-missing
+#---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
+msfdb init
