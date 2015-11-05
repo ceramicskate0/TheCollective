@@ -4,7 +4,7 @@ rm -r /usr/share/armitage
 echo "CLEANING OLD ARMITAGE OFF SYSTEM"
 apt-get clean
 apt-get autoclean
-apt-get remove armitage
+apt-get remove armitage -y
 apt-get update
 echo "CD TO DOWNLOADS"
 cd /root/Downloads
@@ -22,5 +22,6 @@ echo "FIX MSFDB"
 msfdb delete
 msfdb init
 msfdb start
+apt-get -y install armitage
 echo "READY TO TRY ARMITAGE......"
-echo"IF STILL BROKEN TRY APT-GET INSTALL ARMITAGE -Y"
+echo "IF STILL BROKEN TRY APT-GET INSTALL ARMITAGE -Y"
