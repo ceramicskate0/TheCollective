@@ -24,4 +24,4 @@ msfdb init
 msfdb start
 apt-get -y install armitage
 echo "READY TO TRY ARMITAGE......"
-echo "IF STILL BROKEN TRY APT-GET INSTALL ARMITAGE -Y"
+
