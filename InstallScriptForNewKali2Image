@@ -132,6 +132,9 @@ iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operatin
 #openvasmd --rebuild
 #openvas-check-setup
 #openvas-start
+#------------------EDIT CronTab to start postgresql for you---------------------------------------
+cd /var/spool/cron/crontabs
+echo "@reboot /etc/init.d/postgresql start">>root
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
