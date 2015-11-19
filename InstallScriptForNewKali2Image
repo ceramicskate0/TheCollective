@@ -103,6 +103,7 @@ git clone https://github.com/stasinopoulos/commix.git
 git clone https://github.com/0x90/bluetooth-arsenal
 git clone https://github.com/rsmudge/cortana-scripts
 git clone https://github.com/gentilkiwi/mimikatz
+git clone https://github.com/gentilkiwi/kekeo
 #git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 #-------------------------------------------------------------------------------
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
