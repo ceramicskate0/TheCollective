@@ -1,0 +1,4 @@
+#!/bin/bash
+unset GNOME_DESKTOP_SESSION_ID
+monodevelop
+echo "NOW OPEN YOUR sln file in mono"
