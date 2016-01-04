@@ -82,7 +82,6 @@ apt-get -y install recstudio
 apt-get -y install python-hachoir-parser
 apt-get -y install catdoc
 apt-get -y install unoconv
-pip install -U olefile
 #-----------------------------START GETTING FROM GITHUB------------------------
 echo "Getting clones from Github"
 cd /root/Desktop
@@ -123,9 +122,11 @@ python setup.py install
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 #---------------------------------Make shortcut to OPT--------------------------
 ln -s /opt /root/Desktop
+#---------------------------------Get OLE dependency for OLEDump--------------------------
+pip install -U olefile
 #---------------------------------Get more goodys--------------------------
 echo "Now to Download Nessus and cobalt strike"
-iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download
+iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download http://blog.didierstevens.com/my-software/
 #-------------------FIX FUCKING OPENVAS-----------------------------
 #openvas-setup
 #netstat -antp
@@ -155,3 +156,8 @@ msfdb init
 #---------------Prep sys for wifi---------------------------------------
 airmon-ng check kill
 echo "INSTALL VM TOOLS!!!(I/A)"
+#---------------Prep sys for wifi---------------------------------------
+cd /root/Desktop
+wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
+#---------------Reboot---------------------------------------
+reboot now
