@@ -1,27 +1,27 @@
 #!/bin/bash
 cd /etc/apt
-echo "STARTING TO FIX ALL KALIs BAD FILE COUNFIGs...yeah..."
 #----------------Fix REPOS--------------------------------
 echo "Fixing Source lists"
 echo " ">sources.list
-echo "deb http://http.kali.org/kali sana main non-free contrib">>sources.list
-echo "deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
-echo "deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
-echo "deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
-echo "To add the rolling repos copy them from script and uncomment them and then paste in terminal"
-#echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>sources.list
-#echo "deb http://security.kali.org/kali-security kali-rolling/updates main contrib non-free">>sources.list
-echo "FIXED THE REPO SOURCE.LIST. Your Welcome!"
+echo "#KALI 2.0 Repos">>sources.list
+echo "#deb http://http.kali.org/kali sana main non-free contrib">>sources.list
+echo "#deb http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+echo "#deb-src http://http.kali.org/kali sana main non-free contrib">>sources.list
+echo "#deb-src http://security.kali.org/kali-security sana/updates main contrib non-free">>sources.list
+echo "Kali 2016 Rolling Repos">>sources.list
+echo deb http://http.kali.org/kali kali-rolling main contrib non-free>>sources.list
+echo deb-src http://http.kali.org/kali kali-rolling main contrib non-free>>sources.list
+echo "FIXED THE REPO SOURCE.LIST, AGAIN. Your Welcome!"
 #----------------Fix wireless Interface issue--------------------------------
-echo "Fixing Wifi issue"
-cd /etc/network/
-echo "#Wireless Interface setup by install script"
-echo "#auto wlan0">>interfaces
-echo "#iface wlan0 inet manual">>interfaces
-echo "#iface wlan0 inet static">>interfaces
-echo "#wpa-ssid AP_NAME">>interfaces
-echo "#wpa-key-mgmt WPA-PSK">>interfaces
-echo "Fixed wireless config issue, might have to reboot to get it to work."
+#echo "Fixing Wifi issue"
+#cd /etc/network/
+#echo "#Wireless Interface setup by install script"
+#echo "#auto wlan0">>interfaces
+#echo "#iface wlan0 inet manual">>interfaces
+#echo "#iface wlan0 inet static">>interfaces
+#echo "#wpa-ssid AP_NAME">>interfaces
+#echo "#wpa-key-mgmt WPA-PSK">>interfaces
+#echo "Fixed wireless config issue, might have to reboot to get it to work."
 #----------------Fix Interface--------------------------------
 echo"Starting to grab updates (BUT NOT UPGRADE DUE TO THE UPGRADES WILL BREAK ARMITAGE AT THIS TIME)"
 cd /
@@ -111,6 +111,14 @@ git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/leebaird/discover
 #git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
+#install mana wIFI TOOLS
+git clone --depth 1 https://github.com/sensepost/mana
+cd mana
+git submodule init
+git submodule update
+make
+make install
+kali-install.sh
 #-------------------------------------------------------------------------------
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
 mv VeePeeNee.sh vpnbook.sh
@@ -125,8 +133,8 @@ ln -s /opt /root/Desktop
 #---------------------------------Get OLE dependency for OLEDump--------------------------
 pip install -U olefile
 #---------------------------------Get more goodys--------------------------
-echo "Now to Download Nessus and cobalt strike"
-iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download http://blog.didierstevens.com/my-software/
+#echo "Now to Download Nessus and cobalt strike"
+#iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download http://blog.didierstevens.com/my-software/
 #-------------------FIX FUCKING OPENVAS-----------------------------
 #openvas-setup
 #netstat -antp
@@ -143,9 +151,6 @@ iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operatin
 #openvasmd --rebuild
 #openvas-check-setup
 #openvas-start
-#------------------EDIT CronTab to start postgresql for you---------------------------------------
-cd /var/spool/cron/crontabs
-echo "@reboot /etc/init.d/postgresql start">>root
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
@@ -159,5 +164,12 @@ echo "INSTALL VM TOOLS!!!(I/A)"
 #---------------Prep sys for wifi---------------------------------------
 cd /root/Desktop
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
+#---------------fIX uP CRONTAB TO RUN AUTO UPDATES AND POSTGRESQL--------------------------------------
+#crontab -l
+#crontab -e 
+#echo "@reboot /etc/init.d/postgresql start" >>/tmp/crontab.84KIMo/crontab 
+#echo "@reboot apt-get update">>/tmp/crontab.84KIMo/crontab 
+#echo "@reboot apt-get upgarde -y">>/tmp/crontab.84KIMo/crontab 
+#echo "@reboot apt-get dist-upgrade -y" >>/tmp/crontab.84KIMo/crontab 
 #---------------Reboot---------------------------------------
 reboot now
