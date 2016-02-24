@@ -30,7 +30,6 @@ apt full-upgrade -y
 apt-get dist-upgrade -y 
 apt-get upgrade -y
 msfupdate
-apt autoremove
 #----------------INSTALL REPOS--------------------------------
 echo "Installing good packages to have"
 apt-get install geany -y 
@@ -112,7 +111,7 @@ git clone https://github.com/gentilkiwi/mimikatz
 git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/leebaird/discover
-#git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
+git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 #install mana wIFI TOOLS
 git clone --depth 1 https://github.com/sensepost/mana
 cd mana
@@ -122,6 +121,7 @@ make
 make install
 kali-install.sh
 #-------------------------------------------------------------------------------
+cd /root/Desktop
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
 mv VeePeeNee.sh vpnbook.sh
 chmod a+x vpnbook.sh
@@ -157,6 +157,7 @@ pip install -U olefile
 apt-get update --fix-missing
 apt-get -f install
 apt-get install --reinstall gnome-control-center --fix-missing
+apt autoremove
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
 msfdb init
