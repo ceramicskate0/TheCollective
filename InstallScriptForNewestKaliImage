@@ -25,10 +25,12 @@ echo "FIXED THE REPO SOURCE.LIST, AGAIN. Your Welcome!"
 #----------------Fix Interface--------------------------------
 echo"Starting to grab updates (BUT NOT UPGRADE DUE TO THE UPGRADES WILL BREAK ARMITAGE AT THIS TIME)"
 cd /
-apt-get update 
-#apt-get upgrade -y
-#apt-get dist-upgrade -y 
+apt-get update
+apt full-upgrade -y
+apt-get dist-upgrade -y 
+apt-get upgrade -y
 msfupdate
+apt autoremove
 #----------------INSTALL REPOS--------------------------------
 echo "Installing good packages to have"
 apt-get install geany -y 
