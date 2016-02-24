@@ -98,8 +98,8 @@ echo "Getting clones from Github"
 cd /root/Desktop
 mkdir HackerTools
 git clone https://github.com/CeramicSkate0/Kali-Scripts
-git clone https://github.com/trustedsec/ptf
 cd HackerTools
+git clone https://github.com/trustedsec/ptf
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/PyroTek3/PowerShell-AD-Recon
@@ -125,6 +125,7 @@ git clone https://github.com/MooseDojo/praedasploit
 git clone https://github.com/macubergeek/gitlist #more list of other kali repos
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 #install mana wIFI TOOLS
+cd /root/Desktop
 git clone --depth 1 https://github.com/sensepost/mana
 cd mana
 git submodule init
@@ -133,7 +134,7 @@ make
 make install
 kali-install.sh
 #-------------------------------------------------------------------------------
-cd /root/Desktop
+cd /root/Desktop/HackerTools
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
 mv VeePeeNee.sh vpnbook.sh
 chmod a+x vpnbook.sh
