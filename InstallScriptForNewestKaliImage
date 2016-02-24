@@ -159,7 +159,6 @@ apt autoremove
 msfdb init
 #---------------Prep sys for wifi---------------------------------------
 airmon-ng check kill
-echo "INSTALL VM TOOLS!!!(I/A)"
 #---------------Prep sys for wifi---------------------------------------
 cd /root/Desktop
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
