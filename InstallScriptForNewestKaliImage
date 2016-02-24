@@ -83,6 +83,13 @@ apt-get -y install recstudio
 apt-get -y install python-hachoir-parser
 apt-get -y install catdoc
 apt-get -y install unoconv
+apt-get -y install flex
+apt-get -y install scrub
+apt-get -y install hping3
+apt-get -y install gnome-tweak-tool
+apt-get -y install flex
+#---------------Tor the use to be anon browser
+#apt-get -y install tor
 #-----------------------------START GETTING FROM GITHUB------------------------
 echo "Getting clones from Github"
 cd /root/Desktop
