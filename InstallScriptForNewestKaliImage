@@ -126,6 +126,7 @@ git clone https://github.com/macubergeek/gitlist #more list of other kali repos
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
+git clone https://github.com/ruped24/toriptables2
 #install mana wIFI TOOLS
 cd /root/Desktop
 git clone --depth 1 https://github.com/sensepost/mana
