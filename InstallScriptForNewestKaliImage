@@ -128,6 +128,20 @@ git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
+#-------------Veil-----------
+mkdir Veil
+cd Veil
+git clone https://github.com/Veil-Framework/Veil-Ordnance.git
+git clone https://github.com/Veil-Framework/Veil-Catapult.git
+cd Veil-Catapult && ./setup.sh
+cd ..
+git clone https://github.com/Veil-Framework/Veil-Pillage.git
+cd Veil-Pillage && ./update.py
+cd ..
+git clone https://github.com/Veil-Framework/PowerTools.git
+git clone https://github.com/Veil-Framework/Veil-Evasion.git
+cd Veil-Evasion/setup && ./setup.sh
+cd ..
 #install mana wIFI TOOLS
 cd /root/Desktop
 git clone --depth 1 https://github.com/sensepost/mana
