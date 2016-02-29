@@ -142,7 +142,7 @@ git clone https://github.com/Veil-Framework/PowerTools.git
 git clone https://github.com/Veil-Framework/Veil-Evasion.git
 cd Veil-Evasion/setup && ./setup.sh
 cd ..
-#install mana wIFI TOOLS
+#----------------install MANA wifi tools
 cd /root/Desktop
 git clone --depth 1 https://github.com/sensepost/mana
 cd mana
