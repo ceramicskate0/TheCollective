@@ -131,6 +131,10 @@ git clone https://github.com/nccgroup/metasploitavevasion.git
 #-------------Veil-----------
 mkdir Veil
 cd Veil
+mkdir VeilInstaller
+cd VeilInstaller
+git clone https://github.com/Veil-Framework/Veil
+cd ..
 git clone https://github.com/Veil-Framework/Veil-Ordnance.git
 git clone https://github.com/Veil-Framework/Veil-Catapult.git
 cd Veil-Catapult && ./setup.sh
