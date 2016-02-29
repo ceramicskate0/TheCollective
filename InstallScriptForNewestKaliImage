@@ -123,6 +123,22 @@ git clone https://github.com/bidord/pykek
 git clone https://github.com/leebaird/discover
 git clone https://github.com/MooseDojo/praedasploit
 git clone https://github.com/macubergeek/gitlist #more list of other kali repos
+#-----------------Run GitList Repos to get more Repos---------------
+cd gitlist
+chmod a+x @
+chmod a+x gitlist.sh
+chmod a+x wgetlist.sh
+cp @ ~/Desktop/HackerTools
+cp gitlist.sh ~/Desktop/HackerTools
+cp wgetlist ~/Desktop/HackerTools
+cd ..
+./@
+./gitlist.sh
+./wgetlist.sh
+rm @
+rm gitlist.sh
+rm wgetlist.sh
+#-----------------END GitList Repos to get more Repos---------------
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
