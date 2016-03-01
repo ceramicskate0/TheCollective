@@ -131,7 +131,7 @@ chmod a+x wgetlist.sh
 cp @ ~/Desktop/HackerTools
 cp gitlist.sh ~/Desktop/HackerTools
 cp wgetlist ~/Desktop/HackerTools
-cd ..
+cd /Desktop/HackerTools
 ./@
 ./gitlist.sh
 ./wgetlist.sh
