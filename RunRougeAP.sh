@@ -1,3 +1,4 @@
+#!/bin/bash
 apt-get install -y hostapd dnsmasq wireless-tools iw wvdial
 sed -i 's#^DAEMON_CONF=.*#DAEMON_CONF=/etc/hostapd/hostapd.conf#' /etc/init.d/hostapd
 cat > /etc/dnsmasq.conf
