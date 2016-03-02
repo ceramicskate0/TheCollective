@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import os
-
 os.system("clear")
 os.system("airmon-ng check kill")
 os.system("clear")
