@@ -124,6 +124,7 @@ git clone https://github.com/leebaird/discover
 git clone https://github.com/MooseDojo/praedasploit
 git clone https://github.com/macubergeek/gitlist #more list of other kali repos
 git clone https://github.com/stef/wireless-radar
+git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 #-----------------Run GitList Repos to get more Repos---------------
 cd gitlist
 chmod a+x @
@@ -132,7 +133,7 @@ chmod a+x wgetlist.sh
 cp @ ~/Desktop/HackerTools
 cp gitlist.sh ~/Desktop/HackerTools
 cp wgetlist ~/Desktop/HackerTools/
-cd /Desktop/HackerTools
+cd ~/Desktop/HackerTools
 ./@
 ./gitlist.sh
 ./wgetlist.sh
@@ -140,13 +141,12 @@ rm @
 rm gitlist.sh
 rm wgetlist.sh
 #-----------------END GitList Repos to get more Repos---------------
-git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 #-------------Veil-----------
-mkdir /root/Desktop/HackerToolsVeil
+mkdir /root/Desktop/HackerTools/Veil
 cd /root/Desktop/HackerTools/Veil
 mkdir VeilInstaller
 cd VeilInstaller
@@ -179,9 +179,9 @@ mv VeePeeNee.sh vpnbook.sh
 chmod a+x vpnbook.sh
 #-------------------------------------------------------------------------------
 git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
-python setup.py install
+#python setup.py install
 #---------------------------------Get OLE dependency for OLEDump--------------------------
-pip install -U olefile
+#pip install -U olefile
 #---------------------------------Get more goodys--------------------------
 #echo "Now to Download Nessus and cobalt strike"
 #iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download http://blog.didierstevens.com/my-software/
@@ -198,12 +198,5 @@ airmon-ng check kill
 #---------------Prep sys for wifi---------------------------------------
 cd /root/Desktop/HackerTools
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
-#---------------fIX uP CRONTAB TO RUN AUTO UPDATES AND POSTGRESQL--------------------------------------
-#crontab -l
-#crontab -e 
-#echo "@reboot /etc/init.d/postgresql start" >>/tmp/crontab.84KIMo/crontab 
-#echo "@reboot apt-get update">>/tmp/crontab.84KIMo/crontab 
-#echo "@reboot apt-get upgarde -y">>/tmp/crontab.84KIMo/crontab 
-#echo "@reboot apt-get dist-upgrade -y" >>/tmp/crontab.84KIMo/crontab 
 #---------------Reboot---------------------------------------
 reboot now
