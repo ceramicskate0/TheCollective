@@ -1,3 +1,4 @@
+#!/bin/bash
 #-------------------FIX FUCKING OPENVAS-----------------------------
 openvas-setup
 netstat -antp
