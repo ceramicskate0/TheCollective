@@ -123,6 +123,7 @@ git clone https://github.com/bidord/pykek
 git clone https://github.com/leebaird/discover
 git clone https://github.com/MooseDojo/praedasploit
 git clone https://github.com/macubergeek/gitlist #more list of other kali repos
+git clone https://github.com/stef/wireless-radar
 #-----------------Run GitList Repos to get more Repos---------------
 cd gitlist
 chmod a+x @
@@ -130,7 +131,7 @@ chmod a+x gitlist.sh
 chmod a+x wgetlist.sh
 cp @ ~/Desktop/HackerTools
 cp gitlist.sh ~/Desktop/HackerTools
-cp wgetlist ~/Desktop/HackerTools
+cp wgetlist ~/Desktop/HackerTools/
 cd /Desktop/HackerTools
 ./@
 ./gitlist.sh
@@ -145,8 +146,8 @@ git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 #-------------Veil-----------
-mkdir Veil
-cd Veil
+mkdir /root/Desktop/HackerToolsVeil
+cd /root/Desktop/HackerTools/Veil
 mkdir VeilInstaller
 cd VeilInstaller
 git clone https://github.com/Veil-Framework/Veil
@@ -166,11 +167,11 @@ cd ..
 cd /root/Desktop
 git clone --depth 1 https://github.com/sensepost/mana
 cd mana
-git submodule init
-git submodule update
-make
-make install
-kali-install.sh
+#git submodule init
+#git submodule update
+#make
+#make install
+#kali-install.sh
 #-------------------------------------------------------------------------------
 cd /root/Desktop/HackerTools
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
