@@ -29,7 +29,6 @@ apt-get update
 apt full-upgrade -y
 apt-get dist-upgrade -y 
 apt-get upgrade -y
-msfupdate
 apt-get -f install
 #----------------INSTALL REPOS--------------------------------
 echo "Installing good packages to have"
@@ -125,6 +124,8 @@ git clone https://github.com/MooseDojo/praedasploit
 git clone https://github.com/macubergeek/gitlist #more list of other kali repos
 git clone https://github.com/stef/wireless-radar
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
+#---------------Prep sys for wifi---------------------------------------
+wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------Run GitList Repos to get more Repos---------------
 cd gitlist
 chmod a+x @
@@ -190,13 +191,12 @@ apt-get update --fix-missing
 apt-get -f install
 apt-get install --reinstall gnome-control-center --fix-missing
 apt autoremove
+apt-get clean
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
 msfdb init
+msfupdate
 #---------------Prep sys for wifi---------------------------------------
 airmon-ng check kill
-#---------------Prep sys for wifi---------------------------------------
-cd /root/Desktop/HackerTools
-wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #---------------Reboot---------------------------------------
 reboot now
