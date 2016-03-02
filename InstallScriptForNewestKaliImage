@@ -99,7 +99,7 @@ cd /root/Desktop
 mkdir HackerTools
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd HackerTools
-git clone https://github.com/trustedsec/ptf
+#git clone https://github.com/trustedsec/ptf
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/PyroTek3/PowerShell-AD-Recon
@@ -164,9 +164,9 @@ git clone https://github.com/Veil-Framework/Veil-Evasion.git
 cd Veil-Evasion/setup && ./setup.sh
 cd ..
 #----------------install MANA wifi tools
-cd /root/Desktop
+cd /root/Desktop/HackerTools
 git clone --depth 1 https://github.com/sensepost/mana
-cd mana
+#cd mana
 #git submodule init
 #git submodule update
 #make
@@ -196,7 +196,7 @@ msfdb init
 #---------------Prep sys for wifi---------------------------------------
 airmon-ng check kill
 #---------------Prep sys for wifi---------------------------------------
-cd /root/Desktop
+cd /root/Desktop/HackerTools
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #---------------fIX uP CRONTAB TO RUN AUTO UPDATES AND POSTGRESQL--------------------------------------
 #crontab -l
