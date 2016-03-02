@@ -1,5 +1,4 @@
 apt-get install -y hostapd dnsmasq wireless-tools iw wvdial
-
 sed -i 's#^DAEMON_CONF=.*#DAEMON_CONF=/etc/hostapd/hostapd.conf#' /etc/init.d/hostapd
 cat > /etc/dnsmasq.conf
 log-facility=/var/log/dnsmasq.log
@@ -13,7 +12,6 @@ dhcp-option=6,10.0.0.1
 log-queries
 EOF
 service dnsmasq start
-
 ifconfig wlan0 up
 ifconfig wlan0 10.0.0.1/24
 iptables -t nat -F
