@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/root/Desktop
 git clone --depth 1 https://github.com/sensepost/mana
 cd mana
