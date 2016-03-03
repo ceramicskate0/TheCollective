@@ -88,6 +88,10 @@ apt-get -y install gnome-tweak-tool
 apt-get -y install flex
 apt-get -y install phython-elixer
 apt-get -y install ldap-utils rwho rsh-client x11-apps finger
+apt-get -y install commix
+apt-get -y install powersploit
+apt-get -y install nishang
+apt-get -y install mimikatz
 #---------------Tor the use to be anon browser
 #apt-get -y install tor
 #-----------------------------START GETTING FROM GITHUB------------------------
@@ -95,7 +99,7 @@ echo "Getting clones from Github"
 cd /root/Desktop
 mkdir HackerTools
 git clone https://github.com/CeramicSkate0/Kali-Scripts
-cd HackerTools
+cd /root/Desktop/HackerTools
 #git clone https://github.com/trustedsec/ptf
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
@@ -111,10 +115,8 @@ git clone https://github.com/dotcppfile/Serbot.git
 git clone https://github.com/rfunix/Pompem.git 
 git clone https://github.com/AlessandroZ/LaZagne.git 
 git clone https://github.com/PenturaLabs/Linux_Exploit_Suggester.git 
-git clone https://github.com/stasinopoulos/commix.git 
 git clone https://github.com/0x90/bluetooth-arsenal
 git clone https://github.com/rsmudge/cortana-scripts
-git clone https://github.com/gentilkiwi/mimikatz
 git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/leebaird/discover
