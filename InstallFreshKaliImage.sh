@@ -126,21 +126,6 @@ git clone https://github.com/stef/wireless-radar
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
-#-----------------Run GitList Repos to get more Repos---------------
-cd /root/Desktop/HackerTools/gitlist
-chmod a+x @
-chmod a+x gitlist.sh
-chmod a+x wgetlist.sh
-cp @ /root/Desktop/HackerTools
-cp gitlist.sh /root/Desktop/HackerTools
-cp wgetlist /root/Desktop/HackerTools
-cd /root/Desktop/HackerTools
-./@
-./gitlist.sh
-./wgetlist.sh
-rm @
-rm gitlist.sh
-rm wgetlist.sh
 #-----------------END GitList Repos to get more Repos---------------
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
