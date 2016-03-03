@@ -131,10 +131,10 @@ cd gitlist
 chmod a+x @
 chmod a+x gitlist.sh
 chmod a+x wgetlist.sh
-cp @ ~/Desktop/HackerTools
-cp gitlist.sh ~/Desktop/HackerTools
-cp wgetlist ~/Desktop/HackerTools/
-cd ~/Desktop/HackerTools
+cp @ /root/Desktop/HackerTools
+cp gitlist.sh /root/Desktop/HackerTools
+cp wgetlist /root/Desktop/HackerTools
+cd /root/Desktop/HackerTools
 ./@
 ./gitlist.sh
 ./wgetlist.sh
