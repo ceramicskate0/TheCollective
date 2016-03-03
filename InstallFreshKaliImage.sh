@@ -127,7 +127,7 @@ git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------Run GitList Repos to get more Repos---------------
-cd gitlist
+cd /root/Desktop/HackerTools/gitlist
 chmod a+x @
 chmod a+x gitlist.sh
 chmod a+x wgetlist.sh
