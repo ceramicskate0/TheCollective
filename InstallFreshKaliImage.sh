@@ -34,6 +34,7 @@ apt-get -f install
 echo "Installing good packages to have"
 apt-get install geany -y 
 apt-get install mitmf -y
+apt-get install remmina -y
 apt-get install fruitywifi -y
 apt-get -y install bleachbit
 apt-get -y install goldendict
