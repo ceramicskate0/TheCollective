@@ -7,3 +7,4 @@ tar -xzvf v5.0.tar.gz
 cd PacketSender-5.0/src
 qmake
 make
+chmod a+x PacketSender
