@@ -126,6 +126,7 @@ git clone https://github.com/MooseDojo/praedasploit
 git clone https://github.com/macubergeek/gitlist #more list of other kali repos
 git clone https://github.com/stef/wireless-radar
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
+git clone https://github.com/RUB-NDS/TLS-Attacker
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
