@@ -103,6 +103,12 @@ git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/HackerTools
 #git clone https://github.com/trustedsec/ptf
 git clone https://github.com/dannagle/packetsender
+git clone https://github.com/vysec/ps1-toolkit
+git clone https://github.com/az0ne/browser-backdoor
+git clone https://github.com/adaptivethreat/KeeThief
+git clone https://github.com/TryCatchHCF/Cloakify
+git clone https://github.com/Hood3dRob1n/CVE-2016-3714
+git clone https://github.com/LucaBongiorni/CVE-2016-0051
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/PyroTek3/PowerShell-AD-Recon
