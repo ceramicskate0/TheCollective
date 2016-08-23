@@ -147,7 +147,8 @@ git clone https://github.com/nardholio/cve-2016-0728
 git clone https://https://github.com/ChrisTruncer/EyeWitness
 git clone github.com/ChrisTruncer/Egress-Assess
 git clone https://github.com/ChrisTruncer/WMIOps
-
+git clone https://github.com/nccgroup/Winpayloads
+git clone https://github.com/bartblaze/PHP-backdoors
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
