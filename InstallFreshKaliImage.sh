@@ -99,9 +99,9 @@ apt-get -y install routersploit
 #-----------------------------START GETTING FROM GITHUB------------------------
 echo "Getting clones from Github"
 cd /root/Desktop
-mkdir HackerTools
+mkdir ToolBox
 git clone https://github.com/CeramicSkate0/Kali-Scripts
-cd /root/Desktop/HackerTools
+cd /root/Desktop/ToolBox
 #git clone https://github.com/trustedsec/ptf
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/vysec/ps1-toolkit
@@ -157,8 +157,8 @@ git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 #-------------Veil-----------
-mkdir /root/Desktop/HackerTools/Veil
-cd /root/Desktop/HackerTools/Veil
+mkdir /root/Desktop/ToolBox/Veil
+cd /root/Desktop/ToolBox/Veil
 mkdir VeilInstaller
 cd VeilInstaller
 git clone https://github.com/Veil-Framework/Veil
@@ -175,7 +175,7 @@ git clone https://github.com/Veil-Framework/Veil-Evasion.git
 cd Veil-Evasion/setup && ./setup.sh
 cd ..
 #----------------install MANA wifi tools
-cd /root/Desktop/HackerTools
+cd /root/Desktop/ToolBox
 git clone --depth 1 https://github.com/sensepost/mana
 #cd mana
 #git submodule init
@@ -184,7 +184,7 @@ git clone --depth 1 https://github.com/sensepost/mana
 #make install
 #kali-install.sh
 #-------------------------------------------------------------------------------
-cd /root/Desktop/HackerTools
+cd /root/Desktop/ToolBox
 wget https://github.com/Top-Hat-Sec/thsosrtl/blob/master/VeePeeNee/VeePeeNee.sh
 mv VeePeeNee.sh vpnbook.sh
 chmod a+x vpnbook.sh
