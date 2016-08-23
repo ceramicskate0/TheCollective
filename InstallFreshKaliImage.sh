@@ -93,6 +93,7 @@ apt-get -y install commix
 apt-get -y install powersploit
 apt-get -y install nishang
 apt-get -y install mimikatz
+apt-get -y install routersploit
 #---------------Tor the use to be anon browser
 #apt-get -y install tor
 #-----------------------------START GETTING FROM GITHUB------------------------
