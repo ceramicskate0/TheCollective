@@ -165,6 +165,7 @@ git clone https://github.com/chango77747/AdEnumerator
 git clone https://github.com/Raikia/CredNinja
 git clone https://github.com/ispoleet/malWASH
 git clone https://github.com/ispoleet/Network-Security
+git clone https://github.com/ispoleet/malware
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
