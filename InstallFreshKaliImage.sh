@@ -18,7 +18,7 @@ echo "FIXED THE REPO SOURCE.LIST, AGAIN. Your Welcome!"
 #echo "#Wireless Interface setup by install script"
 #echo "#auto wlan0">>interfaces
 #echo "#iface wlan0 inet manual">>interfaces
-#echo "#iface wlan0 inet static">>interfaces
+#echo "#iface wlan0 inet static">>interfaceshttps://github.com/vysec/ps1-toolkithttps://github.com/vysec/ps1-toolkit
 #echo "#wpa-ssid AP_NAME">>interfaces
 #echo "#wpa-key-mgmt WPA-PSK">>interfaces
 #echo "Fixed wireless config issue, might have to reboot to get it to work."
@@ -161,6 +161,11 @@ git clone https://github.com/IMcPwn/browser-backdoor
 git clone https://github.com/TryCatchHCF/Cloakify
 git clone https://github.com/adaptivethreat/KeeThief
 git clone https://github.com/vysec/ps1-toolkit
+git clone https://github.com/az0ne/browser-backdoor
+git clone https://github.com/1N3/HTTPoxyScan
+git clone https://github.com/Crypt0s/FakeDns
+git clone https://github.com/chango77747/AdEnumerator
+git clone https://github.com/Raikia/CredNinja
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
