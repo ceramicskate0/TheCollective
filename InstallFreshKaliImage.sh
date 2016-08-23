@@ -149,6 +149,18 @@ git clone github.com/ChrisTruncer/Egress-Assess
 git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/nccgroup/Winpayloads
 git clone https://github.com/bartblaze/PHP-backdoors
+git clone https://github.com/Hood3dRob1n/CVE-2016-3714
+git clone https://github.com/iadgov/Secure-Host-Baseline
+git clone https://github.com/iadgov/Secure-Host-Baseline
+git clone https://github.com/Unode/firefox_decrypt
+git clone https://github.com/Hood3dRob1n/JSRat-Py
+git clone https://github.com/ahhh/malware_sources
+git clone https://github.com/rezasp/vbscan
+git clone https://github.com/byt3bl33d3r/scripts
+git clone https://github.com/IMcPwn/browser-backdoor
+git clone https://github.com/TryCatchHCF/Cloakify
+git clone https://github.com/adaptivethreat/KeeThief
+git clone https://github.com/vysec/ps1-toolkit
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
