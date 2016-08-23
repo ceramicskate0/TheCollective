@@ -54,7 +54,6 @@ apt-get -y install network-manager-vpnc-gnome
 apt-get -y install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller
 apt-get -y install gdebi &>/dev/nul
 apt-get -y install deluge &>/dev/null
-apt-get -y install python-elixir
 apt-get -y install ldap-utils rwho rsh-client x11-apps finger
 apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
 apt-get -y install lbd automater arachni bully inguma sslsplit dumpzilla -y 
@@ -86,7 +85,6 @@ apt-get -y install flex
 apt-get -y install scrub
 apt-get -y install hping3
 apt-get -y install gnome-tweak-tool
-apt-get -y install flex
 apt-get -y install phython-elixer
 apt-get -y install ldap-utils rwho rsh-client x11-apps finger
 apt-get -y install commix
@@ -150,7 +148,6 @@ git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/nccgroup/Winpayloads
 git clone https://github.com/bartblaze/PHP-backdoors
 git clone https://github.com/Hood3dRob1n/CVE-2016-3714
-git clone https://github.com/iadgov/Secure-Host-Baseline
 git clone https://github.com/iadgov/Secure-Host-Baseline
 git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/Hood3dRob1n/JSRat-Py
