@@ -133,6 +133,20 @@ git clone https://github.com/macubergeek/gitlist #more list of other kali repos
 git clone https://github.com/stef/wireless-radar
 git clone https://github.com/denandz/KeeFarce #ITS IN .NET :(
 git clone https://github.com/RUB-NDS/TLS-Attacker
+git clone https://github.com/realparisi/WMI_Monitor
+git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff
+git clone https://github.com/RedBalloonShenanigans/MonitorDarkly
+git clone https://github.com/0x3a/stargate
+git clone https://github.com/lunixbochs/patchkit
+git clone https://github.com/upgoingstar/datasploit
+git clone https://github.com/0x90/lpe-arsenal
+git clone https://github.com/adaptivethreat/BloodHound
+git clone https://github.com/putterpanda/mimikittenz
+git clone https://github.com/nardholio/cve-2016-0728
+git clone https://https://github.com/ChrisTruncer/EyeWitness
+git clone github.com/ChrisTruncer/Egress-Assess
+git clone https://github.com/ChrisTruncer/WMIOps
+
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
