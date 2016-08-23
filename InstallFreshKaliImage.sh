@@ -144,8 +144,8 @@ git clone https://github.com/0x90/lpe-arsenal
 git clone https://github.com/adaptivethreat/BloodHound
 git clone https://github.com/putterpanda/mimikittenz
 git clone https://github.com/nardholio/cve-2016-0728
-git clone https://https://github.com/ChrisTruncer/EyeWitness
-git clone github.com/ChrisTruncer/Egress-Assess
+git clone https://github.com/ChrisTruncer/EyeWitness
+git clone https://github.com/ChrisTruncer/Egress-Assess
 git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/nccgroup/Winpayloads
 git clone https://github.com/bartblaze/PHP-backdoors
@@ -217,7 +217,7 @@ git clone https://github.com/byt3bl33d3r/pyobfuscate.git
 apt-get update --fix-missing
 apt-get -f install
 apt-get install --reinstall gnome-control-center --fix-missing
-apt autoremove
+apt autoremove -y
 apt-get clean
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
