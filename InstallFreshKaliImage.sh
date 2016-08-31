@@ -110,7 +110,7 @@ git clone https://github.com/Hood3dRob1n/CVE-2016-3714
 git clone https://github.com/LucaBongiorni/CVE-2016-0051
 mkdir Veil
 cd Veil
-git clone https://github.com/Veil-Framework/Veil/blob/master/Install.sh
+git clone https://github.com/Veil-Framework/Veil
 git clone https://github.com/Veil-Framework/Veil-Evasion
 git clone https://github.com/Veil-Framework/PowerTools.git
 git clone https://github.com/Veil-Framework/Veil-Pillage.git
