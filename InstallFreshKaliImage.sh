@@ -114,6 +114,7 @@ cd /root/Desktop/ToolBox
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/PyroTek3/PowerShell-AD-Recon
+git clone https://github.com/fdiskyou/PSShell
 git clone https://github.com/nidem/kerberoast
 git clone https://github.com/michenriksen/gitrob
 git clone https://github.com/byt3bl33d3r/gcat.git
