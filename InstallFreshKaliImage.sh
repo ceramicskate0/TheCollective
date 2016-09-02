@@ -169,6 +169,18 @@ git clone https://github.com/Raikia/CredNinja
 git clone https://github.com/ispoleet/malWASH
 git clone https://github.com/ispoleet/Network-Security
 git clone https://github.com/ispoleet/malware
+git clone https://github.com/ytisf/PyExfil
+git clone https://github.com/Yara-Rules/rules
+git clone https://github.com/0xd4d/de4dot
+git clone https://github.com/fdiskyou/PowerOPS
+git clone https://github.com/AndreiAvadanei/Exploits
+git clone https://github.com/stephenfewer/ReflectiveDLLInjection
+git clone https://github.com/devttys0/littleblackbox
+mkdir LIVEMALWRAE_WARNING
+cd LIVEMALWRAE_WARNING
+git clone https://github.com/ytisf/theZoo
+git clone https://github.com/fdiskyou/malware
+cd ..
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
 #-----------------END GitList Repos to get more Repos---------------
