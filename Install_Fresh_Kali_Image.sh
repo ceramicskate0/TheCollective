@@ -29,7 +29,6 @@ apt-get update
 apt full-upgrade -y
 apt-get dist-upgrade -y 
 apt-get upgrade -y
-apt-get -f install
 #----------------INSTALL REPOS--------------------------------
 echo "Installing good packages to have"
 apt-get install geany -y 
@@ -103,6 +102,17 @@ cd /root/Desktop/ToolBox
 #git clone https://github.com/trustedsec/ptf
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/vysec/ps1-toolkit
+git clone https://github.com/google/grr
+git clone https://github.com/securestate/syringe
+git clone https://github.com/fireeye/pycommands
+git clone https://github.com/fireeye/flare-floss
+git clone https://github.com/fireeye/chopshop
+git clone https://github.com/chango77747/AdEnumerator
+git clone https://github.com/Raikia/CredNinja
+git clone https://github.com/ChrisTruncer/WMIOps
+git clone https://github.com/ChrisTruncer/EyeWitness
+git clone https://github.com/ChrisTruncer/Egress-Assess
+
 git clone https://github.com/az0ne/browser-backdoor
 git clone https://github.com/adaptivethreat/KeeThief
 git clone https://github.com/TryCatchHCF/Cloakify
@@ -228,7 +238,11 @@ git clone https://github.com/byt3bl33d3r/pyobfuscate.git
 #pip install -U olefile
 #---------------------------------Get more goodys--------------------------
 #echo "Now to Download Nessus and cobalt strike"
-#iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system https://www.cobaltstrike.com/download http://blog.didierstevens.com/my-software/
+#iceweasel --new-tab https://www.tenable.com/products/nessus/select-your-operating-system 
+#iceweasel --new-tab https://www.cobaltstrike.com/download 
+#iceweasel --new-tab http://blog.didierstevens.com/my-software/
+#iceweasel --new-tab http://www.truesec.se/sakerhet/verktyg/saakerhet/gsecdump_v2.0b5
+#iceweasel --new-tab http://www.poisonivy-rat.com/
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
