@@ -100,6 +100,7 @@ mkdir ToolBox
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
 #git clone https://github.com/trustedsec/ptf
+git clone https://github.com/Soldier4Life/Word-Lists
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
