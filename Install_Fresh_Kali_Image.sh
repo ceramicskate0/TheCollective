@@ -283,7 +283,7 @@ apt autoremove -y
 apt-get clean
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
-/etc/init.d/network-manager start
+#/etc/init.d/network-manager start
 msfdb init
 msfupdate
 #---------------Prep sys for wifi---------------------------------------
