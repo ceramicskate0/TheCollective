@@ -157,6 +157,7 @@ git clone https://github.com/trustedsec/social-engineer-toolkit
 git clone https://github.com/johestephan/CTI-Toolbox
 git clone https://github.com/secmob/BadKernel
 git clone https://github.com/stamparm/fetch-some-proxies
+git clone https://github.com/Mr-Un1k0d3r/DKMC
 git clone https://github.com/kbandla/APTnotes
 git clone https://github.com/trustedsec/ptf
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
@@ -225,6 +226,7 @@ git clone https://github.com/fdiskyou/PowerOPS
 git clone https://github.com/AndreiAvadanei/Exploits
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
 git clone https://github.com/devttys0/littleblackbox
+cd /root/Desktop/ToolBox/
 #---------------Live Malware---------------------------------------
 mkdir LIVEMALWRAE_WARNING
 cd LIVEMALWRAE_WARNING
