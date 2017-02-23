@@ -243,6 +243,7 @@ git clone https://github.com/byt3bl33d3r/pyobfuscate.git
 #iceweasel --new-tab http://blog.didierstevens.com/my-software/
 #iceweasel --new-tab http://www.truesec.se/sakerhet/verktyg/saakerhet/gsecdump_v2.0b5
 #iceweasel --new-tab http://www.poisonivy-rat.com/
+#iceweasel --new-tab https://www.winitor.com/features.html
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
