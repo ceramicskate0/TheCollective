@@ -228,6 +228,7 @@ git clone https://github.com/AndreiAvadanei/Exploits
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
 git clone https://github.com/devttys0/littleblackbox
 cd /root/Desktop/ToolBox/
+curl https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 #---------------Live Malware---------------------------------------
 mkdir LIVEMALWRAE_WARNING
 cd LIVEMALWRAE_WARNING
@@ -286,8 +287,9 @@ git clone https://github.com/byt3bl33d3r/pyobfuscate.git
 #iceweasel --new-tab https://www.cobaltstrike.com/download 
 #iceweasel --new-tab http://blog.didierstevens.com/my-software/
 #iceweasel --new-tab http://www.truesec.se/sakerhet/verktyg/saakerhet/gsecdump_v2.0b5
-#iceweasel --new-tab http://www.poisonivy-rat.com/index.php https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
+#iceweasel --new-tab http://www.tightvnc.com%2Fdownload.php&usg=AFQjCNFpS78TLf7UXzcnOkvPtINXVrFQrg
 #iceweasel --new-tab https://www.winitor.com/features.html
+
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
