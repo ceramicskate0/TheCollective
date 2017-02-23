@@ -101,6 +101,28 @@ git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
 #git clone https://github.com/trustedsec/ptf
 git clone https://github.com/dannagle/packetsender
+git clone https://github.com/uhub/awesome-shell
+git clone https://github.com/az0ne/pacdoor
+git clone https://github.com/rouabas/SQLInjectionScanner
+git clone https://github.com/gasgas4/APT_CyberCriminal_Campaign
+git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF
+git clone https://github.com/Aptive/penetration-testing-tools
+git clone https://github.com/CoalfireLabs/java_deserialization_exploits
+git clone https://github.com/Und3rf10w/kali-anonsurf
+git clone https://github.com/nettitude/xss_payloads
+git clone https://github.com/hfiref0x/UACME
+git clone https://github.com/jaredhaight/PSAttack
+git clone https://github.com/t3ntman/CrunchRAT
+git clone https://github.com/t3ntman/BrowserCheck
+git clone https://github.com/ChrisTruncer/PenTestScripts
+git clone https://github.com/khr0x40sh/MacroShop
+git clone https://github.com/foxglovesec/RottenPotato
+git clone https://github.com/ryhanson/phishery
+git clone https://github.com/trustedsec/tap
+git clone https://github.com/Screetsec/TheFatRat
+git clone https://github.com/FuzzySecurity/DefCon24
+git clone https://github.com/Shellntel/luckystrike
+git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/vysec/ps1-toolkit
 git clone https://github.com/google/grr
 git clone https://github.com/securestate/syringe
@@ -112,15 +134,21 @@ git clone https://github.com/Raikia/CredNinja
 git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/ChrisTruncer/Egress-Assess
-
+git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/az0ne/browser-backdoor
 git clone https://github.com/adaptivethreat/KeeThief
 git clone https://github.com/TryCatchHCF/Cloakify
 git clone https://github.com/Hood3dRob1n/CVE-2016-3714
 git clone https://github.com/LucaBongiorni/CVE-2016-0051
-mkdir Veil
+git clone https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn
+git clone https://github.com/FuzzySecurity/CapstoneKeystone-PowerShell
+git clone https://github.com/nebgnahz/awesome-iot-hacks
+git clone https://github.com/trustedsec/social-engineer-toolkit
+git clone https://github.com/johestephan/CTI-Toolbox
+git clone https://github.com/secmob/BadKernel
+git clone https://github.com/stamparm/fetch-some-proxies
+git clone https://github.com/kbandla/APTnotes
 git clone https://github.com/trustedsec/ptf
-cd /root/Desktop/ToolBox
 git clone https://github.com/CeramicSkate0/Wrapper-For-MITMF
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/PyroTek3/PowerShell-AD-Recon
@@ -187,10 +215,12 @@ git clone https://github.com/fdiskyou/PowerOPS
 git clone https://github.com/AndreiAvadanei/Exploits
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
 git clone https://github.com/devttys0/littleblackbox
+#---------------Live Malware---------------------------------------
 mkdir LIVEMALWRAE_WARNING
 cd LIVEMALWRAE_WARNING
 git clone https://github.com/ytisf/theZoo
 git clone https://github.com/fdiskyou/malware
+git clone https://github.com/gasgas4/Leaked_Malware_SourceCode
 cd ..
 #---------------Prep sys for wifi---------------------------------------
 wget http://didierstevens.com/files/software/oledump_V0_0_22.zip
@@ -199,7 +229,7 @@ git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
-#-------------Veil-----------
+#-----------------------------VEIL------------------------
 mkdir /root/Desktop/ToolBox/Veil
 cd /root/Desktop/ToolBox/Veil
 mkdir VeilInstaller
@@ -217,6 +247,7 @@ git clone https://github.com/Veil-Framework/PowerTools.git
 git clone https://github.com/Veil-Framework/Veil-Evasion.git
 cd Veil-Evasion/setup && ./setup.sh
 cd ..
+#-----------------------------VEIL------------------------
 #----------------install MANA wifi tools
 cd /root/Desktop/ToolBox
 git clone --depth 1 https://github.com/sensepost/mana
