@@ -101,10 +101,20 @@ git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
 #git clone https://github.com/trustedsec/ptf
 git clone https://github.com/dannagle/packetsender
+git clone https://github.com/t3ntman/Social-Engineering-Payloads
+git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
+git clone https://github.com/Shellntel/luckystrike
+git clone https://github.com/xorrior/RandomPS-Scripts
+git clone https://github.com/Mr-Un1k0d3r/RedTeamPowershellScripts
+git clone https://github.com/AlessandroZ/LaZagne
 git clone https://github.com/uhub/awesome-shell
 git clone https://github.com/az0ne/pacdoor
+git clone https://github.com/Raikia/FiercePhish
+git clone https://github.com/Raikia/SMBCrunch
+git clone https://github.com/Raikia/Nmap-scripts
 git clone https://github.com/rouabas/SQLInjectionScanner
 git clone https://github.com/gasgas4/APT_CyberCriminal_Campaign
+git clone https://github.com/DataSploit/datasploit
 git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF
 git clone https://github.com/Aptive/penetration-testing-tools
 git clone https://github.com/CoalfireLabs/java_deserialization_exploits
