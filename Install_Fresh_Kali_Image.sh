@@ -225,10 +225,24 @@ git clone https://github.com/Yara-Rules/rules
 git clone https://github.com/0xd4d/de4dot
 git clone https://github.com/fdiskyou/PowerOPS
 git clone https://github.com/AndreiAvadanei/Exploits
+git clone https://github.com/brav0hax/smbexec.git
+cd smbexec
+./install.sh
+wget http://subterfuge.googlecode.com/files/SubterfugePublicBeta5.0.tar.gz
+tar zxvf SubterfugePublicBeta5.0.tar.gz
+cd subterfuge
+python install.py
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
+git clone git://github.com/brav0hax/easy-creds.git
+ln -s /opt/easy-creds/easy-creds.sh  /usr/bin/easy-creds
 git clone https://github.com/devttys0/littleblackbox
+#---------------Get from Websites---------------------------------------
+wget http://lazykali.googlecode.com/files/hackpack.tar.gz
+tar zxvf hackpack.tar.gz
+wget http://code.google.com/p/simple-ducky-payload-generator/
 cd /root/Desktop/ToolBox/
-curl https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
+wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
+#---------------Get from Websites---------------------------------------
 #---------------Live Malware---------------------------------------
 mkdir LIVEMALWRAE_WARNING
 cd LIVEMALWRAE_WARNING
@@ -289,7 +303,8 @@ git clone https://github.com/byt3bl33d3r/pyobfuscate.git
 #iceweasel --new-tab http://www.truesec.se/sakerhet/verktyg/saakerhet/gsecdump_v2.0b5
 #iceweasel --new-tab http://www.tightvnc.com%2Fdownload.php&usg=AFQjCNFpS78TLf7UXzcnOkvPtINXVrFQrg
 #iceweasel --new-tab https://www.winitor.com/features.html
-
+#-------------------FIX Settings-----------------------------
+update-rc.d postgresql enable && update-rc.d metasploit enable
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
