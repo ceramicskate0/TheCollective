@@ -35,8 +35,6 @@ apt-get install geany -y
 apt-get install mitmf -y
 apt-get install remmina -y
 apt-get install fruitywifi -y
-apt-get -y install bleachbit
-apt-get -y install goldendict
 apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
 apt-get -y install ibus && apt-get -y install ibus-unikey
@@ -69,7 +67,7 @@ apt-get -y install Beef
 apt-get -y install veil-catapult
 apt-get -y install unicornscan
 apt-get -y install backdoor-factory
-apt-get -y install shellter
+apt-get -y install shellte
 apt-get -y install jboss-autopwn
 apt-get -y install eyewitness
 apt-get -y install wifite
@@ -85,7 +83,6 @@ apt-get -y install scrub
 apt-get -y install hping3
 apt-get -y install gnome-tweak-tool
 apt-get -y install phython-elixer
-apt-get -y install ldap-utils rwho rsh-client x11-apps finger
 apt-get -y install commix
 apt-get -y install powersploit
 apt-get -y install nishang
