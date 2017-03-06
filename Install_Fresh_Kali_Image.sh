@@ -99,7 +99,7 @@ cd /root/Desktop
 mkdir ToolBox
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
-#git clone https://github.com/trustedsec/ptf
+git clone https://github.com/trustedsec/ptf
 git clone https://github.com/Soldier4Life/Word-Lists
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
@@ -226,12 +226,8 @@ git clone https://github.com/0xd4d/de4dot
 git clone https://github.com/fdiskyou/PowerOPS
 git clone https://github.com/AndreiAvadanei/Exploits
 git clone https://github.com/brav0hax/smbexec.git
-cd smbexec
-./install.sh
 wget http://subterfuge.googlecode.com/files/SubterfugePublicBeta5.0.tar.gz
 tar zxvf SubterfugePublicBeta5.0.tar.gz
-cd subterfuge
-python install.py
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
 git clone git://github.com/brav0hax/easy-creds.git
 ln -s /opt/easy-creds/easy-creds.sh  /usr/bin/easy-creds
