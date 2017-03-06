@@ -132,7 +132,6 @@ git clone https://github.com/subTee/RegistrationFreeCOM
 git clone https://github.com/PowerShellMafia/PowerSploit
 git clone https://github.com/rastating/wordpress-exploit-framework
 git clone https://github.com/reverse-shell/routersploit
-git clone https://github.com/samratashok/nishang
 git clone https://github.com/artkond/Invoke-Vnc
 git clone https://github.com/jseidl/Babadook
 git clone https://github.com/julienbedard/browsersploit
@@ -163,7 +162,7 @@ apt-get install fruitywifi -y
 git clone https://github.com/stef/wireless-radar
 cd /root/Desktop/ToolBox
 mkdir POST_EXPLOIT
-cd POST_EXPLOIT
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 apt-get -y install passing-the-hash unicornscan winexe
 git clone https://github.com/fdiskyou/PowerOPS
 git clone https://github.com/xorrior/RandomPS-Scripts
@@ -173,6 +172,7 @@ git clone https://github.com/xairy/kernel-exploits
 git clone https://github.com/securestate/syringe
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/putterpanda/mimikittenz
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir RATs
 cd RATs
 git clone https://github.com/t3ntman/CrunchRAT
@@ -180,15 +180,16 @@ git clone https://github.com/subTee/PoshRat
 git clone https://github.com/Screetsec/TheFatRat
 git clone https://github.com/Hood3dRob1n/JSRat-Py
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
-cd ..
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir EXFIL
 cd EXFIL
 git clone https://github.com/ChrisTruncer/Egress-Assess
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir DATA
 cd DATA
 git clone https://github.com/TryCatchHCF/Cloakify
 git clone https://github.com/DataSploit/datasploit
-cd ..
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir Password_Dumpers
 cd Password_Dumpers
 git clone https://github.com/AlessandroZ/LaZagne
@@ -198,21 +199,21 @@ git clone https://github.com/adaptivethreat/KeeThief
 git clone https://github.com/denandz/KeeFarce 
 git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/brav0hax/easy-creds
-cd ..
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir BYPASS_UAC
 cd BYPASS_UAC
 git clone https://github.com/hfiref0x/UACME
-cd ..
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir ESCALATION
 cd ESCALATION
 git clone https://github.com/foxglovesec/RottenPotato
 git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
-cd ..
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir Enumeration
 cd Enumeration
 git clone https://github.com/Raikia/SMBCrunch
-cd ..
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir LateralMovement
 cd LateralMovement
 git clone https://github.com/ChrisTruncer/WMIOps
