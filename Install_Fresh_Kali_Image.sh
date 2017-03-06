@@ -111,6 +111,15 @@ git clone https://github.com/AlessandroZ/LaZagne
 git clone https://github.com/uhub/awesome-shell
 git clone https://github.com/az0ne/pacdoor
 git clone https://github.com/Raikia/FiercePhish
+git clone https://github.com/t3ntman/Social-Engineering-Payloads
+git clone https://github.com/nccgroup/vlan-hopping---frogger
+git clone https://github.com/xairy/kernel-exploits
+git clone https://github.com/reverse-shell/routersploit
+git clone https://github.com/samratashok/nishang
+git clone https://github.com/swisskyrepo/PayloadsAllTheThings
+git clone https://github.com/DataSploit/datasploit
+git clone https://github.com/Gallopsled/pwntools
+git clone https://github.com/artkond/Invoke-Vnc
 git clone https://github.com/Raikia/SMBCrunch
 git clone https://github.com/Raikia/Nmap-scripts
 git clone https://github.com/rouabas/SQLInjectionScanner
