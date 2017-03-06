@@ -96,6 +96,7 @@ apt-get -y install routersploit
 #-----------------------------START GETTING FROM GITHUB------------------------
 echo "Getting clones from Github"
 cd /root/Desktop
+git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki/blob/master/README.md
 mkdir ToolBox
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
