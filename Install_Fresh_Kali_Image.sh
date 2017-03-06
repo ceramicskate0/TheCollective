@@ -131,11 +131,15 @@ git clone https://github.com/DataSploit/datasploit
 git clone https://github.com/Gallopsled/pwntools
 git clone https://github.com/artkond/Invoke-Vnc
 git clone https://github.com/Raikia/SMBCrunch
+git clone https://github.com/jseidl/Babadook
 git clone https://github.com/Raikia/Nmap-scripts
 git clone https://github.com/rouabas/SQLInjectionScanner
 git clone https://github.com/gasgas4/APT_CyberCriminal_Campaign
 git clone https://github.com/DataSploit/datasploit
 git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF
+git clone https://github.com/mattifestation/PowerShellArsenal
+git clone https://github.com/subTee/PoshRat
+git clone https://github.com/julienbedard/browsersploit
 git clone https://github.com/Aptive/penetration-testing-tools
 git clone https://github.com/CoalfireLabs/java_deserialization_exploits
 git clone https://github.com/Und3rf10w/kali-anonsurf
