@@ -18,7 +18,7 @@ echo "FIXED THE REPO SOURCE.LIST, AGAIN. Your Welcome!"
 #echo "#Wireless Interface setup by install script"
 #echo "#auto wlan0">>interfaces
 #echo "#iface wlan0 inet manual">>interfaces
-#echo "#iface wlan0 inet static">>interfaceshttps://github.com/vysec/ps1-toolkithttps://github.com/vysec/ps1-toolkit
+#echo "#iface wlan0 inet static">>interfaces
 #echo "#wpa-ssid AP_NAME">>interfaces
 #echo "#wpa-key-mgmt WPA-PSK">>interfaces
 #echo "Fixed wireless config issue, might have to reboot to get it to work."
@@ -179,6 +179,7 @@ git clone https://github.com/xairy/kernel-exploits
 git clone https://github.com/securestate/syringe
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/putterpanda/mimikittenz
+git clone https://github.com/vysec/ps1-toolkit
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------RATs--------------------------------
 mkdir RATs
