@@ -97,10 +97,18 @@ apt-get -y install routersploit
 echo "Getting clones from Github"
 cd /root/Desktop
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki/blob/master/README.md
+mkdir Wordlists
+cd Wordlists
+git clone https://github.com/Soldier4Life/Word-Lists
+git clone https://github.com/decal/werdlists
+cd /root/Desktop
 mkdir ToolBox
 git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
 git clone https://github.com/trustedsec/ptf
+git clone https://github.com/subTee/RegistrationFreeCOM
+git clone https://github.com/rastating/wordpress-exploit-framework
+git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/Soldier4Life/Word-Lists
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
