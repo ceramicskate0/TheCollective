@@ -332,8 +332,8 @@ apt-get -y install catdoc
 apt-get -y install hping3
 apt-get -y install gnome-tweak-tool
 #--------------------------------ALL INSTALLS AND DOWNLOADS DONE ---------------------------
-#--------------------------------START CLEAN UP ---------------------------
 clear
+#--------------------------------START CLEAN UP --------------------------------------------
 echo Starting CleanUp and post install work...
 #---------------------------------Get more goodys--------------------------
 #echo "Now to Download Nessus and cobalt strike"
