@@ -1,6 +1,6 @@
 #!/bin/bash
-cd /etc/apt
 #----------------Fix REPOS--------------------------------
+cd /etc/apt
 echo "Fixing Source lists"
 echo " ">sources.list
 echo "#KALI 2.0 Repos">>sources.list
@@ -34,7 +34,6 @@ clear
 #----------------INSTALL TOOLS--------------------------------
 echo "Installing packages"
 cd /root/Desktop
-#----------------TOOLBOX--------------------------------
 mkdir ToolBox
 cd ToolBox
 #----------------ALL IN ONE TOOOLS--------------------------------
@@ -162,8 +161,8 @@ git clone https://github.com/Crypt0s/FakeDns
 git clone https://github.com/IMcPwn/browser-backdoor
 git clone https://github.com/ytisf/PyExfil
 git clone https://github.com/AndreiAvadanei/Exploits
-mkdir WIFI
 #----------------WIFI TOOLS--------------------------------
+mkdir WIFI
 cd WIFI
 apt-get install fruitywifi -y
 git clone https://github.com/stef/wireless-radar
@@ -181,7 +180,7 @@ git clone https://github.com/securestate/syringe
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/putterpanda/mimikittenz
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-#----------------RAT--------------------------------
+#----------------RATs--------------------------------
 mkdir RATs
 cd /root/Desktop/ToolBox/POST_EXPLOIT/RATs
 git clone https://github.com/t3ntman/CrunchRAT
@@ -252,9 +251,9 @@ git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
 #VEIL Located in all in one tools
 cd /root/Desktop/ToolBox/Misc
+#----------------Shellcode--------------------------------
 mkdir /root/Desktop/ToolBox/Misc/Shellcode
 cd Shellcode
-#----------------Shellcode--------------------------------
 git clone https://github.com/MarioVilas/shellcode_tools.git 
 cd /root/Desktop/ToolBox/Misc
 #----------------Malware_Generaters--------------------------------
