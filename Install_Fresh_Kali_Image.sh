@@ -34,8 +34,10 @@ clear
 #----------------INSTALL TOOLS--------------------------------
 echo "Installing packages"
 cd /root/Desktop
+#----------------TOOLBOX--------------------------------
 mkdir ToolBox
 cd ToolBox
+#----------------ALL IN ONE TOOOLS--------------------------------
 mkdir ALL_IN_ONE_TOOLS
 cd ALL_IN_ONE_TOOLS
 git clone https://github.com/trustedsec/ptf
@@ -67,12 +69,14 @@ cd Veil-Evasion/setup && ./setup.sh
 cd ..
 #-----------------------------VEIL------------------------
 cd /root/Desktop/ToolBox
+#----------------WORDLISTS--------------------------------
 mkdir WORDLISTS
 cd /root/Desktop/ToolBox/WORDLISTS
 git clone https://github.com/Soldier4Life/Word-Lists
 git clone https://github.com/decal/werdlists
 git clone https://github.com/Soldier4Life/Word-Lists
 cd /root/Desktop/ToolBox
+#----------------PHISHING--------------------------------
 mkdir PHISHERS
 cd /root/Desktop/ToolBox/PHISHERS
 git clone https://github.com/Raikia/FiercePhish
@@ -85,6 +89,7 @@ cd /root/Desktop/ToolBox/RANDOM_SCRIPTS
 git clone https://github.com/ChrisTruncer/PenTestScripts
 git clone https://github.com/byt3bl33d3r/scripts
 cd /root/Desktop/ToolBox
+#----------------RECON TOOLS--------------------------------
 mkdir RECON
 cd /root/Desktop/ToolBox/RECON
 apt-get -y install ldap-utils rwho rsh-client x11-apps finger
@@ -116,6 +121,7 @@ git clone https://github.com/adaptivethreat/BloodHound
 git clone https://github.com/1N3/HTTPoxyScan
 git clone https://github.com/Subterfuge-Framework/Subterfuge
 cd /root/Desktop/ToolBox
+#----------------EXPLOIT TOOLS--------------------------------
 mkdir EXPLOIT
 cd /root/Desktop/ToolBox/EXPLOIT
 apt-get -y install veil-catapult
@@ -157,10 +163,12 @@ git clone https://github.com/IMcPwn/browser-backdoor
 git clone https://github.com/ytisf/PyExfil
 git clone https://github.com/AndreiAvadanei/Exploits
 mkdir WIFI
+#----------------WIFI TOOLS--------------------------------
 cd WIFI
 apt-get install fruitywifi -y
 git clone https://github.com/stef/wireless-radar
 cd /root/Desktop/ToolBox
+#----------------POST_EXPLOIT--------------------------------
 mkdir POST_EXPLOIT
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 apt-get -y install passing-the-hash unicornscan winexe
@@ -173,6 +181,7 @@ git clone https://github.com/securestate/syringe
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/putterpanda/mimikittenz
 cd /root/Desktop/ToolBox/POST_EXPLOIT
+#----------------RAT--------------------------------
 mkdir RATs
 cd /root/Desktop/ToolBox/POST_EXPLOIT/RATs
 git clone https://github.com/t3ntman/CrunchRAT
@@ -181,15 +190,18 @@ git clone https://github.com/Screetsec/TheFatRat
 git clone https://github.com/Hood3dRob1n/JSRat-Py
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 cd /root/Desktop/ToolBox/POST_EXPLOIT
+#----------------EXFILTRATION TOOLS--------------------------------
 mkdir EXFILTRATION
 cd /root/Desktop/ToolBox/POST_EXPLOIT/EXFILTRATION
 git clone https://github.com/ChrisTruncer/Egress-Assess
 cd /root/Desktop/ToolBox/POST_EXPLOIT
+#----------------DATA TOOLS--------------------------------
 mkdir DATA
 cd /root/Desktop/ToolBox/POST_EXPLOIT/DATA
 git clone https://github.com/TryCatchHCF/Cloakify
 git clone https://github.com/DataSploit/datasploit
 cd /root/Desktop/ToolBox/POST_EXPLOIT
+#----------------PASSWORD TOOLS--------------------------------
 mkdir Password_Dumpers
 cd /root/Desktop/ToolBox/POST_EXPLOIT/Password_Dumpers
 git clone https://github.com/AlessandroZ/LaZagne
@@ -200,21 +212,25 @@ git clone https://github.com/denandz/KeeFarce
 git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/brav0hax/easy-creds
 cd /root/Desktop/ToolBox/POST_EXPLOIT
+#----------------BYPASS UAC TOOLS--------------------------------
 mkdir BYPASS_UAC
 cd /root/Desktop/ToolBox/POST_EXPLOIT/BYPASS_UAC
 git clone https://github.com/hfiref0x/UACME
 cd /root/Desktop/ToolBox/POST_EXPLOIT
+#----------------ESCALATION--------------------------------
 mkdir ESCALATION
 cd /root/Desktop/ToolBox/POST_EXPLOIT/ESCALATION
 git clone https://github.com/foxglovesec/RottenPotato
 git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir Enumeration
-cd /root/Desktop/ToolBox/POST_EXPLOIT/Enumeration
+#----------------Enumeration--------------------------------
+mkdir ENUMERATION
+cd /root/Desktop/ToolBox/POST_EXPLOIT/ENUMERATION
 git clone https://github.com/Raikia/SMBCrunch
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir Lateral_Movement
+#----------------LATERAL MOVEMENT--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT/Lateral_Movement
 git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/fdiskyou/PSShell
@@ -223,11 +239,13 @@ git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/brav0hax/smbexec.git
 cd /root/Desktop/ToolBox
+#----------------MISC TOOLS--------------------------------
 mkdir Misc
 cd /root/Desktop/ToolBox/Misc
 apt-get -y install bleachbit
 git clone https://github.com/dannagle/packetsender
 cd /root/Desktop/ToolBox/Misc
+#----------------Obfuscation--------------------------------
 mkdir Obfuscation
 cd /root/Desktop/ToolBox/Misc/Obfuscation
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
@@ -236,8 +254,10 @@ git clone https://github.com/byt3bl33d3r/pyobfuscate.git
 cd /root/Desktop/ToolBox/Misc
 mkdir /root/Desktop/ToolBox/Misc/Shellcode
 cd Shellcode
+#----------------Shellcode--------------------------------
 git clone https://github.com/MarioVilas/shellcode_tools.git 
 cd /root/Desktop/ToolBox/Misc
+#----------------Malware_Generaters--------------------------------
 mkdir Malware_Generaters
 cd /root/Desktop/ToolBox/Misc/Malware_Generaters
 git clone https://github.com/EgeBalci/EGESPLOIT
@@ -250,6 +270,7 @@ git clone https://github.com/Shellntel/luckystrike
 git clone https://github.com/ispoleet/malWASH
 wget http://code.google.com/p/simple-ducky-payload-generator/
 cd /root/Desktop/ToolBox/Misc
+#----------------ANALYSIS--------------------------------
 mkdir ANALYSIS
 cd /root/Desktop/ToolBox/Misc/ANALYSIS
 git clone https://github.com/mattifestation/PowerShellArsenal
@@ -259,6 +280,7 @@ git clone https://github.com/fireeye/chopshop
 git clone https://github.com/iadgov/Secure-Host-Baseline
 git clone https://github.com/0xd4d/de4dot
 cd /root/Desktop/ToolBox/Misc
+#----------------REF_MATERIALS--------------------------------
 mkdir REF_MATERIALS
 cd /root/Desktop/ToolBox/Misc/REF_MATERIALS
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
@@ -281,6 +303,7 @@ git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 cd /root/Desktop/ToolBox/Misc
+#---------------LIVE_MALWARE--------------------------------
 mkdir LIVE_MALWARE
 cd /root/Desktop/ToolBox/Misc/LIVE_MALWARE
 git clone https://github.com/ahhh/malware_sources
@@ -289,22 +312,26 @@ git clone https://github.com/ytisf/theZoo
 git clone https://github.com/fdiskyou/malware
 git clone https://github.com/gasgas4/Leaked_Malware_SourceCode
 cd /root/Desktop/ToolBox/Misc
+#----------------REPORTING--------------------------------
 mkdir REPORTING
 cd /root/Desktop/ToolBox/Misc/REPORTING
 apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
 apt-get -y install knotes
 cd /root/Desktop/ToolBox/Misc
+#----------------DEV_IDE--------------------------------
 mkdir DEV_IDE
 cd /root/Desktop/ToolBox/Misc/DEV_IDE
 apt-get install geany -y 
 git clone https://github.com/fireeye/pycommands
 cd /root/Desktop/ToolBox/Misc
+#----------------RDP----------------------------------
 mkdir RDP
 cd /root/Desktop/ToolBox/Misc/RDP
 apt-get install remmina -y
 apt-get -y install freerdp-x11 -y
 cd /root/Desktop/ToolBox/Misc
+#----------------SYSTEM--------------------------------
 mkdir SYSTEM
 cd /root/Desktop/ToolBox/Misc/SYSTEM
 git clone https://github.com/Und3rf10w/kali-anonsurf
