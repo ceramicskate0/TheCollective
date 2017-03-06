@@ -252,8 +252,7 @@ git clone https://github.com/brav0hax/smbexec.git
 wget http://subterfuge.googlecode.com/files/SubterfugePublicBeta5.0.tar.gz
 tar zxvf SubterfugePublicBeta5.0.tar.gz
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
-git clone git://github.com/brav0hax/easy-creds.git
-ln -s /opt/easy-creds/easy-creds.sh  /usr/bin/easy-creds
+git clone https://github.com/brav0hax/easy-creds
 git clone https://github.com/devttys0/littleblackbox
 #---------------Get from Websites---------------------------------------
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
