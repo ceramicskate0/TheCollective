@@ -107,6 +107,7 @@ git clone https://github.com/CeramicSkate0/Kali-Scripts
 cd /root/Desktop/ToolBox
 git clone https://github.com/trustedsec/ptf
 git clone https://github.com/subTee/RegistrationFreeCOM
+git clone https://github.com/PowerShellMafia/PowerSploit
 git clone https://github.com/rastating/wordpress-exploit-framework
 git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/Soldier4Life/Word-Lists
