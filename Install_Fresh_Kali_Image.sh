@@ -52,8 +52,8 @@ cd /root/Desktop/ToolBox/WORDLISTS
 git clone https://github.com/Soldier4Life/Word-Lists
 git clone https://github.com/decal/werdlists
 git clone https://github.com/Soldier4Life/Word-Lists
-cd /root/Desktop/ToolBox
 #----------------PHISHING--------------------------------
+cd /root/Desktop/ToolBox
 mkdir PHISHERS
 cd /root/Desktop/ToolBox/PHISHERS
 git clone https://github.com/Raikia/FiercePhish
@@ -65,8 +65,8 @@ mkdir RANDOM_SCRIPTS
 cd /root/Desktop/ToolBox/RANDOM_SCRIPTS
 git clone https://github.com/ChrisTruncer/PenTestScripts
 git clone https://github.com/byt3bl33d3r/scripts
-cd /root/Desktop/ToolBox
 #----------------RECON TOOLS--------------------------------
+cd /root/Desktop/ToolBox
 mkdir RECON
 cd /root/Desktop/ToolBox/RECON
 apt-get -y install ldap-utils rwho rsh-client x11-apps finger
@@ -111,6 +111,9 @@ apt-get -y install wifite
 apt-get -y install powersploit
 apt-get -y install routersploit
 apt-get -y install nishang
+git clone https://github.com/mattifestation/PowerWorm
+git clone https://github.com/enigma0x3/Powershell-Payload-Excel-Delivery
+git clone https://github.com/enigma0x3/OutlookPersistence
 git clone https://github.com/subTee/RegistrationFreeCOM
 git clone https://github.com/PowerShellMafia/PowerSploit
 git clone https://github.com/rastating/wordpress-exploit-framework
@@ -140,6 +143,7 @@ git clone https://github.com/IMcPwn/browser-backdoor
 git clone https://github.com/ytisf/PyExfil
 git clone https://github.com/AndreiAvadanei/Exploits
 git clone https://github.com/FuzzySecurity/Capcom-Rootkit
+git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
 #----------------WIFI TOOLS--------------------------------
 mkdir WIFI
 cd WIFI
@@ -159,8 +163,9 @@ git clone https://github.com/securestate/syringe
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/putterpanda/mimikittenz
 git clone https://github.com/vysec/ps1-toolkit
-cd /root/Desktop/ToolBox/POST_EXPLOIT
+git clone https://github.com/mattifestation/WMI_Backdoor
 #----------------RATs--------------------------------
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir RATs
 cd /root/Desktop/ToolBox/POST_EXPLOIT/RATs
 git clone https://github.com/t3ntman/CrunchRAT
@@ -173,13 +178,13 @@ wget http://download.teamviewer.com/download/teamviewer_linux_x64.deb
 dpkg -i teamviewer_linux_x64.deb
 rm teamviewer_linux_x64.deb
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
-cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------EXFILTRATION TOOLS--------------------------------
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir EXFILTRATION
 cd /root/Desktop/ToolBox/POST_EXPLOIT/EXFILTRATION
 git clone https://github.com/ChrisTruncer/Egress-Assess
-cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------DATA TOOLS--------------------------------
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir DATA
 cd /root/Desktop/ToolBox/POST_EXPLOIT/DATA
 git clone https://github.com/TryCatchHCF/Cloakify
@@ -200,21 +205,23 @@ cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir BYPASS_UAC
 cd /root/Desktop/ToolBox/POST_EXPLOIT/BYPASS_UAC
 git clone https://github.com/hfiref0x/UACME
-cd /root/Desktop/ToolBox/POST_EXPLOIT
+git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff/Invoke-EventVwrBypass.ps1
+https://github.com/EmpireProject/Empire/data/module_source/privesc/Invoke-BypassUAC.ps1
 #----------------ESCALATION--------------------------------
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir ESCALATION
 cd /root/Desktop/ToolBox/POST_EXPLOIT/ESCALATION
 git clone https://github.com/foxglovesec/RottenPotato
 git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
-cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------Enumeration--------------------------------
+cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir ENUMERATION
 cd /root/Desktop/ToolBox/POST_EXPLOIT/ENUMERATION
 git clone https://github.com/Raikia/SMBCrunch
+#----------------LATERAL MOVEMENT--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir Lateral_Movement
-#----------------LATERAL MOVEMENT--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT/Lateral_Movement
 git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/fdiskyou/PSShell
@@ -222,30 +229,31 @@ git clone https://github.com/nidem/kerberoast
 git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/brav0hax/smbexec.git
-cd /root/Desktop/ToolBox
 #----------------MISC TOOLS--------------------------------
+cd /root/Desktop/ToolBox
 mkdir Misc
 cd /root/Desktop/ToolBox/Misc
 apt-get -y install bleachbit
 apt-get -y install file-roller &>/dev/null
 apt-get -y install htop &>/dev/null
 git clone https://github.com/dannagle/packetsender
-cd /root/Desktop/ToolBox/Misc
 #----------------Obfuscation--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir Obfuscation
 cd /root/Desktop/ToolBox/Misc/Obfuscation
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
 #VEIL Located in all in one tools
-cd /root/Desktop/ToolBox/Misc
 #----------------Shellcode--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir /root/Desktop/ToolBox/Misc/Shellcode
 cd Shellcode
-git clone https://github.com/MarioVilas/shellcode_tools.git 
-cd /root/Desktop/ToolBox/Misc
+git clone https://github.com/MarioVilas/shellcode_tools.git
 #----------------Malware_Generaters--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir Payload_Generaters
 cd /root/Desktop/ToolBox/Misc/Payload_Generaters
+git clone https://github.com/enigma0x3/Generate-Macro
 git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
@@ -255,8 +263,8 @@ git clone https://github.com/khr0x40sh/MacroShop
 git clone https://github.com/Shellntel/luckystrike
 git clone https://github.com/ispoleet/malWASH
 wget http://code.google.com/p/simple-ducky-payload-generator/
-cd /root/Desktop/ToolBox/Misc
 #----------------ANALYSIS--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir ANALYSIS
 cd /root/Desktop/ToolBox/Misc/ANALYSIS
 git clone https://github.com/mattifestation/PowerShellArsenal
@@ -267,8 +275,9 @@ git clone https://github.com/fireeye/pycommands
 git clone https://github.com/fireeye/chopshop
 git clone https://github.com/iadgov/Secure-Host-Baseline
 git clone https://github.com/0xd4d/de4dot
-cd /root/Desktop/ToolBox/Misc
+git clone https://github.com/mattifestation/PowerShellArsenal
 #----------------REF_MATERIALS--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir REF_MATERIALS
 cd /root/Desktop/ToolBox/Misc/REF_MATERIALS
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
