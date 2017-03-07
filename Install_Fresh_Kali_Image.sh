@@ -23,10 +23,10 @@ clear
 echo "Installing packages"
 cd /root/Desktop
 mkdir ToolBox
-cd ToolBox
+cd /root/Desktop/ToolBox
 #----------------ALL IN ONE TOOOLS--------------------------------
 mkdir ALL_IN_ONE_TOOLS
-cd ALL_IN_ONE_TOOLS
+cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS
 git clone https://github.com/trustedsec/ptf
 git clone https://github.com/PowerShellMafia/PowerSploit
 git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF
@@ -37,22 +37,10 @@ git clone https://github.com/dotcppfile/DAws.git
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
 tar zxvf hackpack.tar.gz
 #-----------------------------VEIL------------------------
-mkdir /root/Desktop/ToolBox/Veil
-cd /root/Desktop/ToolBox/Veil
-mkdir VeilInstaller
-cd VeilInstaller
-git clone https://github.com/Veil-Framework/Veil
-cd ..
-git clone https://github.com/Veil-Framework/Veil-Ordnance.git
-git clone https://github.com/Veil-Framework/Veil-Catapult.git
-cd Veil-Catapult && ./setup.sh
-cd ..
-git clone https://github.com/Veil-Framework/Veil-Pillage.git
-cd Veil-Pillage && ./update.py
-cd ..
-git clone https://github.com/Veil-Framework/PowerTools.git
-git clone https://github.com/Veil-Framework/Veil-Evasion.git
-cd Veil-Evasion/setup && ./setup.sh
+git clone https://github.com/Veil-Framework/Veil.git
+cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS/Veil
+cd setup
+sudo ./setup.sh -c
 cd ..
 #-----------------------------VEIL------------------------
 cd /root/Desktop/ToolBox
