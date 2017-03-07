@@ -151,8 +151,8 @@ mkdir WIFI
 cd WIFI
 apt-get install fruitywifi -y
 git clone https://github.com/stef/wireless-radar
-cd /root/Desktop/ToolBox
 #----------------POST_EXPLOIT--------------------------------
+cd /root/Desktop/ToolBox
 mkdir POST_EXPLOIT
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 apt-get -y install passing-the-hash unicornscan winexe
@@ -208,7 +208,7 @@ mkdir BYPASS_UAC
 cd /root/Desktop/ToolBox/POST_EXPLOIT/BYPASS_UAC
 git clone https://github.com/hfiref0x/UACME
 git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff/Invoke-EventVwrBypass.ps1
-https://github.com/EmpireProject/Empire/data/module_source/privesc/Invoke-BypassUAC.ps1
+git clone https://github.com/EmpireProject/Empire/data/module_source/privesc/Invoke-BypassUAC.ps1
 #----------------ESCALATION--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir ESCALATION
