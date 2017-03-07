@@ -81,6 +81,7 @@ apt-get -y install hping3
 apt-get -y install mitmf
 apt-get -y install Beef
 apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
+git clone https://github.com/DataSploit/datasploit
 git clone https://github.com/Raikia/Nmap-scripts
 git clone https://github.com/rouabas/SQLInjectionScanner
 git clone https://github.com/t3ntman/BrowserCheck
@@ -190,7 +191,6 @@ cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir DATA
 cd /root/Desktop/ToolBox/POST_EXPLOIT/DATA
 git clone https://github.com/TryCatchHCF/Cloakify
-git clone https://github.com/DataSploit/datasploit
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------PASSWORD TOOLS--------------------------------
 mkdir Password_Dumpers
