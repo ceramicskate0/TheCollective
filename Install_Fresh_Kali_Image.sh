@@ -96,7 +96,6 @@ git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester.git
 git clone https://github.com/PenturaLabs/Linux_Exploit_Suggester.git 
 git clone https://github.com/rfunix/Pompem.git 
 git clone https://github.com/leebaird/discover
-git clone https://github.com/realparisi/WMI_Monitor
 git clone https://github.com/adaptivethreat/BloodHound
 git clone https://github.com/1N3/HTTPoxyScan
 git clone https://github.com/Subterfuge-Framework/Subterfuge
@@ -285,6 +284,7 @@ git clone https://github.com/fireeye/pycommands
 git clone https://github.com/fireeye/chopshop
 git clone https://github.com/iadgov/Secure-Host-Baseline
 git clone https://github.com/0xd4d/de4dot
+git clone https://github.com/realparisi/WMI_Monitor
 git clone https://github.com/mattifestation/PowerShellArsenal
 #----------------REF_MATERIALS--------------------------------
 cd /root/Desktop/ToolBox/Misc
