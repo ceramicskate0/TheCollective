@@ -11,7 +11,7 @@ echo "#deb-src http://security.kali.org/kali-security sana/updates main contrib 
 echo "#Kali 2016 Rolling Repos">>sources.list
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>sources.list
 echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free">>sources.list
-echo "FIXED THE REPO SOURCE.LIST, AGAIN. Your Welcome!"
+echo "FIXED SOURCE.LIST"
 cd /
 apt-get update
 apt full-upgrade -y
