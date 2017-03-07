@@ -41,10 +41,8 @@ git clone https://github.com/Veil-Framework/Veil.git
 cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS/Veil
 cd setup
 sudo ./setup.sh -c
-cd ..
-#-----------------------------VEIL------------------------
-cd /root/Desktop/ToolBox
 #----------------WORDLISTS--------------------------------
+cd /root/Desktop/ToolBox
 mkdir WORDLISTS
 cd /root/Desktop/ToolBox/WORDLISTS
 git clone https://github.com/Soldier4Life/Word-Lists
