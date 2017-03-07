@@ -232,6 +232,7 @@ git clone https://github.com/nidem/kerberoast
 git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/brav0hax/smbexec.git
+git clone https://github.com/byt3bl33d3r/CrackMapExec
 #----------------MISC TOOLS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir Misc
@@ -265,7 +266,8 @@ git clone https://github.com/Gallopsled/pwntools
 git clone https://github.com/khr0x40sh/MacroShop
 git clone https://github.com/Shellntel/luckystrike
 git clone https://github.com/ispoleet/malWASH
-wget http://code.google.com/p/simple-ducky-payload-generator/
+wget http://code.google.com/p/simple-ducky-payload-generator
+git clone https://github.com/mubix/trigen
 #----------------ANALYSIS--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir ANALYSIS
