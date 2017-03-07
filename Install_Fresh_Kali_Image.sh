@@ -260,6 +260,8 @@ mkdir ANALYSIS
 cd /root/Desktop/ToolBox/Misc/ANALYSIS
 git clone https://github.com/mattifestation/PowerShellArsenal
 git clone https://github.com/google/grr
+git clone https://github.com/davehull/Kansa
+git clone https://github.com/fireeye/flare-ida
 git clone https://github.com/fireeye/pycommands
 git clone https://github.com/fireeye/chopshop
 git clone https://github.com/iadgov/Secure-Host-Baseline
@@ -320,6 +322,8 @@ cd /root/Desktop/ToolBox/Misc
 #----------------SYSTEM--------------------------------
 mkdir SYSTEM
 cd /root/Desktop/ToolBox/Misc/SYSTEM
+git clone https://github.com/nicolargo/glances
+pip install glances
 git clone https://github.com/Und3rf10w/kali-anonsurf
 #apt-get -y install tor
 apt-get -y install ibus && apt-get -y install ibus-unikey
