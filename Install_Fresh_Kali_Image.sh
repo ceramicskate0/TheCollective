@@ -39,10 +39,12 @@ wget http://lazykali.googlecode.com/files/hackpack.tar.gz
 tar zxvf hackpack.tar.gz
 chmod +x /usr/bin/lazykali
 #-----------------------------VEIL------------------------
+apt-get -y install git
 git clone https://github.com/Veil-Framework/Veil.git
 cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS/Veil
 cd setup
-sudo ./setup.sh -c
+chmod 777 setup.sh
+./setup.sh -c
 #----------------WORDLISTS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir WORDLISTS
@@ -76,7 +78,7 @@ apt-get -y install nfspy firmware-mod-kit wmis
 apt-get -y install unicornscan
 apt-get -y install openvas
 apt-get -y install hping3
-apt-get install mitmf -y
+apt-get -y install mitmf
 apt-get -y install Beef
 apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
 git clone https://github.com/Raikia/Nmap-scripts
@@ -311,7 +313,7 @@ cd /root/Desktop/ToolBox/Misc
 #----------------RDP----------------------------------
 mkdir RDP
 cd /root/Desktop/ToolBox/Misc/RDP
-apt-get install remmina -y
+apt-get -y install remmina
 apt-get -y install freerdp-x11 -y
 cd /root/Desktop/ToolBox/Misc
 #----------------SYSTEM--------------------------------
