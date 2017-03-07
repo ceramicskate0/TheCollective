@@ -35,6 +35,7 @@ git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/dotcppfile/DAws.git 
 git clone https://github.com/NECPC/RedCell-Kali
+got clone https://github.com/samratashok/nishang
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
 tar zxvf hackpack.tar.gz
 chmod +x /usr/bin/lazykali
