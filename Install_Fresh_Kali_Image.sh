@@ -139,6 +139,7 @@ git clone https://github.com/Crypt0s/FakeDns
 git clone https://github.com/IMcPwn/browser-backdoor
 git clone https://github.com/ytisf/PyExfil
 git clone https://github.com/AndreiAvadanei/Exploits
+git clone https://github.com/FuzzySecurity/Capcom-Rootkit
 #----------------WIFI TOOLS--------------------------------
 mkdir WIFI
 cd WIFI
