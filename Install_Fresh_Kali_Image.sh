@@ -61,6 +61,7 @@ git clone https://github.com/Raikia/FiercePhish
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/ryhanson/phishery
 git clone https://github.com/trustedsec/social-engineer-toolkit
+#----------------SCRIPTS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir RANDOM_SCRIPTS
 cd /root/Desktop/ToolBox/RANDOM_SCRIPTS
@@ -152,8 +153,9 @@ git clone https://github.com/FuzzySecurity/Capcom-Rootkit
 git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
 git clone https://github.com/1N3/IntruderPayloads
 #----------------WIFI TOOLS--------------------------------
-mkdir WIFI
-cd WIFI
+cd /root/Desktop/ToolBox/EXPLOIT
+mkdir _WIFI
+cd /root/Desktop/ToolBox/EXPLOIT/_WIFI
 apt-get install fruitywifi -y
 git clone https://github.com/stef/wireless-radar
 #----------------POST_EXPLOIT--------------------------------
@@ -174,32 +176,29 @@ git clone https://github.com/mattifestation/WMI_Backdoor
 git clone https://github.com/nccgroup/redsnarf
 #----------------RATs--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir RATs
-cd /root/Desktop/ToolBox/POST_EXPLOIT/RATs
+mkdir _RATs
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_RATs
 git clone https://github.com/t3ntman/CrunchRAT
 git clone https://github.com/subTee/PoshRat
 git clone https://github.com/Screetsec/TheFatRat
 git clone https://github.com/Hood3dRob1n/JSRat-Py
 apt-get -y install lib32asound2 &>/dev/null
 apt-get -y install lib32z1 &>/dev/null
-wget http://download.teamviewer.com/download/teamviewer_linux_x64.deb
-dpkg -i teamviewer_linux_x64.deb
-rm teamviewer_linux_x64.deb
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 #----------------EXFILTRATION TOOLS--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir EXFILTRATION
-cd /root/Desktop/ToolBox/POST_EXPLOIT/EXFILTRATION
+mkdir _EXFILTRATION
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_EXFILTRATION
 git clone https://github.com/ChrisTruncer/Egress-Assess
 #----------------DATA TOOLS--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir DATA
-cd /root/Desktop/ToolBox/POST_EXPLOIT/DATA
+mkdir _DATA
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_DATA
 git clone https://github.com/TryCatchHCF/Cloakify
-cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------PASSWORD TOOLS--------------------------------
-mkdir Password_Dumpers
-cd /root/Desktop/ToolBox/POST_EXPLOIT/Password_Dumpers
+cd /root/Desktop/ToolBox/POST_EXPLOIT
+mkdir _Password_Dumpers
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_Password_Dumpers
 git clone https://github.com/AlessandroZ/LaZagne
 git clone https://github.com/az0ne/pacdoor
 git clone https://github.com/Raikia/CredNinja
@@ -208,30 +207,30 @@ git clone https://github.com/denandz/KeeFarce
 git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/brav0hax/easy-creds
 git clone https://github.com/HarmJ0y/ASREPRoast
-cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------BYPASS UAC TOOLS--------------------------------
-mkdir BYPASS_UAC
-cd /root/Desktop/ToolBox/POST_EXPLOIT/BYPASS_UAC
+cd /root/Desktop/ToolBox/POST_EXPLOIT
+mkdir _BYPASS_UAC
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_BYPASS_UAC
 git clone https://github.com/hfiref0x/UACME
 git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff/Invoke-EventVwrBypass.ps1
 git clone https://github.com/EmpireProject/Empire/data/module_source/privesc/Invoke-BypassUAC.ps1
 #----------------ESCALATION--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir ESCALATION
-cd /root/Desktop/ToolBox/POST_EXPLOIT/ESCALATION
+mkdir _ESCALATION
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_ESCALATION
 git clone https://github.com/foxglovesec/RottenPotato
 git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
 git clone https://github.com/1N3/PrivEsc
 #----------------Enumeration--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir ENUMERATION
-cd /root/Desktop/ToolBox/POST_EXPLOIT/ENUMERATION
+mkdir _ENUMERATION
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_ENUMERATION
 git clone https://github.com/Raikia/SMBCrunch
 #----------------LATERAL MOVEMENT--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
-mkdir Lateral_Movement
-cd /root/Desktop/ToolBox/POST_EXPLOIT/Lateral_Movement
+mkdir _Lateral_Movement
+cd /root/Desktop/ToolBox/POST_EXPLOIT/_Lateral_Movement
 git clone https://github.com/ChrisTruncer/WMIOps
 git clone https://github.com/fdiskyou/PSShell
 git clone https://github.com/nidem/kerberoast
@@ -249,20 +248,20 @@ apt-get -y install htop &>/dev/null
 git clone https://github.com/dannagle/packetsender
 #----------------Obfuscation--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir Obfuscation
-cd /root/Desktop/ToolBox/Misc/Obfuscation
+mkdir _Obfuscation
+cd /root/Desktop/ToolBox/Misc/_Obfuscation
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
 #VEIL Located in all in one tools
 #----------------Shellcode--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir /root/Desktop/ToolBox/Misc/Shellcode
-cd Shellcode
+mkdir _Shellcode
+cd /root/Desktop/ToolBox/Misc/_Shellcode
 git clone https://github.com/MarioVilas/shellcode_tools.git
 #----------------Malware_Generaters--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir Payload_Generaters
-cd /root/Desktop/ToolBox/Misc/Payload_Generaters
+mkdir _Payload_Generaters
+cd /root/Desktop/ToolBox/Misc/_Payload_Generaters
 git clone https://github.com/enigma0x3/Generate-Macro
 git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
@@ -276,8 +275,8 @@ wget http://code.google.com/p/simple-ducky-payload-generator
 git clone https://github.com/mubix/trigen
 #----------------ANALYSIS--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir ANALYSIS
-cd /root/Desktop/ToolBox/Misc/ANALYSIS
+mkdir _ANALYSIS
+cd /root/Desktop/ToolBox/Misc/_ANALYSIS
 git clone https://github.com/mattifestation/PowerShellArsenal
 git clone https://github.com/google/grr
 git clone https://github.com/davehull/Kansa
@@ -289,8 +288,8 @@ git clone https://github.com/0xd4d/de4dot
 git clone https://github.com/mattifestation/PowerShellArsenal
 #----------------REF_MATERIALS--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir REF_MATERIALS
-cd /root/Desktop/ToolBox/Misc/REF_MATERIALS
+mkdir _REF_MATERIALS
+cd /root/Desktop/ToolBox/Misc/_REF_MATERIALS
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/uhub/awesome-shell
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings
@@ -314,8 +313,8 @@ git clone https://github.com/enaqx/awesome-pentest
 git clone https://github.com/HarmJ0y/CheatSheets
 #---------------LIVE_MALWARE--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir LIVE_MALWARE
-cd /root/Desktop/ToolBox/Misc/LIVE_MALWARE
+mkdir _LIVE_MALWARE
+cd /root/Desktop/ToolBox/Misc/_LIVE_MALWARE
 git clone https://github.com/ahhh/malware_sources
 git clone https://github.com/ispoleet/malware
 git clone https://github.com/ytisf/theZoo
@@ -323,28 +322,28 @@ git clone https://github.com/fdiskyou/malware
 git clone https://github.com/gasgas4/Leaked_Malware_SourceCode
 #----------------REPORTING--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir REPORTING
-cd /root/Desktop/ToolBox/Misc/REPORTING
+mkdir _REPORTING
+cd /root/Desktop/ToolBox/Misc/_REPORTING
 apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
 apt-get -y install libreoffice
 apt-get -y install knotes
 #----------------DEV_IDE--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir DEV_IDE
-cd /root/Desktop/ToolBox/Misc/DEV_IDE
+mkdir _DEV_IDE
+cd /root/Desktop/ToolBox/Misc/_DEV_IDE
 apt-get install geany -y 
 git clone https://github.com/fireeye/pycommands
 cd /root/Desktop/ToolBox/Misc
 #----------------RDP----------------------------------
-mkdir RDP
-cd /root/Desktop/ToolBox/Misc/RDP
+mkdir _RDP
+cd /root/Desktop/ToolBox/Misc/_RDP
 apt-get -y install remmina
 apt-get -y install freerdp-x11 -y
 #----------------SYSTEM--------------------------------
 cd /root/Desktop/ToolBox/Misc
-mkdir SYSTEM
-cd /root/Desktop/ToolBox/Misc/SYSTEM
+mkdir _SYSTEM
+cd /root/Desktop/ToolBox/Misc/_SYSTEM
 git clone https://github.com/nicolargo/glances
 pip install glances
 git clone https://github.com/Und3rf10w/kali-anonsurf
