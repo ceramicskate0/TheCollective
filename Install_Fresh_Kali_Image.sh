@@ -34,8 +34,10 @@ git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/dotcppfile/DAws.git 
+git clone https://github.com/NECPC/RedCell-Kali
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
 tar zxvf hackpack.tar.gz
+chmod +x /usr/bin/lazykali
 #-----------------------------VEIL------------------------
 git clone https://github.com/Veil-Framework/Veil.git
 cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS/Veil
@@ -162,6 +164,11 @@ git clone https://github.com/t3ntman/CrunchRAT
 git clone https://github.com/subTee/PoshRat
 git clone https://github.com/Screetsec/TheFatRat
 git clone https://github.com/Hood3dRob1n/JSRat-Py
+apt-get -y install lib32asound2 &>/dev/null
+apt-get -y install lib32z1 &>/dev/null
+wget http://download.teamviewer.com/download/teamviewer_linux_x64.deb
+dpkg -i teamviewer_linux_x64.deb
+rm teamviewer_linux_x64.deb
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------EXFILTRATION TOOLS--------------------------------
@@ -217,6 +224,8 @@ cd /root/Desktop/ToolBox
 mkdir Misc
 cd /root/Desktop/ToolBox/Misc
 apt-get -y install bleachbit
+apt-get -y install file-roller &>/dev/null
+apt-get -y install htop &>/dev/null
 git clone https://github.com/dannagle/packetsender
 cd /root/Desktop/ToolBox/Misc
 #----------------Obfuscation--------------------------------
@@ -345,7 +354,7 @@ echo Starting CleanUp and post install work...
 #iceweasel --new-tab http://www.tightvnc.com%2Fdownload.php&usg=AFQjCNFpS78TLf7UXzcnOkvPtINXVrFQrg
 #iceweasel --new-tab https://www.winitor.com/features.html
 #-------------------FIX Settings-----------------------------
-update-rc.d postgresql enable && update-rc.d metasploit enable
+update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
 #-------------------FIX missing updates form installs and fix settings-----------------------------
 apt-get update --fix-missing
 apt-get -f install
@@ -355,7 +364,6 @@ apt-get clean
 #---------------------Setup and prep for metasploit------------------------------
 /etc/init.d/postgresql start
 #/etc/init.d/network-manager start
-msfdb init
 msfupdate
 #---------------Prep sys for wifi---------------------------------------
 airmon-ng check kill
