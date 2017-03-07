@@ -243,8 +243,8 @@ cd Shellcode
 git clone https://github.com/MarioVilas/shellcode_tools.git 
 cd /root/Desktop/ToolBox/Misc
 #----------------Malware_Generaters--------------------------------
-mkdir Malware_Generaters
-cd /root/Desktop/ToolBox/Misc/Malware_Generaters
+mkdir Payload_Generaters
+cd /root/Desktop/ToolBox/Misc/Payload_Generaters
 git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
