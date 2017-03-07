@@ -257,6 +257,7 @@ ln -s /root/Desktop/ToolBox/Misc/_Obfuscation/VEIL/Tools/Evasion VEIL_EVASION
 cd /root/Desktop/ToolBox/Misc
 mkdir _Shellcode
 cd /root/Desktop/ToolBox/Misc/_Shellcode
+ln -s /root/Desktop/ToolBox/Misc/_Obfuscation/VEIL/Tools/Ordnance VEIL_Ordnance
 git clone https://github.com/MarioVilas/shellcode_tools.git
 #----------------Malware_Generaters--------------------------------
 cd /root/Desktop/ToolBox/Misc
