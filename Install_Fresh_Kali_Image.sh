@@ -114,6 +114,8 @@ apt-get -y install powersploit
 apt-get -y install routersploit
 apt-get -y install nishang
 git clone https://github.com/mattifestation/PowerWorm
+git clone https://github.com/commixproject/commix
+git clone https://github.com/infobyte/evilgrade
 git clone https://github.com/enigma0x3/Powershell-Payload-Excel-Delivery
 git clone https://github.com/enigma0x3/OutlookPersistence
 git clone https://github.com/subTee/RegistrationFreeCOM
@@ -167,6 +169,7 @@ git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/putterpanda/mimikittenz
 git clone https://github.com/vysec/ps1-toolkit
 git clone https://github.com/mattifestation/WMI_Backdoor
+git clone https://github.com/nccgroup/redsnarf
 #----------------RATs--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir RATs
