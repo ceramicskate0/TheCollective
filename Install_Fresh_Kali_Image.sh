@@ -97,8 +97,9 @@ git clone https://github.com/realparisi/WMI_Monitor
 git clone https://github.com/adaptivethreat/BloodHound
 git clone https://github.com/1N3/HTTPoxyScan
 git clone https://github.com/Subterfuge-Framework/Subterfuge
-cd /root/Desktop/ToolBox
+git clone https://github.com/1N3/Sn1per
 #----------------EXPLOIT TOOLS--------------------------------
+cd /root/Desktop/ToolBox
 mkdir EXPLOIT
 cd /root/Desktop/ToolBox/EXPLOIT
 apt-get -y install veil-catapult
@@ -144,6 +145,7 @@ git clone https://github.com/ytisf/PyExfil
 git clone https://github.com/AndreiAvadanei/Exploits
 git clone https://github.com/FuzzySecurity/Capcom-Rootkit
 git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
+git clone https://github.com/1N3/IntruderPayloads
 #----------------WIFI TOOLS--------------------------------
 mkdir WIFI
 cd WIFI
@@ -214,6 +216,7 @@ cd /root/Desktop/ToolBox/POST_EXPLOIT/ESCALATION
 git clone https://github.com/foxglovesec/RottenPotato
 git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
+git clone https://github.com/1N3/PrivEsc
 #----------------Enumeration--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir ENUMERATION
