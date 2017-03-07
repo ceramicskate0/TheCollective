@@ -3,4 +3,5 @@
 
 ##Helpful CMDs:
 Scan Wifi info: iw wlan0 scan
+
 Set File Attributes (Linux):chattr {arg} {FilePath}
