@@ -3,5 +3,4 @@
 
 ##Helpful CMDs:
 Scan Wifi info: iw wlan0 scan
-Lockout File (Linux):chattr {arg} {FilePath}
-
+Set File Attributes (Linux):chattr {arg} {FilePath}
