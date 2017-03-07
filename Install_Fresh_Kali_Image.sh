@@ -304,8 +304,9 @@ git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
-cd /root/Desktop/ToolBox/Misc
+git clone https://github.com/enaqx/awesome-pentest
 #---------------LIVE_MALWARE--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir LIVE_MALWARE
 cd /root/Desktop/ToolBox/Misc/LIVE_MALWARE
 git clone https://github.com/ahhh/malware_sources
@@ -313,16 +314,16 @@ git clone https://github.com/ispoleet/malware
 git clone https://github.com/ytisf/theZoo
 git clone https://github.com/fdiskyou/malware
 git clone https://github.com/gasgas4/Leaked_Malware_SourceCode
-cd /root/Desktop/ToolBox/Misc
 #----------------REPORTING--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir REPORTING
 cd /root/Desktop/ToolBox/Misc/REPORTING
 apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
 apt-get -y install libreoffice
 apt-get -y install knotes
-cd /root/Desktop/ToolBox/Misc
 #----------------DEV_IDE--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir DEV_IDE
 cd /root/Desktop/ToolBox/Misc/DEV_IDE
 apt-get install geany -y 
@@ -333,8 +334,8 @@ mkdir RDP
 cd /root/Desktop/ToolBox/Misc/RDP
 apt-get -y install remmina
 apt-get -y install freerdp-x11 -y
-cd /root/Desktop/ToolBox/Misc
 #----------------SYSTEM--------------------------------
+cd /root/Desktop/ToolBox/Misc
 mkdir SYSTEM
 cd /root/Desktop/ToolBox/Misc/SYSTEM
 git clone https://github.com/nicolargo/glances
