@@ -205,6 +205,7 @@ git clone https://github.com/adaptivethreat/KeeThief
 git clone https://github.com/denandz/KeeFarce 
 git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/brav0hax/easy-creds
+git clone https://github.com/HarmJ0y/ASREPRoast
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 #----------------BYPASS UAC TOOLS--------------------------------
 mkdir BYPASS_UAC
@@ -308,6 +309,7 @@ git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 git clone https://github.com/enaqx/awesome-pentest
+git clone https://github.com/HarmJ0y/CheatSheets
 #---------------LIVE_MALWARE--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir LIVE_MALWARE
