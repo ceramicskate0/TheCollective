@@ -251,6 +251,7 @@ mkdir _Obfuscation
 cd /root/Desktop/ToolBox/Misc/_Obfuscation
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/byt3bl33d3r/pyobfuscate.git 
+ln -s /root/Desktop/ToolBox/Misc/_Obfuscation/VEIL/Tools/Evasion VEIL_EVASION
 #VEIL Located in all in one tools
 #----------------Shellcode--------------------------------
 cd /root/Desktop/ToolBox/Misc
