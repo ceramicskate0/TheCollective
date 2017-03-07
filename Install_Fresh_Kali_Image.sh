@@ -302,6 +302,7 @@ mkdir REPORTING
 cd /root/Desktop/ToolBox/Misc/REPORTING
 apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
+apt-get -y install libreoffice
 apt-get -y install knotes
 cd /root/Desktop/ToolBox/Misc
 #----------------DEV_IDE--------------------------------
@@ -322,7 +323,7 @@ cd /root/Desktop/ToolBox/Misc/SYSTEM
 git clone https://github.com/Und3rf10w/kali-anonsurf
 #apt-get -y install tor
 apt-get -y install ibus && apt-get -y install ibus-unikey
-apt-get -y install libreoffice
+apt-get -y install lynis
 apt-get -y install network-manager-gnome
 apt-get -y install network-manager-openvpn
 apt-get -y install network-manager-openvpn-gnome
