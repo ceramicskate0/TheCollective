@@ -206,6 +206,7 @@ git clone https://github.com/denandz/KeeFarce
 git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/brav0hax/easy-creds
 git clone https://github.com/HarmJ0y/ASREPRoast
+git clone https://github.com/reider-roque/pentest-tools
 #----------------BYPASS UAC TOOLS--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _BYPASS_UAC
