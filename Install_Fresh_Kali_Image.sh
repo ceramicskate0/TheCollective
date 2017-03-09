@@ -210,8 +210,8 @@ cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _BYPASS_UAC
 cd /root/Desktop/ToolBox/POST_EXPLOIT/_BYPASS_UAC
 git clone https://github.com/hfiref0x/UACME
-git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff/Invoke-EventVwrBypass.ps1
-git clone https://github.com/EmpireProject/Empire/data/module_source/privesc/Invoke-BypassUAC.ps1
+git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff
+git clone https://github.com/EmpireProject/Empire
 #----------------ESCALATION--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _ESCALATION
