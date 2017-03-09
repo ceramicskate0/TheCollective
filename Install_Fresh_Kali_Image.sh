@@ -181,8 +181,6 @@ git clone https://github.com/t3ntman/CrunchRAT
 git clone https://github.com/subTee/PoshRat
 git clone https://github.com/Screetsec/TheFatRat
 git clone https://github.com/Hood3dRob1n/JSRat-Py
-apt-get -y install lib32asound2 &>/dev/null
-apt-get -y install lib32z1 &>/dev/null
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 #----------------EXFILTRATION TOOLS--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
@@ -354,6 +352,8 @@ git clone https://github.com/Und3rf10w/kali-anonsurf
 #apt-get -y install tor
 apt-get -y install ibus && apt-get -y install ibus-unikey
 apt-get -y install lynis
+apt-get -y install lib32asound2 &>/dev/null
+apt-get -y install lib32z1 &>/dev/null
 apt-get -y install network-manager-gnome
 apt-get -y install network-manager-openvpn
 apt-get -y install network-manager-openvpn-gnome
