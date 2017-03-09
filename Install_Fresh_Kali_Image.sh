@@ -137,7 +137,6 @@ git clone https://github.com/secmob/BadKernel
 git clone https://github.com/FuzzySecurity/HackSysTeam-PSKernelPwn
 git clone https://github.com/fdiskyou/PSShell
 git clone https://github.com/dotcppfile/Serbot.git 
-git clone https://github.com/0x90/bluetooth-arsenal
 git clone https://github.com/RUB-NDS/TLS-Attacker
 git clone https://github.com/RedBalloonShenanigans/MonitorDarkly
 git clone https://github.com/0x3a/stargate
