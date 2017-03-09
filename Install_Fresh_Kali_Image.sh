@@ -172,6 +172,7 @@ git clone https://github.com/putterpanda/mimikittenz
 git clone https://github.com/vysec/ps1-toolkit
 git clone https://github.com/mattifestation/WMI_Backdoor
 git clone https://github.com/nccgroup/redsnarf
+git clone https://github.com/fireeye/SessionGopher
 #----------------RATs--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _RATs
