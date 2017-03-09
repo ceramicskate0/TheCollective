@@ -335,7 +335,8 @@ apt-get -y install knotes
 cd /root/Desktop/ToolBox/Misc
 mkdir _DEV_IDE
 cd /root/Desktop/ToolBox/Misc/_DEV_IDE
-apt-get install geany -y 
+apt-get install -y geany
+apt-get install -y monodevelop
 git clone https://github.com/fireeye/pycommands
 cd /root/Desktop/ToolBox/Misc
 #----------------RDP----------------------------------
