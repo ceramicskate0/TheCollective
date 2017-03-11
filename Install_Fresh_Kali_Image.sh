@@ -24,6 +24,7 @@ echo "Installing packages"
 cd /root/Desktop
 mkdir ToolBox
 cd /root/Desktop/ToolBox
+git clone https://github.com/NECPC/RedCell-Kali
 #----------------ALL IN ONE TOOOLS--------------------------------
 mkdir ALL_IN_ONE_TOOLS
 cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS
@@ -34,7 +35,6 @@ git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/dotcppfile/DAws.git 
-git clone https://github.com/NECPC/RedCell-Kali
 got clone https://github.com/samratashok/nishang
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
 tar zxvf hackpack.tar.gz
