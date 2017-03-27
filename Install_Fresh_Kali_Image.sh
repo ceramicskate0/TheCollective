@@ -67,6 +67,7 @@ mkdir RANDOM_SCRIPTS
 cd /root/Desktop/ToolBox/RANDOM_SCRIPTS
 git clone https://github.com/ChrisTruncer/PenTestScripts
 git clone https://github.com/byt3bl33d3r/scripts
+git clone https://github.com/ztgrace/sticky_keys_hunter
 #----------------RECON TOOLS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir RECON
