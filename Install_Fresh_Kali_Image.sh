@@ -115,6 +115,7 @@ apt-get -y install wifite
 apt-get -y install powersploit
 apt-get -y install routersploit
 apt-get -y install nishang
+git clone https://github.com/edwardz246003/IIS_exploit
 git clone https://github.com/samratashok/Kautilya
 git clone https://github.com/mattifestation/PowerWorm
 git clone https://github.com/commixproject/commix
@@ -174,6 +175,7 @@ git clone https://github.com/vysec/ps1-toolkit
 git clone https://github.com/mattifestation/WMI_Backdoor
 git clone https://github.com/nccgroup/redsnarf
 git clone https://github.com/fireeye/SessionGopher
+git clone https://github.com/mefellows/winrm-powershell
 #----------------RATs--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _RATs
