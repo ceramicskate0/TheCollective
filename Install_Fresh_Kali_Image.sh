@@ -275,6 +275,11 @@ git clone https://github.com/Shellntel/luckystrike
 git clone https://github.com/ispoleet/malWASH
 wget http://code.google.com/p/simple-ducky-payload-generator
 git clone https://github.com/mubix/trigen
+#----------------Trade_Craft/Cleanup----------------------------
+cd /root/Desktop/ToolBox/Misc
+mkdir CleanUp
+cd /root/Desktop/ToolBox/Misc/Cleanup
+curl https://download.sysinternals.com/files/SDelete.zip
 #----------------ANALYSIS--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _ANALYSIS
