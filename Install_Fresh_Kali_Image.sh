@@ -115,6 +115,7 @@ apt-get -y install wifite
 apt-get -y install powersploit
 apt-get -y install routersploit
 apt-get -y install nishang
+git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/edwardz246003/IIS_exploit
 git clone https://github.com/samratashok/Kautilya
 git clone https://github.com/mattifestation/PowerWorm
