@@ -1,3 +1,7 @@
 Import-Module {Script}.{File type}
 iex(new-object system.net.webclient).downloadstring("file://{Path}.{ANY FILE TYPE}")
-
+Powershell.exe -executionpolicy remotesigned -file {File Path}
+set-executionpolicy remotesigned
+Powershell.exe -nop -enc {Encoded Command}
+Powershell.exe -nop -encodedcommand {Encoded Command}
+"Setup Variables to combine into single variable in the script to make things like System.{whatever} then call variable to do the System.Encode...."
