@@ -1,0 +1,3 @@
+Import-Module {Script}.{File type}
+iex(new-object system.net.webclient).downloadstring("file://{Path}.{ANY FILE TYPE}")
+
