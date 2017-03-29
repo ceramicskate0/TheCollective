@@ -241,6 +241,7 @@ git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek
 git clone https://github.com/brav0hax/smbexec.git
 git clone https://github.com/byt3bl33d3r/CrackMapExec
+git clone https://github.com/mattoufoutu/msfmulti
 #----------------MISC TOOLS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir Misc
@@ -263,6 +264,7 @@ mkdir _Shellcode
 cd /root/Desktop/ToolBox/Misc/_Shellcode
 ln -s /root/Desktop/ToolBox/Misc/_Obfuscation/VEIL/Tools/Ordnance VEIL_Ordnance
 git clone https://github.com/MarioVilas/shellcode_tools.git
+git clone https://github.com/eik00d/Reverse_DNS_Shellcode
 #----------------Malware_Generaters--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _Payload_Generaters
