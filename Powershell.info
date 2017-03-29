@@ -5,3 +5,4 @@ set-executionpolicy remotesigned
 Powershell.exe -nop -enc {Encoded Command}
 Powershell.exe -nop -encodedcommand {Encoded Command}
 "Setup Variables to combine into single variable in the script to make things like System.{whatever} then call variable to do the System.Encode...."
+
