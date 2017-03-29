@@ -5,3 +5,5 @@
 Scan Wifi info: iw wlan0 scan
 
 Set File Attributes (Linux):chattr {arg} {FilePath}
+
+systeminfo (Download output and run windows exploit suggestor)
