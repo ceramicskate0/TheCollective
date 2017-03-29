@@ -177,6 +177,7 @@ git clone https://github.com/mattifestation/WMI_Backdoor
 git clone https://github.com/nccgroup/redsnarf
 git clone https://github.com/fireeye/SessionGopher
 git clone https://github.com/mefellows/winrm-powershell
+git clone https://github.com/Ben0xA/PowerShellDefense
 #----------------RATs--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _RATs
