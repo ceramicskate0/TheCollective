@@ -187,6 +187,7 @@ git clone https://github.com/Screetsec/TheFatRat
 git clone https://github.com/Hood3dRob1n/JSRat-Py
 git clone https://github.com/ChrisTruncer/WMImplant
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
+git clone https://github.com/Ben0xA/nps
 #----------------EXFILTRATION TOOLS--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _EXFILTRATION
