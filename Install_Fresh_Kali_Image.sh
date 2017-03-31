@@ -225,10 +225,11 @@ git clone https://github.com/EmpireProject/Empire
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _ESCALATION
 cd /root/Desktop/ToolBox/POST_EXPLOIT/_ESCALATION
-git clone https://github.com/foxglovesec/RottenPotato
+git clone https://github.com/foxglovesec/RottenPotato 
 git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
 git clone https://github.com/1N3/PrivEsc
+git clone https://github.com/foxglovesec/Potato
 #----------------Enumeration--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _ENUMERATION
