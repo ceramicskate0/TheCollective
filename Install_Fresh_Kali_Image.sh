@@ -34,6 +34,10 @@ git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF
 git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
+#----------------Install EMPIRE---------------
+cd Empire/setup
+./install.sh
+#---------------------------------------------
 git clone https://github.com/dotcppfile/DAws.git 
 got clone https://github.com/samratashok/nishang
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
