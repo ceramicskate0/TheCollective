@@ -37,6 +37,7 @@ git clone https://github.com/PowerShellEmpire/Empire
 #----------------Install EMPIRE---------------
 cd Empire/setup
 ./install.sh
+cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS
 #---------------------------------------------
 git clone https://github.com/dotcppfile/DAws.git 
 got clone https://github.com/samratashok/nishang
