@@ -66,6 +66,7 @@ git clone https://github.com/Raikia/FiercePhish
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/ryhanson/phishery
 git clone https://github.com/trustedsec/social-engineer-toolkit
+git clone https://github.com/galkan/sees
 #----------------SCRIPTS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir RANDOM_SCRIPTS
