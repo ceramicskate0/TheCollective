@@ -1,3 +1,4 @@
+#!/bin/bash
 #----------------Fix wireless Interface issue--------------------------------
 echo "Fixing Wifi issue"
 cd /etc/network/
