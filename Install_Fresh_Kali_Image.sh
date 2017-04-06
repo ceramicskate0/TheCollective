@@ -67,6 +67,8 @@ git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/ryhanson/phishery
 git clone https://github.com/trustedsec/social-engineer-toolkit
 git clone https://github.com/galkan/sees
+apt-get install postfix -y
+apt-get install mailutils -y
 #----------------SCRIPTS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir RANDOM_SCRIPTS
