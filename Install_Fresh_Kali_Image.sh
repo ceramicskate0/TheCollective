@@ -429,4 +429,8 @@ msfupdate
 #---------------Prep sys for wifi---------------------------------------
 airmon-ng check kill
 #---------------Reboot---------------------------------------
+apt-get update
+apt full-upgrade -y
+apt-get dist-upgrade -y 
+apt-get upgrade -y
 reboot now
