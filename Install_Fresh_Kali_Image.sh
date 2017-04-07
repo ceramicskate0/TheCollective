@@ -201,7 +201,7 @@ git clone https://github.com/ChrisTruncer/WMImplant
 git clone https://github.com/PoshSec/PoshSecFramework
 wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 git clone https://github.com/Ben0xA/nps
-git clone 
+git clone https://github.com/quasar/QuasarRat
 #----------------EXFILTRATION TOOLS--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _EXFILTRATION
