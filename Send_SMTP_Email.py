@@ -1,36 +1,44 @@
 #!/usr/bin/python
 import os
-{
-sleep 3;
-echo 'MAIL FROM:{ACCOUNT}';
-sleep 3;
-echo 'RCPT TO:{ACCOUNT}';
-sleep 3;
-echo 'DATA';
-sleep 3;
-echo 'SUBJECT: {SUBJ}';
-sleep 3;
-echo '';
-echo '{BODY}';
-echo '';
-sleep 3;
-echo 'To:{ACCOUNT}'
-echo '';
-echo 'MIME-Version: 1.0';
-echo '';
-echo 'Content-Type: text/doc; name="{ATTACHMENT NAME}"';
-echo 'Content-Description: {ATTACHMENT NAME};
-echo 'Content-Type: Multipart/mixed';
-echo '';
-echo 'Content-Disposition: attachment; filename="{ATTACHMENT NAME}"';
-echo '';
-echo 'Content-Transfer-Encoding: base64';
-echo '';
-sleep 3;
-echo '';
-cat {ATTACHMENT PATH} | base64;
-sleep 3;
-echo '.';
-sleep 3;
-echo 'QUIT';
-} | telnet TARGET 25
+
+From=raw_input("\nEnter From Address:")
+To=raw_input("\nEnter To address:")
+SUBJ=raw_input("\nEnter Email Subject:")
+BODY=raw_input("\nEnter yEmail Body:")
+FilePath=raw_input("\nEnter Filepath with file:")
+FileName=raw_input("\nEnter Filename:")
+TARGET=raw_input("\nEnter Target IP or Other way o find it:")
+
+os.system("sleep 3")
+os.system("echo 'MAIL FROM:"+From+")
+os.system("sleep 3")
+os.system("echo 'RCPT TO:"+To")
+os.system("sleep 3")
+os.system("echo 'DATA'")
+os.system("sleep 3")
+os.system("echo 'SUBJECT: "+Subj+")
+os.system("sleep 3")
+os.system("echo ''")
+os.system("echo ''"+Body")
+os.system("echo ''")
+os.system("sleep 3")
+os.system("echo 'To:"+To")
+os.system("echo ''")
+os.system("echo 'MIME-Version: 1.0'")
+os.system("echo ''")
+os.system("echo 'Content-Type: text/doc; name="+FileName+")
+os.system("echo 'Content-Description: '+FileName='")
+os.system("echo 'Content-Type: Multipart/mixed'")
+os.system("echo ''")
+os.system("echo 'Content-Disposition: attachment; filename="+FilePath+")
+os.system("echo ''")
+os.system("echo 'Content-Transfer-Encoding: base64'")
+os.system("echo ''")
+os.system("sleep 3")
+os.system("echo ''")
+os.system("cat "+FilePath+" | base64")
+os.system("sleep 3")
+os.system("echo '.'")
+os.system("sleep 3")
+os.system("echo 'QUIT'")
+os.system("telnet "+TARGET+" 25")
