@@ -46,7 +46,7 @@ tar zxvf hackpack.tar.gz
 chmod +x /usr/bin/lazykali
 #-----------------------------VEIL------------------------
 apt-get -y install git
-git clone https://github.com/Veil-Framework/Veil.git
+git clone https://github.com/Veil-Framework/Veil
 cd /root/Desktop/ToolBox/ALL_IN_ONE_TOOLS/Veil
 cd setup
 chmod 777 setup.sh
