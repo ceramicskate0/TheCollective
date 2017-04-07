@@ -113,7 +113,7 @@ class Stager:
             launcher, noise = self.addnoise(launcher, noiselevel)
             
             LengthOfVari = random.randint(1,35)
-            chunks = list(helpers.chunks(launcher, LengthOfVari))
+            chunks = list(helpers.chunks(launcher, noiselevel))
             Str = ''.join(random.choice(string.letters) for i in range(LengthOfVari))
             NoiseMacVari = ''.join(random.choice(string.letters) for i in range(LengthOfVari))
             Counter = ''.join(random.choice(string.letters) for i in range(LengthOfVari))
