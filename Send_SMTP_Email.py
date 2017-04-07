@@ -5,7 +5,8 @@ From=raw_input("\nEnter From Address:")
 To=raw_input("\nEnter To address:")
 SUBJ=raw_input("\nEnter Email Subject:")
 BODY=raw_input("\nEnter yEmail Body:")
-File=raw_input("Do you want to attach file?{y/n}");
+File=raw_input("Do you want to attach file?{y/n}")
+
 if (File=='y'):
   FilePath=raw_input("\nEnter Filepath with file:")
   FileName=raw_input("\nEnter Filename:")
