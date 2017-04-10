@@ -343,6 +343,7 @@ git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion.git 
 git clone https://github.com/enaqx/awesome-pentest
 git clone https://github.com/HarmJ0y/CheatSheets
+git clone https://github.com/wesbos/burner-email-providers
 #---------------LIVE_MALWARE--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _LIVE_MALWARE
