@@ -23,7 +23,7 @@ os.system("sleep 3")
 os.system("echo 'SUBJECT: "+SUBJ+"'")
 os.system("sleep 3")
 os.system("echo ''")
-os.system("echo ''"+Body+"'")
+os.system("echo ''"+BODY+"'")
 os.system("echo ''")
 os.system("sleep 3")
 if (File=='y'):
