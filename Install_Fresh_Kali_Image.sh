@@ -62,6 +62,7 @@ git clone https://github.com/Soldier4Life/Word-Lists
 cd /root/Desktop/ToolBox
 mkdir PHISHERS
 cd /root/Desktop/ToolBox/PHISHERS
+ln -s /root/Desktop/ToolBox/Misc/_Payload_Generaters
 git clone https://github.com/Raikia/FiercePhish
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/ryhanson/phishery
@@ -109,6 +110,7 @@ git clone https://github.com/adaptivethreat/BloodHound
 git clone https://github.com/1N3/HTTPoxyScan
 git clone https://github.com/Subterfuge-Framework/Subterfuge
 git clone https://github.com/1N3/Sn1per
+git clone https://github.com/graniet/operative-framework
 #----------------EXPLOIT TOOLS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir EXPLOIT
