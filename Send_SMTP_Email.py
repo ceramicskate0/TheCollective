@@ -14,6 +14,7 @@ if (File=='y'):
   FileExt=raw_input("Enter File Extension:")
   TARGET=raw_input("Enter Target IP or Other way o find it:")
 
+os.system("telnet "+TARGET+" 25") 
 os.system("sleep 3")
 os.system("echo 'MAIL FROM:"+From+"'")
 os.system("sleep 3")
@@ -27,6 +28,7 @@ os.system("echo ''")
 os.system("echo '"+BODY+"'")
 os.system("echo ''")
 os.system("sleep 3")
+
 if (File=='y'):
   os.system("echo 'To:"+To+"'")
   os.system("echo ''")
@@ -46,6 +48,6 @@ if (File=='y'):
   os.system("sleep 3")
   os.system("echo '.'")
   os.system("sleep 3")
-  os.system("echo 'QUIT'")
-            
-os.system("telnet "+TARGET+" 25")
+ 
+os.system("echo 'QUIT'")
+           
