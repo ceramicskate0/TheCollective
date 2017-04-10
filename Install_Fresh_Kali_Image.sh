@@ -296,6 +296,7 @@ git clone https://github.com/Shellntel/luckystrike
 git clone https://github.com/ispoleet/malWASH
 wget http://code.google.com/p/simple-ducky-payload-generator
 git clone https://github.com/mubix/trigen
+git clone https://github.com/joesecurity/pafishmacro
 #----------------Trade_Craft/Cleanup----------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir CleanUp
