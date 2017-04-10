@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import os
 
+TARGET=raw_input("Enter Domain or IP or target Mail Server:")
 From=raw_input("Enter From Address:")
 To=raw_input("Enter To address:")
 SUBJ=raw_input("Enter Email Subject:")
@@ -23,7 +24,7 @@ os.system("sleep 3")
 os.system("echo 'SUBJECT: "+SUBJ+"'")
 os.system("sleep 3")
 os.system("echo ''")
-os.system("echo ''"+BODY+"'")
+os.system("echo '"+BODY+"'")
 os.system("echo ''")
 os.system("sleep 3")
 if (File=='y'):
