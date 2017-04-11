@@ -191,6 +191,7 @@ git clone https://github.com/Ben0xA/PowerShellDefense
 git clone https://github.com/byt3bl33d3r/CrackMapExec
 git clone https://github.com/silentbreaksec/Throwback
 git clone https://github.com/Kevin-Robertson/Inveigh
+git clone https://github.com/lazywinadmin/PowerShell
 #----------------RATs--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _RATs
