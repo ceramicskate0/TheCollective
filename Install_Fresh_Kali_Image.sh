@@ -125,12 +125,12 @@ apt-get -y install wifite
 apt-get -y install powersploit
 apt-get -y install routersploit
 apt-get -y install nishang
+ln -s /root/Desktop/ToolBox/POST_EXPLOIT/evilgrade
 git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/edwardz246003/IIS_exploit
 git clone https://github.com/samratashok/Kautilya
 git clone https://github.com/mattifestation/PowerWorm
 git clone https://github.com/commixproject/commix
-git clone https://github.com/infobyte/evilgrade
 git clone https://github.com/enigma0x3/Powershell-Payload-Excel-Delivery
 git clone https://github.com/enigma0x3/OutlookPersistence
 git clone https://github.com/subTee/RegistrationFreeCOM
@@ -175,6 +175,7 @@ mkdir POST_EXPLOIT
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 apt-get -y install passing-the-hash unicornscan winexe
 git clone https://github.com/fdiskyou/PowerOPS
+git clone https://github.com/infobyte/evilgrade
 git clone https://github.com/xorrior/RandomPS-Scripts
 git clone https://github.com/Mr-Un1k0d3r/RedTeamPowershellScripts
 git clone https://github.com/nccgroup/vlan-hopping---frogger
