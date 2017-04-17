@@ -347,6 +347,7 @@ git clone https://github.com/nccgroup/metasploitavevasion.git
 git clone https://github.com/enaqx/awesome-pentest
 git clone https://github.com/HarmJ0y/CheatSheets
 git clone https://github.com/wesbos/burner-email-providers
+gi clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 #---------------LIVE_MALWARE--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _LIVE_MALWARE
