@@ -126,6 +126,7 @@ apt-get -y install powersploit
 apt-get -y install routersploit
 apt-get -y install nishang
 ln -s /root/Desktop/ToolBox/POST_EXPLOIT/evilgrade
+git clone https://github.com/juansacco/exploitpack
 git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/edwardz246003/IIS_exploit
 git clone https://github.com/samratashok/Kautilya
