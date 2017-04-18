@@ -93,6 +93,7 @@ apt-get -y install hping3
 apt-get -y install mitmf
 apt-get -y install Beef
 apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
+git clone https://github.com/rapid7/IoTSeeker
 git clone https://github.com/DataSploit/datasploit
 git clone https://github.com/Raikia/Nmap-scripts
 git clone https://github.com/rouabas/SQLInjectionScanner
