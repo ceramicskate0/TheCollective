@@ -95,6 +95,7 @@ apt-get -y install hping3
 apt-get -y install mitmf
 apt-get -y install Beef
 apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
+git clone https://github.com/pl48415/DNSAmplificationScanner
 git clone https://github.com/rapid7/IoTSeeker
 git clone https://github.com/DataSploit/datasploit
 git clone https://github.com/Raikia/Nmap-scripts
@@ -172,6 +173,7 @@ cd /root/Desktop/ToolBox/EXPLOIT
 mkdir _WIFI
 cd /root/Desktop/ToolBox/EXPLOIT/_WIFI
 apt-get install fruitywifi -y
+git clone https://github.com/P0cL4bs/WiFi-Pumpkin
 git clone https://github.com/stef/wireless-radar
 #----------------POST_EXPLOIT--------------------------------
 cd /root/Desktop/ToolBox
@@ -288,7 +290,8 @@ mkdir _Shellcode
 cd /root/Desktop/ToolBox/Misc/_Shellcode
 ln -s /root/Desktop/ToolBox/Misc/_Obfuscation/VEIL/Tools/Ordnance VEIL_Ordnance
 git clone https://github.com/MarioVilas/shellcode_tools.git
-git clone https://github.com/eik00d/Reverse_DNS_Shellcode
+git clone https://github.com/ahhh/Reverse_DNS_Shell
+git clone https://github.com/ahhh/NTP_Trojan
 #----------------Malware_Generaters--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _Payload_Generaters
