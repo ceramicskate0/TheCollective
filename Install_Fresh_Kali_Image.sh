@@ -69,6 +69,7 @@ git clone https://github.com/ryhanson/phishery
 git clone https://github.com/trustedsec/social-engineer-toolkit
 git clone https://github.com/galkan/sees
 git clone https://github.com/pentestgeek/phishing-frenzy
+git clone https://github.com/antisnatchor/phishlulz
 apt-get install postfix -y
 apt-get install mailutils -y
 #----------------SCRIPTS--------------------------------
