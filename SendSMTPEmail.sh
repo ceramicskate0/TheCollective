@@ -16,7 +16,7 @@ if [AttachName =="y"]
   echo -n "Enter just Email Attachment Type[ie .doc]:"
   read AttachType
   AttachmentEmail
-  else
+else
   JustEmail
   
 AttachmentEmail ()
