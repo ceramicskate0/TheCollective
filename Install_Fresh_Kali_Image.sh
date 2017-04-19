@@ -391,7 +391,7 @@ mkdir _SYSTEM
 cd /root/Desktop/ToolBox/Misc/_SYSTEM
 git clone https://github.com/nicolargo/glances
 pip install glances
-apt-get install socat
+apt-get install socat -y
 git clone https://github.com/Und3rf10w/kali-anonsurf
 #apt-get -y install tor
 apt-get -y install ibus && apt-get -y install ibus-unikey
