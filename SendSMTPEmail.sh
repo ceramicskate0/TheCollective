@@ -1,3 +1,24 @@
+echo -n "Enter Email From Addres:"
+read EmailFrom
+echo -n "Enter Email To Addres:"
+read EMailTo
+echo -n "Enter Email Subj:"
+read EmailSubj
+echo -n "Enter Email Body:"
+read EmailBody
+echo -n "Do you want to attach document[y/n]:"
+question
+if [AttachName =="y"]
+  echo -n "Enter just Email Attachment Path[ie /root/documents]:"
+  read AttachPath
+  echo -n "Enter just Email attachment Name[ie malware]:"
+  read AttachName
+  echo -n "Enter just Email Attachment Type[ie .doc]:"
+  read AttachType
+  AttachmentEmail
+  else
+  JustEmail
+  
 AttachmentEmail ()
 {
 {
@@ -73,24 +94,3 @@ sleep 3;
 echo 'QUIT';
 } | telnet {SMTP SERVER} 25
 }
-
-echo -n "Enter Email From Addres:"
-read EmailFrom
-echo -n "Enter Email To Addres:"
-read EMailTo
-echo -n "Enter Email Subj:"
-read EmailSubj
-echo -n "Enter Email Body:"
-read EmailBody
-echo -n "Do you want to attach document[y/n]:"
-question
-if [AttachName =="y"]
-  echo -n "Enter just Email Attachment Path[ie /root/documents]:"
-  read AttachPath
-  echo -n "Enter just Email attachment Name[ie malware]:"
-  read AttachName
-  echo -n "Enter just Email Attachment Type[ie .doc]:"
-  read AttachType
-  AttachmentEmail
-  else
-  JustEmail
