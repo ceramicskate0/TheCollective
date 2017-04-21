@@ -34,7 +34,7 @@ git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF
 git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
-git clone https://github.com/cobbr/ObfuscatedEmpire
+git clone https://github.com/CeramicSkate0/ObfuscatedEmpire
 #----------------Install EMPIRE---------------
 cd Empire/setup
 ./install.sh
