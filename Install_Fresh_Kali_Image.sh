@@ -117,6 +117,7 @@ git clone https://github.com/1N3/HTTPoxyScan
 git clone https://github.com/Subterfuge-Framework/Subterfuge
 git clone https://github.com/1N3/Sn1per
 git clone https://github.com/graniet/operative-framework
+git clone https://github.com/infosec-au/altdns
 #----------------EXPLOIT TOOLS--------------------------------
 cd /root/Desktop/ToolBox
 mkdir EXPLOIT
