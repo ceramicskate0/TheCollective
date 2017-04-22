@@ -97,6 +97,7 @@ apt-get -y install mitmf
 apt-get -y install Beef
 apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
 git clone https://github.com/pl48415/DNSAmplificationScanner
+git clone https://github.com/Kevin-Robertson/Inveigh
 git clone https://github.com/az0ne/nmap-scada
 git clone https://github.com/rapid7/IoTSeeker
 git clone https://github.com/DataSploit/datasploit
