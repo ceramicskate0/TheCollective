@@ -184,6 +184,7 @@ cd /root/Desktop/ToolBox
 mkdir POST_EXPLOIT
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 apt-get -y install passing-the-hash unicornscan winexe
+git clone https://github.com/GDSSecurity/Windows-Exploit-Suggester
 git clone https://github.com/fdiskyou/PowerOPS
 git clone https://github.com/infobyte/evilgrade
 git clone https://github.com/xorrior/RandomPS-Scripts
