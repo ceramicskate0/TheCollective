@@ -135,6 +135,10 @@ apt-get -y install routersploit
 apt-get -y install nishang
 ln -s /root/Desktop/ToolBox/POST_EXPLOIT/evilgrade
 git clone https://github.com/juansacco/exploitpack
+git clone https://github.com/tyranid/IE11SandboxEscapes
+git clone https://github.com/hak5/bashbunny-payloads
+git clone https://github.com/Cn33liz/JSMeter
+git clone https://github.com/rvrsh3ll/Misc-Powershell-Scripts
 git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/edwardz246003/IIS_exploit
 git clone https://github.com/samratashok/Kautilya
@@ -257,6 +261,7 @@ git clone https://github.com/FuzzySecurity/Unix-PrivEsc
 git clone https://github.com/0x90/lpe-arsenal
 git clone https://github.com/1N3/PrivEsc
 git clone https://github.com/foxglovesec/Potato
+git clone https://github.com/AlessandroZ/BeRoot
 #----------------Enumeration--------------------------------
 cd /root/Desktop/ToolBox/POST_EXPLOIT
 mkdir _ENUMERATION
@@ -281,7 +286,9 @@ cd /root/Desktop/ToolBox/Misc
 apt-get -y install bleachbit
 apt-get -y install file-roller &>/dev/null
 apt-get -y install htop &>/dev/null
+git clone https://github.com/Souhardya/WarChild
 git clone https://github.com/dannagle/packetsender
+git clone https://github.com/danielbohannon/Invoke-CradleCrafter
 #----------------Obfuscation--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _Obfuscation
@@ -319,6 +326,7 @@ cd /root/Desktop/ToolBox/Misc
 mkdir CleanUp
 cd /root/Desktop/ToolBox/Misc/Cleanup
 curl https://download.sysinternals.com/files/SDelete.zip
+git clone https://github.com/hlldz/Invoke-Phant0m
 #----------------ANALYSIS--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _ANALYSIS
@@ -337,6 +345,9 @@ git clone https://github.com/mattifestation/PowerShellArsenal
 cd /root/Desktop/ToolBox/Misc
 mkdir _REF_MATERIALS
 cd /root/Desktop/ToolBox/Misc/_REF_MATERIALS
+git clone https://github.com/mgaulton/kalitools
+git clone https://github.com/spatiald/setips
+git clone https://github.com/killswitch-GUI/PenTesting-Scripts
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/uhub/awesome-shell
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings
@@ -351,6 +362,7 @@ git clone https://github.com/macubergeek/gitlist
 git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff
 git clone https://github.com/ispoleet/Network-Security
 git clone https://github.com/Yara-Rules/rules
+git clone https://github.com/IVMachiavelli/OSINT_Team_Links
 git clone https://github.com/devttys0/littleblackbox
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/jshaw87/Scripts
@@ -359,7 +371,8 @@ git clone https://github.com/nccgroup/metasploitavevasion.git
 git clone https://github.com/enaqx/awesome-pentest
 git clone https://github.com/HarmJ0y/CheatSheets
 git clone https://github.com/wesbos/burner-email-providers
-gi clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
+git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
+git clone https://github.com/Cyb3rWard0g/ThreatHunter-Playbook
 #---------------LIVE_MALWARE--------------------------------
 cd /root/Desktop/ToolBox/Misc
 mkdir _LIVE_MALWARE
