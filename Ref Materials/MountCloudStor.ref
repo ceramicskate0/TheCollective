@@ -1,0 +1,8 @@
+mklink /D C:\LinkName \\NetworkLocation\LocationName
+enter https://d.docs.live.net/ followed by the CID you copied
+
+net use M: \\touchsmart\Share /Persistent:Yes(or No)
+enter https://d.docs.live.net/ followed by the CID you copied 
+
+New-PSDrive –Name “K” –PSProvider FileSystem –Root “\\touchsmart\share” –Persist
+enter https://d.docs.live.net/ followed by the CID you copied 
