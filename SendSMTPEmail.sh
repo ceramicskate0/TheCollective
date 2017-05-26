@@ -30,6 +30,9 @@ sleep 3;
 echo 'DATA';
 sleep 3;
 echo 'SUBJECT: $EmailSubj;
+now=$(date)
+echo "DATE: $now"
+echo 'TO:  $EMailTo < $EMailTo >'
 sleep 3;
 echo '';
 echo '$EmailBody';
@@ -68,6 +71,9 @@ sleep 3;
 echo 'DATA';
 sleep 3;
 echo 'SUBJECT: $EmailSubj;
+now=$(date)
+echo "DATE: $now"
+echo 'TO:  $EMailTo < $EMailTo >'
 sleep 3;
 echo '';
 echo '$EmailBody';
