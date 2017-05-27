@@ -33,3 +33,5 @@ apt-get -y install gtk-recordmydesktop
 apt-get -y install pinta
 apt-get -y install libreoffice
 apt-get -y install knotes
+git clone https://github.com/spatiald/setips
+git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
