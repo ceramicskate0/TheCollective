@@ -35,3 +35,4 @@ apt-get -y install libreoffice
 apt-get -y install knotes
 git clone https://github.com/spatiald/setips
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
+git clone https://github.com/rsmudge/cortana-scripts
