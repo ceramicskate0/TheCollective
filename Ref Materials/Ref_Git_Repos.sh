@@ -9,7 +9,6 @@ git clone https://github.com/vysec/ps1-toolkit
 git clone https://github.com/FuzzySecurity/CapstoneKeystone-PowerShell
 git clone https://github.com/nebgnahz/awesome-iot-hacks
 git clone https://github.com/kbandla/APTnotes
-git clone https://github.com/rsmudge/cortana-scripts
 git clone https://github.com/macubergeek/gitlist
 git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff
 git clone https://github.com/ispoleet/Network-Security
