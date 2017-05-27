@@ -1,1 +1,2 @@
 apt-get -y install mitmf
+apt-get -y install ghost-phisher
