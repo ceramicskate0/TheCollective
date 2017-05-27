@@ -1,0 +1,9 @@
+git clone https://github.com/enigma0x3/OutlookPersistence
+git clone https://github.com/subTee/RegistrationFreeCOM
+git clone https://github.com/PowerShellMafia/PowerSploit
+git clone https://github.com/rastating/wordpress-exploit-framework
+git clone https://github.com/reverse-shell/routersploit
+git clone https://github.com/artkond/Invoke-Vnc
+git clone https://github.com/jseidl/Babadook
+git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
+git clone https://github.com/FuzzySecurity/Capcom-Rootkit

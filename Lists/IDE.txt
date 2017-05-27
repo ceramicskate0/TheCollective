@@ -1,0 +1,3 @@
+apt-get install -y geany
+apt-get install -y monodevelop
+git clone https://github.com/fireeye/pycommands

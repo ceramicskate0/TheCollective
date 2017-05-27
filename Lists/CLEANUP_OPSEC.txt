@@ -1,0 +1,2 @@
+curl https://download.sysinternals.com/files/SDelete.zip
+git clone https://github.com/hlldz/Invoke-Phant0m

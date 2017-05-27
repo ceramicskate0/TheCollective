@@ -1,0 +1,14 @@
+git clone https://github.com/ChrisTruncer/PenTestScripts
+git clone https://github.com/byt3bl33d3r/scripts
+git clone https://github.com/rvrsh3ll/Misc-Powershell-Scripts
+git clone https://github.com/Cybellum/DoubleAgent
+git clone https://github.com/edwardz246003/IIS_exploit
+git clone https://github.com/samratashok/Kautilya
+git clone https://github.com/mattifestation/PowerWorm
+git clone https://github.com/commixproject/commix
+apt-get -y install bleachbit
+apt-get -y install file-roller &>/dev/null
+apt-get -y install htop &>/dev/null
+git clone https://github.com/Souhardya/WarChild
+git clone https://github.com/dannagle/packetsender
+git clone https://github.com/danielbohannon/Invoke-CradleCrafter
