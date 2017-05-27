@@ -1,5 +1,4 @@
 git clone https://github.com/mgaulton/kalitools
-git clone https://github.com/spatiald/setips
 git clone https://github.com/killswitch-GUI/PenTesting-Scripts
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/uhub/awesome-shell
