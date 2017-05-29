@@ -1,0 +1,11 @@
+apt-get update
+apt full-upgrade -y
+apt-get dist-upgrade -y 
+apt-get upgrade -y
+update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
+msfupdate
+apt-get update --fix-missing
+apt-get -f install
+apt-get install --reinstall gnome-control-center --fix-missing
+apt autoremove -y
+apt-get clean
