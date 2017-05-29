@@ -36,3 +36,12 @@ apt-get -y install knotes
 git clone https://github.com/spatiald/setips
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/rsmudge/cortana-scripts
+apt-get install -y geany
+apt-get install -y monodevelop
+git clone https://github.com/fireeye/pycommands
+apt-get -y install gtk-recordmydesktop
+apt-get -y install pinta
+apt-get -y install libreoffice
+apt-get -y install knotes
+apt-get -y install remmina
+apt-get -y install freerdp-x11 -y
