@@ -3,3 +3,9 @@ https://github.com/enaqx/awesome-pentest
 http://www.xss-payloads.com/
 https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 https://www.xorrior.com/Empire-Domain-Fronting/
+https://www.tenable.com/products/nessus/select-your-operating-system 
+https://www.cobaltstrike.com/download 
+http://blog.didierstevens.com/my-software/
+http://www.truesec.se/sakerhet/verktyg/saakerhet/gsecdump_v2.0b5
+http://www.tightvnc.com%2Fdownload.php&usg=AFQjCNFpS78TLf7UXzcnOkvPtINXVrFQrg
+https://www.winitor.com/features.html
