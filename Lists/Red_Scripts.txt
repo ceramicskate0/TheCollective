@@ -12,3 +12,4 @@ apt-get -y install htop &>/dev/null
 git clone https://github.com/Souhardya/WarChild
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/danielbohannon/Invoke-CradleCrafter
+git clone https://github.com/macubergeek/gitlist
