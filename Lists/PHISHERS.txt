@@ -5,5 +5,6 @@ git clone https://github.com/trustedsec/social-engineer-toolkit
 git clone https://github.com/galkan/sees
 git clone https://github.com/pentestgeek/phishing-frenzy
 git clone https://github.com/antisnatchor/phishlulz
+git clone https://github.com/ring0lab/catphish
 apt-get install postfix -y
 apt-get install mailutils -y
