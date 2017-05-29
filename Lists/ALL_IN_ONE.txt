@@ -8,6 +8,4 @@ git clone https://github.com/CeramicSkate0/ObfuscatedEmpire
 git clone https://github.com/dotcppfile/DAws.git 
 got clone https://github.com/samratashok/nishang
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
-tar zxvf hackpack.tar.gz
-chmod +x /usr/bin/lazykali
 git clone https://github.com/Veil-Framework/Veil
