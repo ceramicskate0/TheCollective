@@ -1,4 +1,4 @@
-apt-get -y install remmina
+apt-get -y install remina
 apt-get -y install freerdp-x11 -y
 git clone https://github.com/nicolargo/glances
 pip install glances
