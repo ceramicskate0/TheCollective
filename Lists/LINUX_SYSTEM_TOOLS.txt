@@ -1,14 +1,13 @@
 apt-get install remina -y
 apt-get install freerdp-x11 -y
 git clone https://github.com/nicolargo/glances
-pip install glances
 apt-get install socat -y
 git clone https://github.com/Und3rf10w/kali-anonsurf
 #apt-get install tor -y
 apt-get install ibus && apt-get install ibus-unikey -y
 apt-get install lynis -y
 apt-get install lib32asound2 -y
-apt-get install lib32z1 &>/dev/null
+apt-get install lib32z1 -y
 apt-get install network-manager-gnome -y
 apt-get install network-manager-openvpn -y
 apt-get install network-manager-openvpn-gnome -y
