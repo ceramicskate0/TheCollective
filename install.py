@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import os
 
+os.system("apt-get update")
+os.system("apt-get upgrade -y")
 currentdir=os.getcwd()
 files = [x for x in os.listdir(currentdir+str("/Lists")) if x.endswith('.txt')]
 if (os.path.isdir(str(currentdir)+"/ToolBox")) is False:
