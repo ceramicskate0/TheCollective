@@ -36,8 +36,8 @@ apt-get install knotes -y
 git clone https://github.com/spatiald/setips
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/rsmudge/cortana-scripts
-apt-get install -y geany -y
-apt-get install -y monodevelop -y
+apt-get install geany -y
+apt-get install monodevelop -y
 git clone https://github.com/fireeye/pycommands
 apt-get install gtk-recordmydesktop -y
 apt-get install pinta -y
