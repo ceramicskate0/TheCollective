@@ -4,7 +4,7 @@ import os
 currentdir=os.getcwd()
 files = [x for x in os.listdir(currentdir+str("/Lists")) if x.endswith('.txt')]
 if (os.path.isdir(str(currentdir)+"/ToolBox")) is False:
-	os.makedir(str(currentdir)+"/ToolBox")
+	os.makedirs(str(currentdir)+"/ToolBox")
 os.system("cd "+str(currentdir)+ "/Lists")
 for filename in files:
 	print "--Starting work on "+str(filename)
