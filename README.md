@@ -1,4 +1,6 @@
-# Yet Another Collection of Kali Linux Scripts
+# Yet Another Kali Linux Scripts Repo
+This repo contains a collection of scripts,apps and/or programs that I have found usful during my time on Red Team Ops. I maintain the collection of what is basically pointers to the repos here so I only have 1 place to go to get them all and not have to remember them all.
+
 ## Legalish Disclaimer: 
 I dont recommend or condone using anything on here for any reason. Anything in the LIsts Dir i did not write so I cant exactly tell you what or how it does what it says it does. The scipts here may work, but most likely have a chance to break the system they are run on. If you use them you do so at your own risk. I do/have NEVER authorized,condoned, or recommend the use of anything in any of my repos for any reason. This is a collection of simple scripts I found useful with my own Kali OS for educational purposes only or when im on a Pen Test. I did not create any of the scripts downloaded via the install.py. All credit goes to the authors whos full URL and/or github account is listed in the script, please see their sites for more info or issue with their repo's.
 
