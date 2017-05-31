@@ -14,6 +14,9 @@ update.py is for updating the repos and /Lists.
 # For the Blue Team:
 For the die hard Blue Teamers here. I know its hard belive me I do. And Repos like this make life seem harder...well unless u use this Repo to your advantage. Also to help end ive created "Yet Another Blue Team Repo" (YABTR) for the Blue team to help fight/Find Red/YAKSR.
 
+# "Support":
+Currenlty im only using this on Kali Linux. I guess the github scripts would work on other Linux distros if you have all the packages (nope im not doing anything for that).
+
 ## Helpful CMDs/Notes:
 Scan Wifi info: iw wlan0 scan
 
