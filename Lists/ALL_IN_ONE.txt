@@ -9,3 +9,4 @@ git clone https://github.com/dotcppfile/DAws.git
 got clone https://github.com/samratashok/nishang
 wget http://lazykali.googlecode.com/files/hackpack.tar.gz
 git clone https://github.com/Veil-Framework/Veil
+git clone https://github.com/rapid7/metasploit-framework
