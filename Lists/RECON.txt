@@ -1,13 +1,3 @@
-apt-get -y install ldap-utils rwho rsh-client x11-apps finger
-apt-get -y install lbd automater arachni bully inguma sslsplit dumpzilla -y 
-apt-get -y install owasp-mantra-ff recon-ng ridenum regripper jd-gui -y
-apt-get -y install metagoofil
-apt-get -y install unicornscan enum4linux polenum
-apt-get -y install nfspy firmware-mod-kit wmis
-apt-get -y install unicornscan
-apt-get -y install openvas
-apt-get -y install hping3
-apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y
 git clone https://github.com/pl48415/DNSAmplificationScanner
 git clone https://github.com/Kevin-Robertson/Inveigh
 git clone https://github.com/az0ne/nmap-scada
