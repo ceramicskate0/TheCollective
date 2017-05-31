@@ -1,46 +1,7 @@
-apt-get install remina -y
-apt-get install freerdp-x11 -y
 git clone https://github.com/nicolargo/glances
-apt-get install socat -y
 git clone https://github.com/Und3rf10w/kali-anonsurf
-#apt-get install tor -y
-apt-get install ibus && apt-get install ibus-unikey -y
-apt-get install lynis -y
-apt-get install lib32asound2 -y
-apt-get install lib32z1 -y
-apt-get install network-manager-gnome -y
-apt-get install network-manager-openvpn -y
-apt-get install network-manager-openvpn-gnome -y
-apt-get install network-manager-pptp -y
-apt-get install network-manager-pptp-gnome -y
-apt-get install network-manager-strongswan -y
-apt-get install network-manager-vpnc -y
-apt-get install network-manager-vpnc-gnome -y
-apt-get install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller
-apt-get install gdebi -y
-apt-get install deluge -y
-apt-get install libssl-dev -y
-apt-get install libpcap-dev -y
-apt-get install libsqlite3-dev -y
-apt-get install guake -y
-apt-get install recstudio -y
-apt-get install python-hachoir-parser -y
-apt-get install catdoc -y
-apt-get install hping3 -y
-apt-get install gnome-tweak-tool -y
-apt-get install gtk-recordmydesktop -y
-apt-get install pinta -y
-apt-get install libreoffice -y
-apt-get install knotes -y
 git clone https://github.com/spatiald/setips
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/rsmudge/cortana-scripts
-apt-get install geany -y
-apt-get install monodevelop -y
 git clone https://github.com/fireeye/pycommands
-apt-get install gtk-recordmydesktop -y
-apt-get install pinta -y
-apt-get install libreoffice -y
-apt-get install knotes -y
-apt-get install remmina -y
-apt-get install freerdp-x11 -y
+
