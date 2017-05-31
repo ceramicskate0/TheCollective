@@ -1,3 +1,2 @@
-apt-get install fruitywifi -y
 git clone https://github.com/P0cL4bs/WiFi-Pumpkin
 git clone https://github.com/stef/wireless-radar
