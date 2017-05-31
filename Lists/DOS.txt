@@ -1,2 +1,1 @@
-apt-get -y install hping3
 git clone https://github.com/pl48415/DNSAmplificationScanner
