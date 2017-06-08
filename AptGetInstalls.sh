@@ -67,6 +67,7 @@ apt-get install pinta -y
 apt-get install mitmf -y
 apt-get install postfix -y
 apt-get install mailutils -y
+apt-get install crackmapexec -y
 apt-get install libreoffice -y
 apt-get install knotes -y
 apt-get install remmina -y
