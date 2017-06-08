@@ -9,3 +9,4 @@ git clone https://github.com/Unode/firefox_decrypt
 git clone https://github.com/brav0hax/easy-creds
 git clone https://github.com/HarmJ0y/ASREPRoast
 git clone https://github.com/reider-roque/pentest-tools
+git clone https://github.com/byt3bl33d3r/CrackMapExec
