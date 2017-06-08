@@ -59,6 +59,7 @@ apt-get install gtk-recordmydesktop -y
 apt-get install pinta -y
 apt-get install libreoffice -y
 apt-get install knotes -y
+apt-get install nodejs -y
 apt-get install geany -y
 apt-get install monodevelop -y
 apt-get install gtk-recordmydesktop -y
