@@ -12,3 +12,5 @@ git clone https://github.com/ispoleet/malWASH
 wget http://code.google.com/p/simple-ducky-payload-generator
 git clone https://github.com/mubix/trigen
 git clone https://github.com/joesecurity/pafishmacro
+git clone https://github.com/EgeBalci/HERCULES
+git clone https://github.com/EgeBalci/EGESPLOIT
