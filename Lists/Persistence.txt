@@ -7,3 +7,4 @@ git clone https://github.com/artkond/Invoke-Vnc
 git clone https://github.com/jseidl/Babadook
 git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
 git clone https://github.com/FuzzySecurity/Capcom-Rootkit
+git clone https://github.com/darkquasar/WMI_Persistence
