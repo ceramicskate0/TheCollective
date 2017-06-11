@@ -25,3 +25,4 @@ git clone https://github.com/wesbos/burner-email-providers
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/Cyb3rWard0g/ThreatHunter-Playbook
 git clone https://github.com/FuzzySecurity/PowerShell-Suite
+git clone https://github.com/subTee/windows-operating-system-archaeology
