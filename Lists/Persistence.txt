@@ -9,3 +9,4 @@ git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
 git clone https://github.com/FuzzySecurity/Capcom-Rootkit
 git clone https://github.com/darkquasar/WMI_Persistence
 git clone https://github.com/Cybellum/DoubleAgent
+git clone https://github.com/subTee/SCTPersistence
