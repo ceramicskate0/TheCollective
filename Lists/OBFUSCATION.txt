@@ -4,3 +4,4 @@ git clone https://github.com/Veil-Framework/Veil-Evasion
 git clone https://github.com/Pepitoh/VBad
 git clone https://github.com/kgretzky/obfusion
 git clone https://github.com/danielbohannon/Invoke-CradleCrafter
+git clone https://github.com/kgretzky/python-x86-obfuscator
