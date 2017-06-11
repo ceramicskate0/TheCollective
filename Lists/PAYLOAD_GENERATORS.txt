@@ -14,3 +14,4 @@ git clone https://github.com/mubix/trigen
 git clone https://github.com/joesecurity/pafishmacro
 git clone https://github.com/EgeBalci/HERCULES
 git clone https://github.com/EgeBalci/EGESPLOIT
+git clone https://github.com/Cn33liz/MacroMeter
