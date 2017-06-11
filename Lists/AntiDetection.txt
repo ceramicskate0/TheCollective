@@ -1,3 +1,4 @@
 git clone https://github.com/ricardojrdez/anti-analysis-tricks
 git clone https://github.com/nsmfoo/antivmdetection
 git clone https://github.com/AlicanAkyol/sems
+git clone https://github.com/stufus/certerator
