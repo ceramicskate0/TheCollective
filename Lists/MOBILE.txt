@@ -1,1 +1,2 @@
 git clone https://github.com/OWASP/owasp-mstg
+git clone https://github.com/georgiaw/Smartphone-Pentest-Framework
