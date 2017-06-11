@@ -15,3 +15,5 @@ git clone https://github.com/joesecurity/pafishmacro
 git clone https://github.com/EgeBalci/HERCULES
 git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/Cn33liz/MacroMeter
+git clone https://github.com/vysec/morphHTA
+git clone https://github.com/vysec/genHTA
