@@ -1,3 +1,4 @@
 git clone https://github.com/P0cL4bs/WiFi-Pumpkin
 git clone https://github.com/stef/wireless-radar
 git clone https://github.com/s0lst1c3/eaphammer
+git clone https://github.com/M1ND-B3ND3R/BoopSuite
