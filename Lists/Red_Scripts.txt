@@ -1,5 +1,5 @@
 git clone https://github.com/ChrisTruncer/PenTestScripts
-git clone https://github.com/byt3bl33d3r/scripts
+git clone https://github.com/Shellntel/scripts
 git clone https://github.com/rvrsh3ll/Misc-Powershell-Scripts
 git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/edwardz246003/IIS_exploit
