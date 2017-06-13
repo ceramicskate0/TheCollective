@@ -1,3 +1,4 @@
 git clone https://github.com/pl48415/DNSAmplificationScanner
 git clone https://github.com/Souhardya/WarChild
 git clone https://github.com/shekyan/slowhttptest
+git clone https://github.com/NewEraCracker/LOIC
