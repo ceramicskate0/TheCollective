@@ -2,3 +2,4 @@ git clone https://github.com/nettitude/xss_payloads
 git clone https://github.com/CoalfireLabs/java_deserialization_exploits
 git clone https://github.com/CoalfireLabs/java_deserialization_exploits
 git clone https://github.com/rezasp/vbscan
+git clone https://github.com/Netflix/sleepy-puppy
