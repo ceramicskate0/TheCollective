@@ -11,3 +11,4 @@ git clone https://github.com/quasar/QuasarRat
 git clone https://github.com/ahhh/NTP_Trojan
 git clone https://github.com/vesche/basicRAT
 git clone https://github.com/az0ne/NTP_Trojan
+git clone https://github.com/cloudsec/brootkit
