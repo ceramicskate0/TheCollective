@@ -9,3 +9,4 @@ wget https://samsclass.info/123/proj10/Poison%20Ivy%202.3.2.7z
 git clone https://github.com/Ben0xA/nps
 git clone https://github.com/quasar/QuasarRat
 git clone https://github.com/ahhh/NTP_Trojan
+git clone https://github.com/vesche/basicRAT
