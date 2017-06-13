@@ -11,3 +11,4 @@ git clone https://github.com/dannagle/packetsender
 git clone https://github.com/danielbohannon/Invoke-CradleCrafter
 git clone https://github.com/macubergeek/gitlist
 git clone https://github.com/rsmudge/cortana-scripts
+git clone https://github.com/devttys0/littleblackbox
