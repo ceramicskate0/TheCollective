@@ -26,3 +26,4 @@ git clone https://github.com/ChrisTruncer/Egress-Assess
 git clone https://github.com/Raikia/SMBCrunch
 git clone https://github.com/ring0lab/catphish
 git clone https://github.com/vysec/Invoke-ProcessScan
+git clone https://github.com/PyroTek3/PowerShell-AD-Recon
