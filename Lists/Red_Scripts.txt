@@ -16,3 +16,4 @@ git clone https://github.com/rapid7/ssh-badkeys
 git clone https://github.com/0x90/kali-scripts
 git clone https://github.com/jshaw87/Scripts
 git clone https://github.com/rossja/pentools
+git clone https://github.com/MooseDojo/apt2
