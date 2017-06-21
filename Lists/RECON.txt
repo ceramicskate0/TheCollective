@@ -30,3 +30,4 @@ git clone https://github.com/PyroTek3/PowerShell-AD-Recon
 git clone https://github.com/az0ne/shocker
 git clone https://github.com/v3n0m-Scanner/V3n0M-Scanner
 git clone https://github.com/nimia/public_drown_scanner
+git clone https://github.com/aboul3la/Sublist3r
