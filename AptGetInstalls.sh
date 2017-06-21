@@ -17,8 +17,6 @@ msfupdate
 apt-get update --fix-missing
 apt-get -f install
 apt-get install --reinstall gnome-control-center --fix-missing
-apt autoremove -y
-apt-get clean
 apt-get install Beef -y
 apt-get install hping3 -y
 apt-get install powersploit -y
@@ -72,20 +70,22 @@ apt-get install libreoffice -y
 apt-get install knotes -y
 apt-get install remmina -y
 apt-get install freerdp-x11 -y
-apt-get -y install ldap-utils rwho rsh-client x11-apps finger
-apt-get -y install lbd automater arachni bully inguma sslsplit dumpzilla
-apt-get -y install owasp-mantra-ff recon-ng ridenum regripper jd-gui -y
-apt-get -y install metagoofil
-apt-get -y install unicornscan enum4linux polenum
-apt-get -y install nfspy firmware-mod-kit wmis
-apt-get -y install unicornscan
-apt-get -y install openvas
-apt-get -y install hping3
-apt-get -y install nipper-ng jsql oclgausscrack ghost-phisher uniscan
-apt-get -y install bleachbit
-apt-get -y install file-roller
-apt-get -y install htop
-apt-get -y install shellter
-apt-get -y install jboss-autopwn
-apt-get -y install wifite
+apt-get install ldap-utils rwho rsh-client x11-apps finger -y 
+apt-get install lbd automater arachni bully inguma sslsplit dumpzilla -y 
+apt-get install owasp-mantra-ff recon-ng ridenum regripper jd-gui -y
+apt-get install metagoofil -y 
+apt-get install unicornscan enum4linux polenum -y 
+apt-get install nfspy firmware-mod-kit wmis -y 
+apt-get install unicornscan -y 
+apt-get install openvas -y 
+apt-get install hping3 -y 
+apt-get install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y 
+apt-get install bleachbit -y 
+apt-get install file-roller -y 
+apt-get install htop -y 
+apt-get install shellter -y 
+apt-get install jboss-autopwn -y 
+apt-get install wifite -y 
 apt-get install fruitywifi -y
+apt autoremove -y
+apt-get clean
