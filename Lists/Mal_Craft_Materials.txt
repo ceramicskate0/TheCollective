@@ -1,2 +1,0 @@
-git clone https://github.com/ricardojrdez/anti-analysis-tricks
-git clone https://github.com/nsmfoo/antivmdetection
