@@ -1,1 +1,2 @@
-
+https://github.com/ricardojrdez/anti-analysis-tricks
+https://github.com/nsmfoo/antivmdetection
