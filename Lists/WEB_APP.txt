@@ -7,6 +7,11 @@ git clone https://github.com/sensepost/jack
 git clone https://github.com/SECFORCE/Tunna
 git clone https://github.com/ajinabraham/OWASP-Xenotix-XSS-Exploit-Framework
 git clone https://github.com/SpiderLabs/BurpNotesExtension
-git clone https://github.com/Meatballs1/burp-extensions.git
-git clone https://github.com/abhijitsverma/burp_extension_MultiScanner.git
+git clone https://github.com/Meatballs1/burp-extensions
+git clone https://github.com/enjoiz/XXEinjector
+git clone https://github.com/abhijitsverma/burp_extension_MultiScanner
 git clone https://github.com/slattman/php-reverse-shell
+git clone https://github.com/ajinabraham/Static-DOM-XSS-Scanner
+git clone https://github.com/portcullislabs/xssshell-xsstunnell
+git clone https://github.com/gbrindisi/xsssniper
+git clone https://github.com/cheetz/reddit_xss
