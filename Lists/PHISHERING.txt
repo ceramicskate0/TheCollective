@@ -9,4 +9,5 @@ git clone https://github.com/kgretzky/evilginx
 git clone https://github.com/rvrsh3ll/FindFrontableDomains
 git clone https://github.com/gophish/gophish
 git clone https://github.com/tatanus/SPF
-git clone https://github.com/pentestgeek/phishing-frenzy-templates.git
+git clone https://github.com/pentestgeek/phishing-frenzy-templates
+git clone https://github.com/cheetz/spearphishing
