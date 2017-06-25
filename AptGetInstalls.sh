@@ -12,6 +12,7 @@ apt-get update
 apt full-upgrade -y
 apt-get dist-upgrade -y 
 apt-get upgrade -y
+dpkg --configure -a
 update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
 msfupdate
 apt-get update --fix-missing
