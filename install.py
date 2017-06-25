@@ -17,7 +17,7 @@ for filename in files:
 	dirname= os.path.splitext(str(filename))[0]
 	os.chdir(str(currentdir)+"/ToolBox/")
 	if (os.path.isdir(str(currentdir)+"/ToolBox/")) is False:
-			os.system("rm -rf "+str(dirname))
+		os.system("rm -rf "+str(dirname))
 	os.makedirs(str(currentdir)+"/ToolBox/"+str(dirname))
 	os.chdir(str(currentdir)+"/ToolBox/"+str(dirname))
 	f=open(str(currentdir)+ "/Lists/"+str(filename))
