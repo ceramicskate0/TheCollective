@@ -9,10 +9,6 @@ echo "#Kali 2016 Rolling Repos">>/etc/apt/sources.list
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
 echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
 apt-get update
-apt full-upgrade -y
-apt-get dist-upgrade -y 
-apt-get upgrade -y
-dpkg --configure -a
 update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
 msfupdate
 apt-get update --fix-missing
@@ -91,3 +87,7 @@ pip install wifite
 pip install fruitywifi 
 apt autoremove -y
 apt-get clean
+apt full-upgrade -y
+apt-get dist-upgrade -y 
+apt-get upgrade -y
+dpkg --configure -a
