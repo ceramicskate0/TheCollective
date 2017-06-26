@@ -1,6 +1,11 @@
 #!/usr/bin/python
 import os
 
+if [[ $EUID -ne 0 ]]; then
+   echo " [!]Im root or I dont run." 1>&2
+   exit 1
+fi
+
 currentdir=os.getcwd()
 
 os.chdir(str(currentdir))
