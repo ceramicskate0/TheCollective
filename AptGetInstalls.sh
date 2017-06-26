@@ -18,75 +18,76 @@ msfupdate
 apt-get update --fix-missing
 apt-get -f install
 pip install --reinstall gnome-control-center --fix-missing
-pip install Beef -y
-pip install hping3 -y
-pip install powersploit -y
-pip install routersploit -y
-pip install nishang -y
-pip install veil-catapult -y
-pip install geany -y
-pip install monodevelop -y
-pip install remina -y
-pip install freerdp-x11 -y
-pip install socat -y
-#pip install tor -y
-pip install ibus && pip install ibus-unikey -y
-pip install lynis -y
-pip install lib32asound2 -y
-pip install lib32z1 -y
-pip install network-manager-gnome -y
-pip install network-manager-openvpn -y
-pip install network-manager-openvpn-gnome -y
-pip install network-manager-pptp -y
-pip install network-manager-pptp-gnome -y
-pip install network-manager-strongswan -y
-pip install network-manager-vpnc -y
-pip install network-manager-vpnc-gnome -y
-pip install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller -y
-pip install gdebi -y
-pip install deluge -y
-pip install libssl-dev -y
-pip install libpcap-dev -y
-pip install libsqlite3-dev -y
-pip install guake -y
-pip install recstudio -y
-pip install python-hachoir-parser -y
-pip install catdoc -y
-pip install hping3 -y
-pip install gnome-tweak-tool -y
-pip install gtk-recordmydesktop -y
-pip install pinta -y
-pip install libreoffice -y
-pip install knotes -y
-pip install nodejs -y
-pip install geany -y
-pip install monodevelop -y
-pip install gtk-recordmydesktop -y
-pip install pinta -y
-pip install mitmf -y
-pip install postfix -y
-pip install mailutils -y
-pip install crackmapexec -y
-pip install libreoffice -y
-pip install knotes -y
-pip install remmina -y
-pip install freerdp-x11 -y
-pip install ldap-utils rwho rsh-client x11-apps finger -y 
-pip install lbd automater arachni bully inguma sslsplit dumpzilla -y 
-pip install owasp-mantra-ff recon-ng ridenum regripper jd-gui -y
-pip install metagoofil -y 
-pip install unicornscan enum4linux polenum -y 
-pip install nfspy firmware-mod-kit wmis -y 
-pip install unicornscan -y 
-pip install openvas -y 
-pip install hping3 -y 
-pip install nipper-ng jsql oclgausscrack ghost-phisher uniscan -y 
-pip install bleachbit -y 
-pip install file-roller -y 
-pip install htop -y 
-pip install shellter -y 
-pip install jboss-autopwn -y 
-pip install wifite -y 
-pip install fruitywifi -y
+pip install Beef 
+pip install hping3 
+pip install powersploit 
+pip install routersploit 
+pip install nishang 
+pip install veil-catapult 
+pip install geany 
+pip install monodevelop 
+pip install remina 
+pip install freerdp-x11 
+pip install socat 
+#pip install tor 
+pip install ibus
+pip install ibus-unikey 
+pip install lynis 
+pip install lib32asound2 
+pip install lib32z1 
+pip install network-manager-gnome 
+pip install network-manager-openvpn 
+pip install network-manager-openvpn-gnome 
+pip install network-manager-pptp 
+pip install network-manager-pptp-gnome 
+pip install network-manager-strongswan 
+pip install network-manager-vpnc 
+pip install network-manager-vpnc-gnome 
+pip install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller 
+pip install gdebi 
+pip install deluge 
+pip install libssl-dev 
+pip install libpcap-dev 
+pip install libsqlite3-dev 
+pip install guake 
+pip install recstudio 
+pip install python-hachoir-parser 
+pip install catdoc 
+pip install hping3 
+pip install gnome-tweak-tool 
+pip install gtk-recordmydesktop 
+pip install pinta 
+pip install libreoffice 
+pip install knotes 
+pip install nodejs 
+pip install geany 
+pip install monodevelop 
+pip install gtk-recordmydesktop 
+pip install pinta 
+pip install mitmf 
+pip install postfix 
+pip install mailutils 
+pip install crackmapexec 
+pip install libreoffice 
+pip install knotes 
+pip install remmina 
+pip install freerdp-x11 
+pip install ldap-utils rwho rsh-client x11-apps finger  
+pip install lbd automater arachni bully inguma sslsplit dumpzilla  
+pip install owasp-mantra-ff recon-ng ridenum regripper jd-gui 
+pip install metagoofil  
+pip install unicornscan enum4linux polenum  
+pip install nfspy firmware-mod-kit wmis  
+pip install unicornscan  
+pip install openvas  
+pip install hping3  
+pip install nipper-ng jsql oclgausscrack ghost-phisher uniscan  
+pip install bleachbit  
+pip install file-roller  
+pip install htop  
+pip install shellter  
+pip install jboss-autopwn  
+pip install wifite  
+pip install fruitywifi 
 apt autoremove -y
 apt-get clean
