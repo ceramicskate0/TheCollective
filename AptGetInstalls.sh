@@ -10,84 +10,86 @@ echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/ap
 echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
 apt-get update
 update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
-msfupdate
+apt-get install -y metsaploit-framework
 apt-get update --fix-missing
 apt-get -f install
-pip install --reinstall gnome-control-center --fix-missing
-pip install Beef 
-pip install hping3 
-pip install powersploit 
-pip install routersploit 
-pip install nishang 
-pip install veil-catapult 
-pip install geany 
-pip install monodevelop 
-pip install remina 
-pip install freerdp-x11 
-pip install socat 
-#pip install tor 
-pip install ibus
-pip install ibus-unikey 
-pip install lynis 
-pip install lib32asound2 
-pip install lib32z1 
-pip install network-manager-gnome 
-pip install network-manager-openvpn 
-pip install network-manager-openvpn-gnome 
-pip install network-manager-pptp 
-pip install network-manager-pptp-gnome 
-pip install network-manager-strongswan 
-pip install network-manager-vpnc 
-pip install network-manager-vpnc-gnome 
-pip install unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller 
-pip install gdebi 
-pip install deluge 
-pip install libssl-dev 
-pip install libpcap-dev 
-pip install libsqlite3-dev 
-pip install guake 
-pip install recstudio 
-pip install python-hachoir-parser 
-pip install catdoc 
-pip install hping3 
-pip install gnome-tweak-tool 
-pip install gtk-recordmydesktop 
-pip install pinta 
-pip install libreoffice 
-pip install knotes 
-pip install nodejs 
-pip install geany 
-pip install monodevelop 
-pip install gtk-recordmydesktop 
-pip install pinta 
-pip install mitmf 
-pip install postfix 
-pip install mailutils 
-pip install crackmapexec 
-pip install libreoffice 
-pip install knotes 
-pip install remmina 
-pip install freerdp-x11 
-pip install ldap-utils rwho rsh-client x11-apps finger  
-pip install lbd automater arachni bully inguma sslsplit dumpzilla  
-pip install owasp-mantra-ff recon-ng ridenum regripper jd-gui 
-pip install metagoofil  
-pip install unicornscan enum4linux polenum  
-pip install nfspy firmware-mod-kit wmis  
-pip install unicornscan  
-pip install openvas  
-pip install hping3  
-pip install nipper-ng jsql oclgausscrack ghost-phisher uniscan  
-pip install bleachbit  
-pip install file-roller  
-pip install htop  
-pip install shellter  
-pip install jboss-autopwn  
-pip install wifite  
-pip install fruitywifi 
+apt-get install -y  --reinstall gnome-control-center --fix-missing
+apt-get install -y  Beef 
+apt-get install -y  hping3 
+apt-get install -y  powersploit 
+apt-get install -y  routersploit 
+apt-get install -y  nishang 
+apt-get install -y  veil-catapult 
+apt-get install -y  geany 
+apt-get install -y  monodevelop 
+apt-get install -y  remina 
+apt-get install -y  freerdp-x11 
+apt-get install -y  socat 
+#apt-get install -y  tor 
+apt-get install -y  ibus
+apt-get install -y  ibus-unikey 
+apt-get install -y  lynis 
+apt-get install -y  lib32asound2 
+apt-get install -y  lib32z1 
+apt-get install -y  network-manager-gnome 
+apt-get install -y  network-manager-openvpn 
+apt-get install -y  network-manager-openvpn-gnome 
+apt-get install -y  network-manager-pptp 
+apt-get install -y  network-manager-pptp-gnome 
+apt-get install -y  network-manager-strongswan 
+apt-get install -y  network-manager-vpnc 
+apt-get install -y  network-manager-vpnc-gnome 
+apt-get install -y  unrar unace rar unrar p7zip zip unzip p7zip-full p7zip-rar file-roller 
+apt-get install -y  gdebi 
+apt-get install -y  deluge 
+apt-get install -y  libssl-dev 
+apt-get install -y  libpcap-dev 
+apt-get install -y  libsqlite3-dev 
+apt-get install -y  guake 
+apt-get install -y  recstudio 
+apt-get install -y  python-hachoir-parser 
+apt-get install -y  catdoc 
+apt-get install -y  hping3 
+apt-get install -y  gnome-tweak-tool 
+apt-get install -y  gtk-recordmydesktop 
+apt-get install -y  pinta 
+apt-get install -y  libreoffice 
+apt-get install -y  knotes 
+apt-get install -y  nodejs 
+apt-get install -y  geany 
+apt-get install -y  monodevelop 
+apt-get install -y  gtk-recordmydesktop 
+apt-get install -y  pinta 
+apt-get install -y  mitmf 
+apt-get install -y  postfix 
+apt-get install -y  mailutils 
+apt-get install -y  crackmapexec 
+apt-get install -y  libreoffice 
+apt-get install -y  knotes 
+apt-get install -y  remmina 
+apt-get install -y  freerdp-x11 
+apt-get install -y  ldap-utils rwho rsh-client x11-apps finger  
+apt-get install -y  lbd automater arachni bully inguma sslsplit dumpzilla  
+apt-get install -y  owasp-mantra-ff recon-ng ridenum regripper jd-gui 
+apt-get install -y  metagoofil  
+apt-get install -y  unicornscan enum4linux polenum  
+apt-get install -y  nfspy firmware-mod-kit wmis  
+apt-get install -y  unicornscan  
+apt-get install -y  openvas  
+apt-get install -y  hping3  
+apt-get install -y  nipper-ng jsql oclgausscrack ghost-phisher uniscan  
+apt-get install -y  bleachbit  
+apt-get install -y  file-roller  
+apt-get install -y  htop  
+apt-get install -y  shellter  
+apt-get install -y  jboss-autopwn  
+apt-get install -y  wifite  
+apt-get install -y  fruitywifi 
 apt autoremove -y
 apt-get clean
 apt full-upgrade -y
 apt-get dist-upgrade -y 
 apt-get upgrade -y
 dpkg --configure -a
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
