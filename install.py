@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import os
-import subprocess import call
+from subprocess import call
 
 currentdir=os.getcwd()
 
