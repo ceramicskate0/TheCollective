@@ -29,3 +29,4 @@ git clone https://github.com/subTee/windows-operating-system-archaeology
 git clone https://github.com/Und3rf10w/Aggressor-scripts
 git clone https://github.com/subTee/persistence-aggressor-script
 git clone https://github.com/BorjaMerino/SecLists
+git clone https://github.com/nccgroup/Winpayloads
