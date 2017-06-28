@@ -16,3 +16,7 @@ git clone https://github.com/portcullislabs/xssshell-xsstunnell
 git clone https://github.com/gbrindisi/xsssniper
 git clone https://github.com/cheetz/reddit_xss
 git clone https://github.com/Neohapsis/bbqsql
+git clone https://github.com/shawarkhanethicalhacker/BruteXSS
+git clone https://github.com/matthewdfuller/intellifuzz-xss
+git clone https://github.com/UltimateHackers/XSStrike
+git clone https://github.com/UltimateHackers/XSSight
