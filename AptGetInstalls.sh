@@ -14,7 +14,7 @@ apt-get dist-upgrade -y
 apt-get upgrade -y
 dpkg --configure -a
 update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
-apt-get install -y metsaploit-framework
+apt-get install -y metasploit-framework
 apt-get update --fix-missing
 apt-get -f install
 apt-get install -y  --reinstall gnome-control-center --fix-missing
