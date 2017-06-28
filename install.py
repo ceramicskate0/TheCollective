@@ -14,6 +14,7 @@ if (os.path.isdir(str(currentdir)+"/ToolBox")) is False:
 os.chdir(str(currentdir)+ "/Lists")
 
 files = [x for x in os.listdir(currentdir+str("/Lists")) if x.endswith('.txt')]
+
 for filename in files:
 	dirname= os.path.splitext(str(filename))[0]
 	os.chdir(str(currentdir)+"/ToolBox/")
