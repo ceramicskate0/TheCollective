@@ -1,1 +1,2 @@
-https://github.com/google/syzkaller
+git clone https://github.com/google/syzkaller
+git clone https://github.com/google/syzkaller
