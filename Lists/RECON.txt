@@ -34,3 +34,4 @@ git clone https://github.com/aboul3la/Sublist3r
 git clone https://github.com/zmap/zmap
 git clone https://github.com/1N3/Findsploit
 git clone https://github.com/adamcaudill/yawast
+git clone https://github.com/manwhoami/FriendsOfFriends
