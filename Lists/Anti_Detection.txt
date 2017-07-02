@@ -3,3 +3,4 @@ git clone https://github.com/nsmfoo/antivmdetection
 git clone https://github.com/AlicanAkyol/sems
 git clone https://github.com/stufus/certerator
 git clone https://github.com/Sogeti-Pentest/Encrypter-Metasploit
+git clone https://github.com/google/sandbox-attacksurface-analysis-tools
