@@ -1,2 +1,3 @@
 curl https://download.sysinternals.com/files/SDelete.zip
 git clone https://github.com/hlldz/Invoke-Phant0m
+git clone https://github.com/matthewdunwoody/PS_logging_reg
