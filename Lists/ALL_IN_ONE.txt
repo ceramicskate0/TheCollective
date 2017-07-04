@@ -4,8 +4,7 @@ git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
 git clone https://github.com/dotcppfile/DAws.git 
-got clone https://github.com/samratashok/nishang
-wget http://lazykali.googlecode.com/files/hackpack.tar.gz
+git clone https://github.com/samratashok/nishang
 git clone https://github.com/Veil-Framework/Veil
 git clone https://github.com/rapid7/metasploit-framework
 git clone https://github.com/andrewaeva/gobotnet
