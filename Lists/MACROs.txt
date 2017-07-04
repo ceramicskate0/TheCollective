@@ -5,3 +5,4 @@ git clone https://github.com/Shellntel/luckystrike
 git clone https://github.com/ispoleet/malWASH
 git clone https://github.com/enigma0x3/Generate-Macro
 git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
+git clone https://github.com/Screetsec/Microsploit
