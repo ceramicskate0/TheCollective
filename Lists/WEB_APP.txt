@@ -20,3 +20,4 @@ git clone https://github.com/shawarkhanethicalhacker/BruteXSS
 git clone https://github.com/matthewdfuller/intellifuzz-xss
 git clone https://github.com/UltimateHackers/XSStrike
 git clone https://github.com/UltimateHackers/XSSight
+git clone https://github.com/1N3/IntruderPayloads
