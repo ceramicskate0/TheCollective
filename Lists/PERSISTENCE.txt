@@ -11,3 +11,4 @@ git clone https://github.com/darkquasar/WMI_Persistence
 git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/subTee/SCTPersistence
 git clone https://github.com/killswitch-GUI/Persistence-Survivability
+git clone https://github.com/Sw4mpf0x/PowerLurk
