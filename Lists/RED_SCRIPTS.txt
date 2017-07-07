@@ -19,3 +19,4 @@ git clone https://github.com/rossja/pentools
 git clone https://github.com/MooseDojo/apt2
 git clone https://github.com/mubix/vt-notify
 git clone https://github.com/yudai/gotty
+git clone https://github.com/jivoi/pentest
