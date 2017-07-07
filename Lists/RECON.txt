@@ -36,3 +36,4 @@ git clone https://github.com/1N3/Findsploit
 git clone https://github.com/adamcaudill/yawast
 git clone https://github.com/manwhoami/FriendsOfFriends
 git clone https://github.com/1N3/Goohak
+git clone https://github.com/killswitch-GUI/SimplyEmail
