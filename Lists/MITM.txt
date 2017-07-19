@@ -4,3 +4,4 @@ git clone https://github.com/subTee/Interceptor
 git clone https://github.com/SpiderLabs/thicknet
 git clone https://github.com/byt3bl33d3r/snarf
 git clone https://github.com/ervanalb/lens
+git clone https://github.com/google/ssl_logger
