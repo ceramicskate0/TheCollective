@@ -24,3 +24,5 @@ git clone https://github.com/1N3/IntruderPayloads
 git clone https://github.com/PaulSec/CSRFT
 git clone https://github.com/vulnersCom/burp-vulners-scanner
 git clone https://github.com/PaulSec/HQLmap
+git clone https://github.com/Tuhinshubhra/shellstack
+git clone https://github.com/nil0x42/phpsploit
