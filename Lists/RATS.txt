@@ -16,3 +16,4 @@ git clone https://github.com/jpdias/botnet-lab
 git clone https://github.com/SafeBreach-Labs/pacdoor
 git clone https://github.com/ahhh/Reverse_HTTPS_Bot
 git clone https://github.com/PaulSec/twittor
+git clone https://github.com/Mr-Un1k0d3r/RC4-PowerShell-RAT
