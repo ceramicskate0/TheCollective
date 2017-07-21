@@ -9,3 +9,4 @@ git clone https://github.com/Veil-Framework/Veil
 git clone https://github.com/rapid7/metasploit-framework
 git clone https://github.com/andrewaeva/gobotnet
 git clone https://github.com/Screetsec/LALIN
+git clone https://github.com/praetorian-inc/pentestly
