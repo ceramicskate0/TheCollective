@@ -9,3 +9,4 @@ git clone https://github.com/danielbohannon/Out-FINcodedCommand
 git clone https://github.com/bwall/markovobfuscate
 git clone https://github.com/Sogeti-Pentest/Encrypter-Metasploit
 git clone https://github.com/andrew-morris/stupid_malware
+git clone https://github.com/a0rtega/metame
