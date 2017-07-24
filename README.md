@@ -4,7 +4,7 @@ This repo contains mostly a collection pointers to scripts,apps,repos, and/or pr
 # Instructions:
 Just run the files to build or maintain the Toolbox.
 
-1. Ensure install.py has permissions to run and download files
+1. Ensure "install.py" has permissions to run and download files
 
 2. ./install.py (will build the ToolBox in cwd)
 
