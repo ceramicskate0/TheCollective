@@ -7,6 +7,7 @@ currentdir=os.getcwd()
 os.chdir(str(currentdir))
 os.system("chmod +777 AptGetInstalls.sh")
 call(["sh", "AptGetInstalls.sh"])
+call(["sh", "GetCodeFromInternet.sh"])
 
 if (os.path.isdir(str(currentdir)+"/ToolBox")) is False:
 	os.makedirs(str(currentdir)+"/ToolBox")
