@@ -12,3 +12,4 @@ git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/subTee/SCTPersistence
 git clone https://github.com/killswitch-GUI/Persistence-Survivability
 git clone https://github.com/Sw4mpf0x/PowerLurk
+git clone https://github.com/3gstudent/COM-Object-hijacking
