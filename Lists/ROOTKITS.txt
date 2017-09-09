@@ -1,1 +1,1 @@
-https://github.com/d30sa1/RootKits-List-Download
+git clone https://github.com/d30sa1/RootKits-List-Download
