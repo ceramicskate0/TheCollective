@@ -5,3 +5,4 @@ git clone https://github.com/stufus/certerator
 git clone https://github.com/Sogeti-Pentest/Encrypter-Metasploit
 git clone https://github.com/google/sandbox-attacksurface-analysis-tools
 git clone https://github.com/Arvanaghi/CheckPlease
+git clone https://github.com/secretsquirrel/SigThief
