@@ -2,3 +2,4 @@ git clone https://github.com/MarioVilas/shellcode_tools.git
 git clone https://github.com/ahhh/Reverse_DNS_Shell
 git clone https://github.com/subTee/Shellcode-Via-HTA
 git clone https://github.com/suraj-root/smap
+git clone https://github.com/CroweCybersecurity/ps1encode
