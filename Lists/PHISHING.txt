@@ -11,3 +11,4 @@ git clone https://github.com/gophish/gophish
 git clone https://github.com/tatanus/SPF
 git clone https://github.com/pentestgeek/phishing-frenzy-templates
 git clone https://github.com/cheetz/spearphishing
+git clone https://github.com/ashanahw/Gmail_Phishing
