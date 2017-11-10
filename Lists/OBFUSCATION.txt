@@ -12,3 +12,4 @@ git clone https://github.com/andrew-morris/stupid_malware
 git clone https://github.com/a0rtega/metame
 git clone https://github.com/mgeeky/VisualBasicObfuscator
 git clone https://github.com/Mr-Un1k0d3r/SCT-obfuscator
+git clone https://github.com/Arno0x/ObfuscateCactusTorch
