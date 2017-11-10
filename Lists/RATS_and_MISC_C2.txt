@@ -29,3 +29,4 @@ git clone https://github.com/0x36/VPNPivot
 git clone https://github.com/rsmudge/vncdll
 git clone https://github.com/xtr4nge/FruityC2
 git clone https://github.com/Mr-Un1k0d3r/ThunderShell
+git clone https://github.com/andrewaeva/gobotnet
