@@ -1,2 +1,3 @@
 git clone https://github.com/johnnyDEP/cobaltstrike
 git clone https://github.com/harleyQu1nn/AggressorScripts
+git clone https://github.com/killswitch-GUI/CobaltStrike-ToolKit
