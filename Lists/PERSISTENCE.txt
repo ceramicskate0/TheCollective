@@ -17,3 +17,4 @@ git clone https://github.com/subTee/SCTPersistence
 git clone https://github.com/3gstudent/Waitfor-Persistence
 git clone https://github.com/3gstudent/Office-Persistence
 git clone https://github.com/enigma0x3/OutlookPersistence
+git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
