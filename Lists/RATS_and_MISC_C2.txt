@@ -25,3 +25,5 @@ git clone https://github.com/trustedsec/trevorc2
 git clone https://github.com/mehulj94/BrainDamage
 git clone https://github.com/3gstudent/Javascript-Backdoor
 git clone https://github.com/nccgroup/ABPTTS
+git clone https://github.com/0x36/VPNPivot
+git clone https://github.com/rsmudge/vncdll
