@@ -28,3 +28,4 @@ git clone https://github.com/Tuhinshubhra/shellstack
 git clone https://github.com/nil0x42/phpsploit
 git clone https://github.com/b374k/b374k
 git clone https://github.com/enjoiz/XXEinjector
+git clone https://github.com/viraintel/OWASP-ZSC
