@@ -24,3 +24,4 @@ git clone https://github.com/darkoperator/Posh-SSH
 git clone https://github.com/P3t3rp4rk3r/My_Dirty_Scripts
 git clone https://github.com/thoemmi/7Zip4Powershell
 git clone https://github.com/ssOleg/Useful_code
+git clone https://github.com/TryCatchHCF/DumpsterFire
