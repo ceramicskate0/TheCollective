@@ -8,3 +8,5 @@ git clone https://github.com/Arvanaghi/CheckPlease
 git clone https://github.com/secretsquirrel/SigThief
 git clone https://github.com/r00t-3xp10it/Meterpreter_Paranoid_Mode-SSL
 git clone https://github.com/Genetic-Malware/Ebowla
+git clone https://github.com/mstefanowich/FileSignatureHijack
+git clone https://github.com/zoro25/SSL_Cert_Grabber
