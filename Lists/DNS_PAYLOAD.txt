@@ -1,3 +1,4 @@
 git clone https://github.com/mdsecactivebreach/PowerDNS
 git clone https://github.com/Arno0x/DNSDelivery
 git clone https://github.com/ahhh/Reverse_DNS_Shell
+git clone https://github.com/DamonMohammadbagher/NativePayload_DNS2
