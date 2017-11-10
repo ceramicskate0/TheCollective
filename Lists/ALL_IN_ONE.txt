@@ -11,3 +11,4 @@ git clone https://github.com/andrewaeva/gobotnet
 git clone https://github.com/Screetsec/LALIN
 git clone https://github.com/praetorian-inc/pentestly
 git clone https://github.com/arismelachroinos/lscript
+git clone https://github.com/redcanaryco/atomic-red-team
