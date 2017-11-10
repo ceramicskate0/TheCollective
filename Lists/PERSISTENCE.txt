@@ -19,3 +19,4 @@ git clone https://github.com/3gstudent/Office-Persistence
 git clone https://github.com/enigma0x3/OutlookPersistence
 git clone https://github.com/enigma0x3/Invoke-AltDSBackdoor
 git clone https://github.com/checkyfuntime/iMessagesBackdoor
+git clone https://github.com/oze4/PaaWS-PowerShell-as-a-Windows-Service
