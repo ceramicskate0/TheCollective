@@ -27,3 +27,4 @@ git clone https://github.com/3gstudent/Javascript-Backdoor
 git clone https://github.com/nccgroup/ABPTTS
 git clone https://github.com/0x36/VPNPivot
 git clone https://github.com/rsmudge/vncdll
+git clone https://github.com/xtr4nge/FruityC2
