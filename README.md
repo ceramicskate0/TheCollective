@@ -1,22 +1,25 @@
-# Yet Another Kali Linux Scripts Repo
-This repo contains mostly a collection pointers to scripts,apps,repos, and/or programs that I have found useful during my time on Red Team Ops. I maintain the collection of what is basically pointers to the repos here so I only have 1 place to go to get them all and not have to remember them all. Setup, install, or bugs with the downloaded repos that has to be between you and the owner of the repo. I did not create or maintain any of the repos downloaded from any other profile that is not "ceramicskate0".
+# Yet Another Kali Linux Scripts Repo:
+
+This repo contains mostly a collection pointers to scripts,apps,repos, and/or programs that I have found useful during my time on Red Team Ops. I maintain the collection of what is basically pointers to the repos here so I only have 1 place to go to get them all and not have to remember them all. Setup, install, or bugs with the downloaded repos tshould be submitted to the owner of the repo. I did not create or maintain any of the repos downloaded from any other profile that is not "ceramicskate0".
 
 # Instructions:
+
 Just run the files to build or maintain the Toolbox.
 
 1. Ensure "install.py" has permissions to run and download files (root is nice for this or just sudo before you run)
 
 2. ./install.py (will build the ToolBox in cwd)
 
-3. Wait...
+3. Wait... there are alot of repos to pull
 
 update.py is for updating the repos and /Lists.
 
 # For the Blue Team:
-For the die hard Blue Teamers here. I know its hard, belive me I do. And Repos like this make life seem harder...well unless u use this Repo to your advantage. Also to help ive created "Yet Another Blue Team Repo" (YABTR) for the Blue team to help fight/find Red/YAKSR.
+For the die hard Blue Teamers here. I know its hard, belive me I do. And Repos like this make life seem harder...well unless you use this Repo to your advantage. Also to help ive created "Yet Another Blue Team Repo" (YABTR) for the Blue team to help fight/find Red/YAKSR. And now SWELF to help with logging.
 
 # "Support":
-Currenlty im only using this on Kali Linux. I guess the github scripts would work on other Linux distros if you have all the packages (nope im not doing anything for that).
+
+Currenlty im only using this on Kali Linux and Parrott. I guess the github scripts would work on other Linux distros if you have all the packages (nope im not doing anything for that).
 
 
 # Legalish Disclaimer:
