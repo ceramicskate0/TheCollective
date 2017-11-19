@@ -10,6 +10,9 @@ systeminfo (Download output and run windows exploit suggestor)
 - c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe /t:exe /out:MyApplication.exe MyApplication.cs
 https://msdn.microsoft.com/en-us/library/78f4aasd(v=vs.100).aspx
  
+ csc.exe /out:Resources.dll /target:library /res:image.png,Resources.image.png Resources.cs
+ https://stackoverflow.com/questions/16473070/embedding-resource-in-c-sharp-without-visual-studio
+ 
 #Linux (Generic)
 Scan Wifi info: iw wlan0 scan
 
