@@ -8,7 +8,8 @@ systeminfo (Download output and run windows exploit suggestor)
 - C:\Windows\Microsoft.NET\Framework\v{Version Number} csc.exe /unsafe /reference:{Call all in .cs .cmdline File 1 ref arg per ref} /win32icon:C:\p0wnedShell{ProjName}.ico /out:C:{ProjName\Path}.{Extension}(ie exe or DLL) /platform:x86 "C:{Proj location}*.cs"
 
 - c:\windows\Microsoft.NET\Framework\v3.5\bin\csc.exe /t:exe /out:MyApplication.exe MyApplication.cs
-            
+https://msdn.microsoft.com/en-us/library/78f4aasd(v=vs.100).aspx
+ 
 #Linux (Generic)
 Scan Wifi info: iw wlan0 scan
 
