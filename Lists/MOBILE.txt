@@ -5,3 +5,4 @@ git clone https://github.com/mwrlabs/drozer
 git clone https://github.com/mwrlabs/needle
 git clone https://github.com/suraj-root/spade
 git clone https://github.com/appknox/AFE
+git clone https://github.com/M4sc3r4n0/Evil-Droid
