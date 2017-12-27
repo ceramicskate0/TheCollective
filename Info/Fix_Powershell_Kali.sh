@@ -10,3 +10,6 @@ dpkg -i powershell_6.0.0-alpha.18-1ubuntu1.14.04.1_amd64.deb
 rm powershell_6.0.0-alpha.18-1ubuntu1.14.04.1_amd64.deb
 rm libicu55_55.1-7ubuntu0.1_amd64.deb
 rm libssl1.0.0_1.0.1t-1+deb7u2_amd64.deb
+
+powershell
+pwsh
