@@ -32,3 +32,4 @@ git clone https://github.com/BorjaMerino/SecLists
 git clone https://github.com/nccgroup/Winpayloads
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/HarmJ0y/CheatSheets
+git clone https://github.com/CoreSecurity/impacket/blob/master/examples/wmiexec.py
