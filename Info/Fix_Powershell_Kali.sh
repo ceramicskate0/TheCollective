@@ -16,7 +16,8 @@ wget https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-rc.2/powe
 
 # Make executable
 chmod a+x powershell-6.0.0-rc.2-x86_64.AppImage
-
+mv /usr/bin/pwsh /usr/bin/powershell
+ 
 # Start PowerShell
 ./powershell-6.0.0-rc.2-x86_64.AppImage
 
