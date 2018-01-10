@@ -23,3 +23,4 @@ mv /usr/bin/pwsh /usr/bin/powershell
 
 # Start PowerShell
 pwsh
+powershell
