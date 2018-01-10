@@ -6,13 +6,11 @@ This repo contains mostly a collection pointers to scripts,apps,repos, and/or pr
 
 Just run the files to build or maintain the Toolbox.
 
-1. Ensure "install.py" has permissions to run and download files (root is nice for this or just sudo before you run)
+1. Ensure "install.sh" has permissions to run and download files (root is nice for this or just sudo before you run)
 
-2. ./install.py (will build the ToolBox in cwd)
+2. ./install.sh (will build the ToolBox in cwd)
 
 3. Wait... there are alot of repos to pull
-
-update.py is for updating the repos and /Lists.
 
 # For the Blue Team:
 For the die hard Blue Teamers here. I know its hard, belive me I do. And Repos like this make life seem harder...well unless you use this Repo to your advantage. Also to help ive created "Yet Another Blue Team Repo" (YABTR) for the Blue team to help fight/find Red/YAKSR. And now SWELF to help with logging.
