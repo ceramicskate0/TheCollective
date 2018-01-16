@@ -3,3 +3,4 @@ git clone https://github.com/subTee/Shellcode-Via-HTA
 git clone https://github.com/suraj-root/smap
 git clone https://github.com/CroweCybersecurity/ps1encode
 git clone https://github.com/neurobin/shc
+git clone https://github.com/sysdream/hershell
