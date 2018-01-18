@@ -7,9 +7,7 @@ git clone https://github.com/enigma0x3/Generate-Macro
 git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
 git clone https://github.com/Screetsec/Microsploit
 git clone https://github.com/D4Vinci/Dr0p1t-Framework
-git clone https://github.com/enigma0x3/Generate-Macro
 git clone https://github.com/mdsecactivebreach/CACTUSTORCH
-git clone https://github.com/Mr-Un1k0d3r/MaliciousMacroGenerator
 git clone https://github.com/r00t-3xp10it/backdoorppt
 git clone https://github.com/Arno0x/EmbedInHTML
 git clone https://github.com/Mr-Un1k0d3r/DKMC
