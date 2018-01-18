@@ -1,5 +1,3 @@
-git clone https://github.com/pl48415/DNSAmplificationScanner
-git clone https://github.com/Kevin-Robertson/Inveigh
 git clone https://github.com/az0ne/nmap-scada
 git clone https://github.com/elceef/dnstwist
 git clone https://github.com/rapid7/IoTSeeker
@@ -18,7 +16,6 @@ git clone https://github.com/rfunix/Pompem.git
 git clone https://github.com/leebaird/discover
 git clone https://github.com/adaptivethreat/BloodHound
 git clone https://github.com/1N3/HTTPoxyScan
-git clone https://github.com/Subterfuge-Framework/Subterfuge
 git clone https://github.com/1N3/Sn1per
 git clone https://github.com/graniet/operative-framework
 git clone https://github.com/infosec-au/altdns
@@ -26,7 +23,6 @@ git clone https://github.com/ChrisTruncer/Egress-Assess
 git clone https://github.com/Raikia/SMBCrunch
 git clone https://github.com/ring0lab/catphish
 git clone https://github.com/vysec/Invoke-ProcessScan
-git clone https://github.com/PyroTek3/PowerShell-AD-Recon
 git clone https://github.com/az0ne/shocker
 git clone https://github.com/v3n0m-Scanner/V3n0M-Scanner
 git clone https://github.com/nimia/public_drown_scanner
@@ -39,4 +35,3 @@ git clone https://github.com/1N3/Goohak
 git clone https://github.com/killswitch-GUI/SimplyEmail
 git clone https://github.com/jivoi/ansible-pentest-with-tor
 git clone https://github.com/dafthack/HostRecon
-git clone https://github.com/aboul3la/Sublist3r
