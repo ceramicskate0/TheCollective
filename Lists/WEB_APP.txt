@@ -1,4 +1,3 @@
-https://github.com/Ekultek/WhatWaf
 git clone https://github.com/nettitude/xss_payloads
 git clone https://github.com/mandatoryprogrammer/xssless
 git clone https://github.com/CoalfireLabs/java_deserialization_exploits
@@ -21,13 +20,12 @@ git clone https://github.com/shawarkhanethicalhacker/BruteXSS
 git clone https://github.com/matthewdfuller/intellifuzz-xss
 git clone https://github.com/UltimateHackers/XSStrike
 git clone https://github.com/UltimateHackers/XSSight
-git clone https://github.com/1N3/IntruderPayloads
 git clone https://github.com/PaulSec/CSRFT
 git clone https://github.com/vulnersCom/burp-vulners-scanner
 git clone https://github.com/PaulSec/HQLmap
 git clone https://github.com/Tuhinshubhra/shellstack
 git clone https://github.com/nil0x42/phpsploit
 git clone https://github.com/b374k/b374k
-git clone https://github.com/enjoiz/XXEinjector
 git clone https://github.com/viraintel/OWASP-ZSC
 git clone https://github.com/Arno0x/WebDavC2
+git clone https://github.com/Ekultek/WhatWaf
