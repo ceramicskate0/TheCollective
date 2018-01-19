@@ -7,3 +7,4 @@ git clone https://github.com/ZonkSec/persistence-aggressor-script
 git clone https://github.com/invokethreatguy/aggressor_scripts_collection
 git clone https://github.com/Und3rf10w/Aggressor-scripts
 git clone https://github.com/rasta-mouse/Aggressor-Script
+git clone https://github.com/ThunderGunExpress/OutlookToolbox
