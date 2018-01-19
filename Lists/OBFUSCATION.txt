@@ -1,4 +1,5 @@
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
+git clone https://github.com/danielbohannon/Invoke-CradleCrafter
 git clone https://github.com/astrand/pyobfuscate
 git clone https://github.com/Pepitoh/VBad
 git clone https://github.com/kgretzky/obfusion
