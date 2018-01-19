@@ -29,3 +29,4 @@ git clone https://github.com/vysec/genHTA
 git clone https://github.com/jseidl/Babadook
 git clone https://github.com/tfairane/DocDropper
 git clone https://github.com/codecrack3/HTA-Exploit-
+git clone https://github.com/xillwillx/CACTUSTORCH_DDEAUTO
