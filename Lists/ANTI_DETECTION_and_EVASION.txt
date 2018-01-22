@@ -11,3 +11,4 @@ git clone https://github.com/Genetic-Malware/Ebowla
 git clone https://github.com/mstefanowich/FileSignatureHijack
 git clone https://github.com/zoro25/SSL_Cert_Grabber
 git clone https://github.com/Mr-Un1k0d3r/Windows-SignedBinary
+git clone https://github.com/cobbr/PSAmsi/wiki/Conducting-AMSI-Scans
