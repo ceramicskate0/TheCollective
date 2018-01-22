@@ -91,4 +91,5 @@ apt-get install -y  wifite
 apt-get install -y  fruitywifi 
 apt autoremove -y
 apt-get clean
+chmod +777 GetClones.py
 ./GetClones.py
