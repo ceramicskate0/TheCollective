@@ -11,3 +11,4 @@ git clone https://github.com/ThunderGunExpress/OutlookToolbox
 git clo9ne https://github.com/bluscreenofjeff/MalleableC2Profiles
 git clone https://github.com/bluscreenofjeff/Malleable-C2-Randomizer
 git clone https://github.com/bluscreenofjeff/AggressorScripts
+git clone https://github.com/ramen0x3f/AggressorScripts
