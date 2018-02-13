@@ -32,3 +32,4 @@ git clone https://github.com/codecrack3/HTA-Exploit-
 git clone https://github.com/xillwillx/CACTUSTORCH_DDEAUTO
 git clone https://github.com/nixawk/psmsf
 git clone https://github.com/r00t-3xp10it/trojanizer
+git clone https://github.com/johnjohnsp1/Shellcode-Via-HTA
