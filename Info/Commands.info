@@ -17,3 +17,6 @@ https://msdn.microsoft.com/en-us/library/78f4aasd(v=vs.100).aspx
 Scan Wifi info: iw wlan0 scan
 
 Set File Attributes (Linux):chattr {arg} {FilePath}
+
+#Py web server
+python -m SimpleHTTPServer {PORT}
