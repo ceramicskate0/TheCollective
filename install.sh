@@ -8,10 +8,8 @@ echo "#deb-src http://security.kali.org/kali-security sana/updates main contrib 
 echo "#Kali 2016 Rolling Repos">>/etc/apt/sources.list
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
 echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
-apt-get update
-apt full-upgrade -y
-apt-get dist-upgrade -y 
-apt-get upgrade -y
+wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+apt update && apt full-upgrade
 dpkg --configure -a
 update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
 apt-get install -y metasploit-framework
