@@ -12,3 +12,5 @@ git clo9ne https://github.com/bluscreenofjeff/MalleableC2Profiles
 git clone https://github.com/bluscreenofjeff/Malleable-C2-Randomizer
 git clone https://github.com/bluscreenofjeff/AggressorScripts
 git clone https://github.com/ramen0x3f/AggressorScripts
+git clone https://gist.github.com/rsmudge/8b2f699ea212c09201a5cb65650c6fa2
+git clone https://gist.github.com/rsmudge/9b54a66744a94f3950cc171254057942
