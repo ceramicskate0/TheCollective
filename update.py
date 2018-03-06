@@ -18,11 +18,12 @@ for filename in files:
 	os.chdir(str(currentdir)+"/ToolBox/")
 	if (os.path.isdir(str(currentdir)+"/ToolBox/")) is False:
 		os.system("rm -rf "+str(dirname))
-	os.makedirs(str(currentdir)+"/ToolBox/"+str(dirname))
+	if (os.path.exists(str(currentdir)+"/ToolBox/"+str(dirname))) is False:
+		os.makedirs(str(currentdir)+"/ToolBox/"+str(dirname))
 	os.chdir(str(currentdir)+"/ToolBox/"+str(dirname))
 	f=open(str(currentdir)+ "/Lists/"+str(filename))
 	line=f.readline()
-  line.replace("git clone", "git pull")
+        line.replace("git clone", "git pull")
 	while line:
 		os.system(str(line))
 		line=f.readline()
