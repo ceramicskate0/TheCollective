@@ -36,3 +36,4 @@ git clone https://github.com/killswitch-GUI/SimplyEmail
 git clone https://github.com/jivoi/ansible-pentest-with-tor
 git clone https://github.com/dafthack/HostRecon
 git clone https://github.com/UnaPibaGeek/ctfr
+git clone https://github.com/EdOverflow/megplus
