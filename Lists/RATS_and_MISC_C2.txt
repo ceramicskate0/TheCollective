@@ -30,3 +30,4 @@ git clone https://github.com/xtr4nge/FruityC2
 git clone https://github.com/Mr-Un1k0d3r/ThunderShell
 git clone https://github.com/stamparm/EternalRocks
 git clone https://github.com/aspiggy/JSRAT
+git clone https://github.com/micle-fm/Parat
