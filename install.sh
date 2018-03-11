@@ -16,7 +16,7 @@ apt-get install -y metasploit-framework
 apt-get update --fix-missing
 apt-get -f install
 apt-get install -y  --reinstall gnome-control-center --fix-missing
-apt-get install -y  beef 
+apt-get install -y  beef-xss
 apt-get install -y  hping3 
 apt-get install -y  powersploit 
 apt-get install -y  routersploit 
