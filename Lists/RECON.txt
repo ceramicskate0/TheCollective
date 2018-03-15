@@ -37,3 +37,4 @@ git clone https://github.com/jivoi/ansible-pentest-with-tor
 git clone https://github.com/dafthack/HostRecon
 git clone https://github.com/UnaPibaGeek/ctfr
 git clone https://github.com/EdOverflow/megplus
+git clone https://github.com/3gstudent/List-RDP-Connections-History
