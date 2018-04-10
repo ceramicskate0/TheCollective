@@ -1,14 +1,15 @@
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
+git clone https://github.com/danielbohannon/Invoke-CradleCrafter
+git clone https://github.com/danielbohannon/Out-FINcodedCommand
+git clone https://github.com/Veil-Framework/Veil
 git clone https://github.com/astrand/pyobfuscate
 git clone https://github.com/Pepitoh/VBad
 git clone https://github.com/kgretzky/obfusion
 git clone https://github.com/kgretzky/python-x86-obfuscator
-git clone https://github.com/danielbohannon/Out-FINcodedCommand
 git clone https://github.com/bwall/markovobfuscate
-git clone https://github.com/Sogeti-Pentest/Encrypter-Metasploit
 git clone https://github.com/andrew-morris/stupid_malware
 git clone https://github.com/a0rtega/metame
 git clone https://github.com/mgeeky/VisualBasicObfuscator
 git clone https://github.com/Mr-Un1k0d3r/SCT-obfuscator
 git clone https://github.com/Arno0x/ObfuscateCactusTorch
-git clone https://github.com/Veil-Framework/Veil
+

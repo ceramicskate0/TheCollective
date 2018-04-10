@@ -1,15 +1,12 @@
 git clone https://github.com/ChrisTruncer/PenTestScripts
 git clone https://github.com/Shellntel/scripts
 git clone https://github.com/rvrsh3ll/Misc-Powershell-Scripts
-git clone https://github.com/Cybellum/DoubleAgent
 git clone https://github.com/edwardz246003/IIS_exploit
 git clone https://github.com/samratashok/Kautilya
 git clone https://github.com/mattifestation/PowerWorm
 git clone https://github.com/commixproject/commix
-git clone https://github.com/Souhardya/WarChild
 git clone https://github.com/dannagle/packetsender
 git clone https://github.com/macubergeek/gitlist
-git clone https://github.com/rsmudge/cortana-scripts
 git clone https://github.com/devttys0/littleblackbox
 git clone https://github.com/rapid7/ssh-badkeys
 git clone https://github.com/0x90/kali-scripts
@@ -24,4 +21,4 @@ git clone https://github.com/P3t3rp4rk3r/My_Dirty_Scripts
 git clone https://github.com/thoemmi/7Zip4Powershell
 git clone https://github.com/ssOleg/Useful_code
 git clone https://github.com/TryCatchHCF/DumpsterFire
-git clone https://github.com/Mr-Un1k0d3r/RedTeamPowershellScripts
+git clone https://github.com/mgeeky/Penetration-Testing-Tools

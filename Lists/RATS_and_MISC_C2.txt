@@ -16,7 +16,6 @@ git clone https://github.com/az0ne/NTP_Trojan
 git clone https://github.com/cloudsec/brootkit
 git clone https://github.com/jpdias/botnet-lab
 git clone https://github.com/SafeBreach-Labs/pacdoor
-git clone https://github.com/ahhh/Reverse_HTTPS_Bot
 git clone https://github.com/PaulSec/twittor
 git clone https://github.com/Mr-Un1k0d3r/RC4-PowerShell-RAT
 git clone https://github.com/Tiked/Client
@@ -29,5 +28,7 @@ git clone https://github.com/0x36/VPNPivot
 git clone https://github.com/rsmudge/vncdll
 git clone https://github.com/xtr4nge/FruityC2
 git clone https://github.com/Mr-Un1k0d3r/ThunderShell
-git clone https://github.com/andrewaeva/gobotnet
 git clone https://github.com/stamparm/EternalRocks
+git clone https://github.com/aspiggy/JSRAT
+git clone https://github.com/micle-fm/Parat
+git clone https://github.com/islamTaha12/Python-Rootkit

@@ -1,5 +1,6 @@
 # Powershell
 $WebClient = New-Object System.Net.WebClient $WebClient.DownloadFile("http(s)://URL/file" || file:C:\path\file") cd \Windows\Microsoft.NET\Framework\v4.0.30319
+([ipaddress] 16777343).ipaddresstostring
 
 #Windows (Generic)
 systeminfo (Download output and run windows exploit suggestor)
@@ -17,3 +18,6 @@ https://msdn.microsoft.com/en-us/library/78f4aasd(v=vs.100).aspx
 Scan Wifi info: iw wlan0 scan
 
 Set File Attributes (Linux):chattr {arg} {FilePath}
+
+#Py web server
+python -m SimpleHTTPServer {PORT}

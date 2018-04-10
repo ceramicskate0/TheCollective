@@ -1,5 +1,4 @@
 git clone https://github.com/Raikia/FiercePhish
-git clone https://github.com/t3ntman/Social-Engineering-Payloads
 git clone https://github.com/ryhanson/phishery
 git clone https://github.com/trustedsec/social-engineer-toolkit
 git clone https://github.com/galkan/sees
@@ -13,3 +12,4 @@ git clone https://github.com/pentestgeek/phishing-frenzy-templates
 git clone https://github.com/cheetz/spearphishing
 git clone https://github.com/ashanahw/Gmail_Phishing
 git clone https://github.com/pan0pt1c0n/PhishBait
+git clone https://github.com/wifiphisher/extra-phishing-pages

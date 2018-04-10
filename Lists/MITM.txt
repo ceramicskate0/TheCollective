@@ -7,3 +7,5 @@ git clone https://github.com/ervanalb/lens
 git clone https://github.com/google/ssl_logger
 git clone https://github.com/koenbuyens/kalirouter
 git clone https://github.com/jrmdev/mitm_relay
+git clone https://github.com/LeonardoNve/sslstrip2
+git clone https://gist.github.com/caseysmithrc/ca7f96d3769934e940aa3db5039dac62

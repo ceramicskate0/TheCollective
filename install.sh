@@ -8,17 +8,15 @@ echo "#deb-src http://security.kali.org/kali-security sana/updates main contrib 
 echo "#Kali 2016 Rolling Repos">>/etc/apt/sources.list
 echo "deb http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
 echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free">>/etc/apt/sources.list
-apt-get update
-apt full-upgrade -y
-apt-get dist-upgrade -y 
-apt-get upgrade -y
+wget -q -O - https://archive.kali.org/archive-key.asc | apt-key add
+apt update && apt full-upgrade
 dpkg --configure -a
 update-rc.d postgresql enable && update-rc.d metasploit enable && msfdb init
 apt-get install -y metasploit-framework
 apt-get update --fix-missing
 apt-get -f install
 apt-get install -y  --reinstall gnome-control-center --fix-missing
-apt-get install -y  beef 
+apt-get install -y  beef-xss
 apt-get install -y  hping3 
 apt-get install -y  powersploit 
 apt-get install -y  routersploit 
@@ -91,3 +89,5 @@ apt-get install -y  wifite
 apt-get install -y  fruitywifi 
 apt autoremove -y
 apt-get clean
+chmod +777 GetClones.py
+./GetClones.py

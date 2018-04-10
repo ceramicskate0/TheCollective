@@ -1,5 +1,4 @@
 git clone https://github.com/ChrisTruncer/WMIOps
-git clone https://github.com/fdiskyou/PSShell
 git clone https://github.com/nidem/kerberoast
 git clone https://github.com/gentilkiwi/kekeo
 git clone https://github.com/bidord/pykek

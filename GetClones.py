@@ -5,8 +5,6 @@ from subprocess import call
 currentdir=os.getcwd()
 
 os.chdir(str(currentdir))
-os.system("chmod +777 AptGetInstalls.sh")
-os.system("./AptGetInstalls.sh"])
 
 if (os.path.isdir(str(currentdir)+"/ToolBox")) is False:
 	os.makedirs(str(currentdir)+"/ToolBox")
