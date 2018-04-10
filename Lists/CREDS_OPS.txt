@@ -14,3 +14,4 @@ git clone https://github.com/subTee/Utils
 git clone https://github.com/juuso/keychaindump
 git clone https://github.com/manwhoami/OSXChromeDecrypt
 git clone https://github.com/D4Vinci/Cr3dOv3r
+git clone https://github.com/eladshamir/Internal-Monologue
