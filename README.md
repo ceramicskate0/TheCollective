@@ -5,7 +5,7 @@
      I maintain the collection of what is basically pointers to the repos here so I only have 1 place to go to get them all and not have to remember them all. 
      Setup, install, or bugs with the downloaded repos tshould be submitted to the owner of the repo.
      I did not create or maintain any of the repos downloaded from any other profile that is not "ceramicskate0".
-     AV vendors when you find this dont just use this to find malware and hash it. 
+     AV vendors when you find this dont just use this to find malware and hash it. Us this to build a better product. I mean here are the POC works...
      Actually we all should try to create detections for these and their variations as well as for everything they do ;D
 --------------------------------------------------------------------------------
 
