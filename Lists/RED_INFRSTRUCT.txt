@@ -1,1 +1,2 @@
 git clone https://github.com/taherio/redi
+git clone https://github.com/Coalfire-Research/Red-Baron
