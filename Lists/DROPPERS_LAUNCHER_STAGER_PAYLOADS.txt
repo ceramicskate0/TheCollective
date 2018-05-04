@@ -37,3 +37,4 @@ git clone https://github.com/mdsecactivebreach/SharpShooter
 git clone https://github.com/tyranid/DotNetToJScript
 git clone https://github.com/infosecn1nja/MaliciousMacroMSBuild
 git clone https://github.com/trustedsec/unicorn
+git clone https://github.com/deepzec/Bad-Pdf
