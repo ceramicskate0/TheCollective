@@ -17,3 +17,4 @@ git clone https://gist.github.com/rsmudge/9b54a66744a94f3950cc171254057942
 git clone https://github.com/tevora-threat/aggressor-powerview
 git clone https://github.com/RhinoSecurityLabs/Aggressor-Scripts
 git clone https://github.com/vysec/Aggressor-VYSEC
+git clone https://github.com/invokethreatguy/CSASC
