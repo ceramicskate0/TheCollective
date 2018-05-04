@@ -22,4 +22,3 @@ git clone https://github.com/thoemmi/7Zip4Powershell
 git clone https://github.com/ssOleg/Useful_code
 git clone https://github.com/TryCatchHCF/DumpsterFire
 git clone https://github.com/mgeeky/Penetration-Testing-Tools
-git clone https://github.com/taherio/redi
