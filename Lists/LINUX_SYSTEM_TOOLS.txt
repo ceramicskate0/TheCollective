@@ -1,6 +1,5 @@
 git clone https://github.com/nicolargo/glances
 git clone https://github.com/Und3rf10w/kali-anonsurf
-git clone https://github.com/spatiald/setips
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/rsmudge/cortana-scripts
 git clone https://github.com/staaldraad/coder
