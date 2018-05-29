@@ -15,3 +15,4 @@ git clone https://github.com/Mr-Un1k0d3r/SCT-obfuscator
 git clone https://github.com/Arno0x/ObfuscateCactusTorch
 git clone https://github.com/Genetic-Malware/Ebowla
 git clone https://github.com/vysec/IPFuscator
+git clone https://github.com/C-REMO/Obscure-IP-Obfuscator
