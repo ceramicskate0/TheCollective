@@ -18,7 +18,6 @@ git clone https://github.com/nccgroup/Winpayloads
 git clone https://github.com/bartblaze/PHP-backdoors
 git clone https://github.com/EgeBalci/EGESPLOIT
 git clone https://github.com/t3ntman/Social-Engineering-Payloads
-wget http://code.google.com/p/simple-ducky-payload-generator
 git clone https://github.com/mubix/trigen
 git clone https://github.com/0xdeadbeefJERKY/Office-DDE-Payloads
 git clone https://github.com/joesecurity/pafishmacro
