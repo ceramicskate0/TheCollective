@@ -12,3 +12,4 @@ git clone https://github.com/praetorian-inc/pentestly
 git clone https://github.com/arismelachroinos/lscript
 git clone https://github.com/redcanaryco/atomic-red-team
 git clone https://github.com/infobyte/evilgrade
+git clone https://github.com/zerosum0x0/koadic
