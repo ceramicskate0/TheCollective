@@ -9,6 +9,8 @@
      Actually we all should try to create detections for these and their variations as well as for everything they do ;D
 --------------------------------------------------------------------------------
 
+# ANNOUNCEMENT
+- DUE TO MICROSOFT PURCHASE MAY MOVE TO BITBUCKET
 
 # Contrib:
 
