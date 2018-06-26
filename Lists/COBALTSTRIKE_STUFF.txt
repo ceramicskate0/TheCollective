@@ -19,3 +19,4 @@ git clone https://github.com/RhinoSecurityLabs/Aggressor-Scripts
 git clone https://github.com/vysec/Aggressor-VYSEC
 git clone https://github.com/invokethreatguy/CSASC
 git clone https://github.com/001SPARTaN/aggressor_scripts
+git clone https://github.com/xx0hcd/Malleable-C2-Profiles
