@@ -13,3 +13,4 @@ git clone https://github.com/cheetz/spearphishing
 git clone https://github.com/ashanahw/Gmail_Phishing
 git clone https://github.com/pan0pt1c0n/PhishBait
 git clone https://github.com/wifiphisher/extra-phishing-pages
+git clone https://github.com/L4bF0x/PhishingPretexts
