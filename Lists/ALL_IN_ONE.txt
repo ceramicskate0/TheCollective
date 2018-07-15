@@ -1,5 +1,4 @@
 git clone https://github.com/trustedsec/ptf
-git clone https://github.com/PowerShellMafia/PowerSploit
 git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/trustedsec/tap
 git clone https://github.com/PowerShellEmpire/Empire
