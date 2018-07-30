@@ -3,3 +3,4 @@ git clone https://github.com/Arno0x/DeliverXLLviaHTML
 git clone https://github.com/fdiskyou/injectAllTheThings
 git clone https://github.com/zodiacon/DllInjectionWithThreadContext
 git clone https://github.com/gfoss/PowerShell-DL-Exec
+git clone https://github.com/pwndizzle/c-sharp-memory-injection
