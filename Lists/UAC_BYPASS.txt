@@ -4,3 +4,4 @@ git clone https://github.com/enigma0x3/Misc-PowerShell-Stuff
 git clone https://github.com/bartblaze/dccwUACBypass
 git clone https://gist.github.com/mattifestation/b4072a066574caccfa07fcf723952d54
 git clone https://github.com/0xbadjuju/Tokenvator
+git clone https://github.com/GhostPack/SharpUp
