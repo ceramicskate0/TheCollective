@@ -18,3 +18,4 @@ git clone https://github.com/eladshamir/Internal-Monologue
 git clone https://github.com/ustayready/CredSniper
 git clone https://github.com/GoSecure/DLLPasswordFilterImplant
 git clone https://github.com/GhostPack/SafetyKatz
+git clone https://github.com/GhostPack/SharpDump
