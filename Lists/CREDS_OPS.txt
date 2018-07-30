@@ -16,3 +16,4 @@ git clone https://github.com/manwhoami/OSXChromeDecrypt
 git clone https://github.com/D4Vinci/Cr3dOv3r
 git clone https://github.com/eladshamir/Internal-Monologue
 git clone https://github.com/ustayready/CredSniper
+git clone https://github.com/GoSecure/DLLPasswordFilterImplant
