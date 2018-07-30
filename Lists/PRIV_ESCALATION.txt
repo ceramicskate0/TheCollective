@@ -4,3 +4,4 @@ git clone https://github.com/0x90/lpe-arsenal
 git clone https://github.com/1N3/PrivEsc
 git clone https://github.com/foxglovesec/Potato
 git clone https://github.com/AlessandroZ/BeRoot
+git clone git clone https://github.com/GhostPack/SharpUp
