@@ -34,3 +34,4 @@ git clone https://github.com/frizb/Bypassing-Web-Application-Firewalls
 git clone https://github.com/jcesarstef/dotdotslash
 git clone https://github.com/ismailtasdelen/xss-payload-list
 git clone https://github.com/theInfectedDrake/TIDoS-Framework
+git clone https://github.com/hook-s3c/CVE-2018-11776-Python-PoC
