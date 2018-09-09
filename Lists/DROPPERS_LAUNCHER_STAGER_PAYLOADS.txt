@@ -39,4 +39,3 @@ git clone https://github.com/hfiref0x/TDL
 git clone https://github.com/trustedsec/unicorn
 git clone https://github.com/Tyilo/insert_dylib
 git clone https://github.com/deepzec/Bad-Pdf
-git clone https://github.com/cornerpirate/java-stager
