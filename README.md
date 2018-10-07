@@ -1,4 +1,4 @@
-# Yet Another Kali Linux Scripts Repo:
+# TheCollective (Formally 'Yet Another Kali Linux Scripts' or YAKSR) Repo:
 ![YAKSR](https://user-images.githubusercontent.com/6934294/46578116-da19ee80-c9bb-11e8-9978-69c6f2561ddc.jpg)
 
 --------------------------------------------------------------------------------
@@ -32,7 +32,7 @@
 
 --------------------------------------------------------------------
      For the die hard Blue Teamers here. I know its hard, belive me I do. And Repos like this make life seem harder...well unless you use this Repo to your advantage.
-     Also to help ive created "Yet Another Blue Team Repo" (YABTR) for the Blue team to help fight/find Red/YAKSR. And now SWELF to help with logging.
+     Also to help ive created "Yet Another Blue Team Repo" (YABTR) for the Blue team to help fight/find Red/TheCollective. And now SWELF to help with logging.
 --------------------------------------------------------------------
 
 # "Support":
