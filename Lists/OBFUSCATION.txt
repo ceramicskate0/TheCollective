@@ -13,4 +13,3 @@ git clone https://github.com/a0rtega/metame
 git clone https://github.com/mgeeky/VisualBasicObfuscator
 git clone https://github.com/Mr-Un1k0d3r/SCT-obfuscator
 git clone https://github.com/Arno0x/ObfuscateCactusTorch
-git clone https://github.com/Genetic-Malware/Ebowla
