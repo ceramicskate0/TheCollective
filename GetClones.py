@@ -18,7 +18,10 @@ for filename in files:
 	os.chdir(str(currentdir)+"/ToolBox/")
 	if (os.path.isdir(str(currentdir)+"/ToolBox/")) is False:
 		os.system("rm -rf "+str(dirname))
+	try:
 	os.makedirs(str(currentdir)+"/ToolBox/"+str(dirname))
+	except:
+	print("Dir exists.")
 	os.chdir(str(currentdir)+"/ToolBox/"+str(dirname))
 	f=open(str(currentdir)+ "/Lists/"+str(filename))
 	line=f.readline()
