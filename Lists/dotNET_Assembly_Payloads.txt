@@ -21,3 +21,9 @@ git clone https://github.com/jaredhaight/PSAttack
 git clone https://github.com/stufus/reconerator
 git clone https://github.com/DissectMalware/ClipboardWatcher
 git clone https://github.com/nettitude/SharpSocks
+git clone https://github.com/jaredhaight/SharpAttack
+git clone https://github.com/anthemtotheego/SharpCradle
+git clone https://github.com/SpiderLabs/SharpCompile
+git clone https://github.com/P1CKLES/SharpBox
+git clone https://github.com/0xbadjuju/TellMeYourSecrets
+git clone https://github.com/tandasat/DotNetHooking
