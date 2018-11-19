@@ -14,3 +14,5 @@ git clone https://github.com/Mr-Un1k0d3r/Windows-SignedBinary
 git clone https://github.com/cobbr/PSAmsi/wiki/Conducting-AMSI-Scans
 git clone https://github.com/LordNoteworthy/al-khaser
 git clone https://github.com/GreatSCT/GreatSCT
+git clone https://github.com/tokyoneon/Armor
+git clone https://github.com/Techryptic/AV_Bypass
