@@ -27,3 +27,4 @@ git clone https://github.com/SpiderLabs/SharpCompile
 git clone https://github.com/P1CKLES/SharpBox
 git clone https://github.com/0xbadjuju/TellMeYourSecrets
 git clone https://github.com/tandasat/DotNetHooking
+git clone https://github.com/leoloobeek/csharp
