@@ -2,11 +2,10 @@
 ![YAKSR](https://user-images.githubusercontent.com/6934294/46578116-da19ee80-c9bb-11e8-9978-69c6f2561ddc.jpg)
 
 --------------------------------------------------------------------------------
-     This repo contains mostly a collection pointers to scripts,apps,repos, and/or programs that I have found useful during my time on Red Team Ops. 
+     This repo contains mostly a collection pointers to scripts, apps, repos, and/or programs that I have found useful during my time on Red Team Ops. 
      I maintain the collection of what is basically pointers to the repos here so I only have 1 place to go to get them all and not have to remember them all. 
-     Setup, install, or bugs with the downloaded repos tshould be submitted to the owner of the repo.
+     Setup, install, or bugs with the downloaded repos should be submitted to the owner of the repo.
      I did not create or maintain any of the repos downloaded from any other profile that is not "ceramicskate0".
-     AV vendors when you find this dont just use this to find malware and hash it. You should use this to create a better protection product...
      Actually we all should try to create detections for these and their variations as well as for everything they do ;D
 --------------------------------------------------------------------------------
 
