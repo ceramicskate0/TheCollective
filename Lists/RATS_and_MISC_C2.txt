@@ -31,3 +31,4 @@ git clone https://github.com/stamparm/EternalRocks
 git clone https://github.com/aspiggy/JSRAT
 git clone https://github.com/micle-fm/Parat
 git clone https://github.com/islamTaha12/Python-Rootkit
+git clone https://github.com/mthbernardes/GTRS
