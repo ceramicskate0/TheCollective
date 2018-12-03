@@ -20,3 +20,4 @@ git clone https://github.com/CodeOfDark/Panda-Obfuscator
 git clone https://github.com/two06/Inception
 git clone https://github.com/JLospinoso/gargoyle
 git clone https://github.com/stephenfewer/ReflectiveDLLInjection
+git clone https://github.com/bytecode77/self-morphing-csharp-binary
