@@ -13,3 +13,4 @@ git clone https://github.com/redcanaryco/atomic-red-team
 git clone https://github.com/infobyte/evilgrade
 git clone https://github.com/zerosum0x0/koadic
 git clone https://github.com/byt3bl33d3r/SILENTTRINITY
+git clone https://github.com/cobbr/Covenant
