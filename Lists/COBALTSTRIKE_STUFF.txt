@@ -28,3 +28,4 @@ git clone https://github.com/SpiderLabs/SharpCompile
 git clone https://github.com/Truneski/external_c2_framework
 git clone https://github.com/FortyNorthSecurity/AggressorAssessor
 git clone https://github.com/360-A-Team/CobaltStrike-Toolset
+git clone https://github.com/codewhitesec/LethalHTA
