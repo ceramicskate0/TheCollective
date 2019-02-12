@@ -35,3 +35,4 @@ git clone https://github.com/jcesarstef/dotdotslash
 git clone https://github.com/ismailtasdelen/xss-payload-list
 git clone https://github.com/theInfectedDrake/TIDoS-Framework
 git clone https://github.com/snoopysecurity/awesome-burp-extensions
+git clone https://github.com/Den1al/JSShell
