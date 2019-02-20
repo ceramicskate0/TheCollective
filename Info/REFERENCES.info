@@ -2,10 +2,8 @@ git clone https://github.com/mgaulton/kalitools
 git clone https://github.com/killswitch-GUI/PenTesting-Scripts
 git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/uhub/awesome-shell
-git clone https://github.com/swisskyrepo/PayloadsAllTheThings
 git clone https://github.com/Aptive/penetration-testing-tools
 git clone https://github.com/FuzzySecurity/DefCon24
-git clone https://github.com/vysec/ps1-toolkit
 git clone https://github.com/FuzzySecurity/CapstoneKeystone-PowerShell
 git clone https://github.com/nebgnahz/awesome-iot-hacks
 git clone https://github.com/kbandla/APTnotes
@@ -26,10 +24,7 @@ git clone https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 git clone https://github.com/Cyb3rWard0g/ThreatHunter-Playbook
 git clone https://github.com/FuzzySecurity/PowerShell-Suite
 git clone https://github.com/subTee/windows-operating-system-archaeology
-git clone https://github.com/Und3rf10w/Aggressor-scripts
-git clone https://github.com/subTee/persistence-aggressor-script
 git clone https://github.com/BorjaMerino/SecLists
-git clone https://github.com/nccgroup/Winpayloads
 git clone https://github.com/jshaw87/Cheatsheets
 git clone https://github.com/HarmJ0y/CheatSheets
 git clone https://github.com/CoreSecurity/impacket/blob/master/examples/wmiexec.py
