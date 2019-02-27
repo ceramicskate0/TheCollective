@@ -6,7 +6,6 @@ git clone https://github.com/samratashok/Kautilya
 git clone https://github.com/mattifestation/PowerWorm
 git clone https://github.com/commixproject/commix
 git clone https://github.com/dannagle/packetsender
-git clone https://github.com/macubergeek/gitlist
 git clone https://github.com/devttys0/littleblackbox
 git clone https://github.com/rapid7/ssh-badkeys
 git clone https://github.com/0x90/kali-scripts
