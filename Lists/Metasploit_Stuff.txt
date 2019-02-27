@@ -1,1 +1,2 @@
 git clone https://github.com/darkoperator/Metasploit-Plugins
+git clone https://github.com/rsmudge/cortana-scripts
