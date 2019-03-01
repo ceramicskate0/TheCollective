@@ -2,3 +2,4 @@ git clone https://github.com/nicolargo/glances
 git clone https://github.com/Und3rf10w/kali-anonsurf
 git clone https://github.com/staaldraad/coder
 git clone https://github.com/hephaest0s/usbkill
+git clone https://github.com/CISOfy/lynis
