@@ -30,3 +30,5 @@ git clone https://github.com/FortyNorthSecurity/AggressorAssessor
 git clone https://github.com/360-A-Team/CobaltStrike-Toolset
 git clone https://github.com/codewhitesec/LethalHTA
 git clone https://github.com/offsecginger/AggressorScripts
+git clone https://github.com/darkoperator/vscode-language-aggressor
+git clone https://github.com/rvrsh3ll/CPLResourceRunner
