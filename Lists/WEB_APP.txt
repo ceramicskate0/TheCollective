@@ -10,7 +10,6 @@ git clone https://github.com/SpiderLabs/BurpNotesExtension
 git clone https://github.com/Meatballs1/burp-extensions
 git clone https://github.com/enjoiz/XXEinjector
 git clone https://github.com/abhijitsverma/burp_extension_MultiScanner
-git clone https://github.com/slattman/php-reverse-shell
 git clone https://github.com/ajinabraham/Static-DOM-XSS-Scanner
 git clone https://github.com/portcullislabs/xssshell-xsstunnell
 git clone https://github.com/gbrindisi/xsssniper
@@ -35,4 +34,3 @@ git clone https://github.com/jcesarstef/dotdotslash
 git clone https://github.com/ismailtasdelen/xss-payload-list
 git clone https://github.com/theInfectedDrake/TIDoS-Framework
 git clone https://github.com/snoopysecurity/awesome-burp-extensions
-git clone https://github.com/Den1al/JSShell
