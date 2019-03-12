@@ -1,1 +1,3 @@
 git clone https://github.com/antonioCoco/SharPyShell
+git clone https://github.com/Den1al/JSShell
+git clone https://github.com/slattman/php-reverse-shell
