@@ -3,3 +3,4 @@ git clone https://github.com/decal/werdlists
 git clone https://github.com/dagorim/api_wordlist
 git clone https://github.com/scadastrangelove/SCADAPASS
 git clone https://github.com/berzerk0/Probable-Wordlists
+git clone https://github.com/xajkep/wordlists
