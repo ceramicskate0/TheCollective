@@ -10,3 +10,4 @@ git clone https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 git clone https://github.com/khast3x/redcloud
 git clone https://github.com/redteam-cyberark/Google-Domain-fronting
 git clone https://gist.github.com/jivoi/a33ace2e25515a31aa2ffbae246d98c9
+git clone https://github.com/obscuritylabs/RAI
