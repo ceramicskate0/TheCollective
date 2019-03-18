@@ -8,3 +8,4 @@ git clone https://github.com/leoloobeek/keyserver
 git clone https://github.com/invokethreatguy/C2Kv2
 git clone https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 git clone https://github.com/khast3x/redcloud
+git clone https://github.com/redteam-cyberark/Google-Domain-fronting
