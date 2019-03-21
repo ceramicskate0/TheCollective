@@ -15,16 +15,28 @@
      If you have a favorite repo please submit pull request
 --------------------------------------------------------------------
 
-# Instructions:
+# Instructions To Run:
 
 --------------------------------------------------------------------
      Just run the files to build or maintain the Toolbox.
 
+     0. cd to the TheCollective Dir
+     
      1. Ensure "install.sh" has permissions to run and download files (root is nice for this or just sudo before you run)
 
      2. ./install.sh (will build the ToolBox in cwd)
 
      3. Wait... there are alot of repos to pull
+--------------------------------------------------------------------
+
+# Instructions To Update:
+
+--------------------------------------------------------------------
+     Just run the files to build or maintain the Toolbox.
+
+     0. cd to the TheCollective Dir
+     
+     1. ./update.sh
 --------------------------------------------------------------------
 
 # For the Blue Team:
