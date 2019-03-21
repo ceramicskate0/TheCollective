@@ -4,4 +4,4 @@ read Path
 cd $Path
 git pull
 cd ..
-python update.py
+python update_New_Repos.py
