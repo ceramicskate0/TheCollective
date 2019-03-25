@@ -32,3 +32,4 @@ git clone https://github.com/mthbernardes/GTRS
 git clone https://github.com/malwaredllc/byob
 git clone https://github.com/fadinglr/Parat
 git clone https://github.com/erikbarzdukas/CrunchRAT
+git clone https://github.com/thelinuxchoice/pyRAT
