@@ -30,3 +30,5 @@ git clone https://github.com/aspiggy/JSRAT
 git clone https://github.com/islamTaha12/Python-Rootkit
 git clone https://github.com/mthbernardes/GTRS
 git clone https://github.com/malwaredllc/byob
+git clone https://github.com/fadinglr/Parat
+git clone https://github.com/erikbarzdukas/CrunchRAT
