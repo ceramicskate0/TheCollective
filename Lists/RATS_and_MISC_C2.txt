@@ -1,4 +1,3 @@
-git clone https://github.com/t3ntman/CrunchRAT
 git clone https://github.com/ahhh/Reverse_HTTPS_Bot
 git clone https://github.com/Cn33liz/JSMeter
 git clone https://github.com/Screetsec/TheFatRat
