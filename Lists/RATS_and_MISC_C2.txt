@@ -31,4 +31,4 @@ git clone https://github.com/stamparm/EternalRocks
 git clone https://github.com/aspiggy/JSRAT
 git clone https://github.com/islamTaha12/Python-Rootkit
 git clone https://github.com/mthbernardes/GTRS
-https://github.com/malwaredllc/byob
+git clone https://github.com/malwaredllc/byob
