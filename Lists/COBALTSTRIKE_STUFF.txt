@@ -32,3 +32,4 @@ git clone https://github.com/codewhitesec/LethalHTA
 git clone https://github.com/offsecginger/AggressorScripts
 git clone https://github.com/darkoperator/vscode-language-aggressor
 git clone https://github.com/rvrsh3ll/CPLResourceRunner
+git clone https://github.com/outflanknl/Excel4-DCOM
