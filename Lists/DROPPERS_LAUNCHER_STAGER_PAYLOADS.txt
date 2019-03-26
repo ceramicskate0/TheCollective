@@ -45,3 +45,4 @@ git clone https://github.com/Mr-Un1k0d3r/MaliciousDLLGenerator
 git clone https://github.com/lesnuages/hershell
 git clone https://github.com/rasta-mouse/TikiTorch
 git clone https://github.com/christophetd/spoofing-office-macro
+git clone https://github.com/outflanknl/EvilClippy
