@@ -3,3 +3,4 @@ git clone https://github.com/dafthack/MailSniper
 git clone https://github.com/xorrior/EmailRaider
 git clone https://github.com/Mr-Un1k0d3r/SPFAbuse
 git clone https://github.com/rasta-mouse/EWSToolkit
+git clone https://github.com/ceramicskate0/Outlook_Data_Exfil
