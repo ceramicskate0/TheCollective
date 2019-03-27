@@ -12,11 +12,9 @@ git clone https://github.com/devttys0/littleblackbox
 git clone https://github.com/ruped24/toriptables2
 git clone https://github.com/nccgroup/metasploitavevasion
 git clone https://github.com/enaqx/awesome-pentest
-git clone https://github.com/HarmJ0y/CheatSheets
 git clone https://github.com/wesbos/burner-email-providers
 git clone https://github.com/FuzzySecurity/PowerShell-Suite
 git clone https://github.com/HarmJ0y/CheatSheets
 git clone https://github.com/CoreSecurity/impacket/blob/master/examples/wmiexec.py
 git clone https://github.com/api0cradle/LOLBAS
 git clone https://github.com/Bo0oM/WAF-bypass-Cheat-Sheet
-git clone https://github.com/outflanknl/RedELK
