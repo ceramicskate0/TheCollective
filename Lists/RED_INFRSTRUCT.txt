@@ -1,13 +1,11 @@
 git clone https://github.com/taherio/redi
 git clone https://github.com/Coalfire-Research/Red-Baron
 git clone https://github.com/infosecn1nja/e2modrewrite
-git clone https://github.com/threatexpress/domainhunter
 git clone https://github.com/n0pe-sled/Apache2-Mod-Rewrite-Setup
 git clone https://github.com/threatexpress/cs2modrewrite
 git clone https://github.com/leoloobeek/keyserver
 git clone https://github.com/invokethreatguy/C2Kv2
 git clone https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 git clone https://github.com/khast3x/redcloud
-git clone https://github.com/redteam-cyberark/Google-Domain-fronting
 git clone https://gist.github.com/jivoi/a33ace2e25515a31aa2ffbae246d98c9
 git clone https://github.com/obscuritylabs/RAI
