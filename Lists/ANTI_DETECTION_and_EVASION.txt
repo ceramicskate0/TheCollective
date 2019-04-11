@@ -25,3 +25,4 @@ git clone https://github.com/oddcod3/Phantom-Evasion
 git clone https://github.com/paranoidninja/CarbonCopy
 git clone https://github.com/Hackplayers/Salsa-tools
 git clone https://github.com/Fmk0/scripts
+git clone https://github.com/matterpreter/DefenderCheck
