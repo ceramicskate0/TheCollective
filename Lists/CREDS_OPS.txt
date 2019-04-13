@@ -23,3 +23,4 @@ git clone https://github.com/GhostPack/SharpDump
 git clone https://github.com/djhohnstein/SharpWeb
 git clone https://github.com/skelsec/pypykatz
 git clone https://github.com/GhostPack/SharpDPAPI
+git clone https://github.com/Dviros/CredsLeaker
