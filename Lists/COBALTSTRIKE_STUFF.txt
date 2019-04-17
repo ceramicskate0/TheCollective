@@ -1,4 +1,5 @@
 git clone https://github.com/johnnyDEP/cobaltstrike
+git clone https://github.com/Coalfire-Research/Vampire
 git clone https://github.com/harleyQu1nn/AggressorScripts
 git clone https://github.com/killswitch-GUI/CobaltStrike-ToolKit
 git clone https://github.com/vysec/ANGRYPUPPY
