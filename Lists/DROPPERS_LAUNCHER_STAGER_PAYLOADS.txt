@@ -47,3 +47,4 @@ git clone https://github.com/rasta-mouse/TikiTorch
 git clone https://github.com/christophetd/spoofing-office-macro
 git clone https://github.com/outflanknl/EvilClippy
 git clone https://github.com/rek7/fireELF
+git clone https://github.com/itsKindred/pyEmbed
