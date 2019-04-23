@@ -3,3 +3,4 @@ git clone https://github.com/t94j0/AIRMASTER
 git clone https://github.com/mdsecactivebreach/Chameleon
 git clone https://github.com/threatexpress/domainhunter
 git clone https://github.com/redteam-cyberark/Google-Domain-fronting
+git clone https://github.com/elceef/dnstwist
