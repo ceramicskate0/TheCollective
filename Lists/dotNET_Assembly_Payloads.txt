@@ -34,3 +34,4 @@ git clone https://github.com/malcomvetter/CSExec
 git clone https://github.com/GhostPack/SharpWMI
 git clone https://github.com/GhostPack/SharpDPAPI
 git clone https://github.com/matterpreter/OffensiveCSharp
+git clone https://github.com/rasta-mouse/Watson
