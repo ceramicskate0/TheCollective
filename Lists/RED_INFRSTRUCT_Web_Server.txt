@@ -1,0 +1,5 @@
+git clone https://github.com/n0pe-sled/Apache2-Mod-Rewrite-Setup
+git clone https://github.com/bluscreenofjeff/Scripts
+git clone https://gist.githubusercontent.com/jivoi/a33ace2e25515a31aa2ffbae246d98c9/raw/e81f268e9f14339e7bee5e4765418ef9842977b9/gistfile1.txt
+git clone https://gist.githubusercontent.com/curi0usJack/971385e8334e189d93a6cb4671238b10/raw/68a1d7de72b3484e26eb86a952dda3f91615ab85/.htaccess
+git clone https://github.com/violentlydave/mkhtaccess_red
