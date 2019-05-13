@@ -7,6 +7,7 @@
      Setup, install, or bugs with the downloaded repos should be submitted to the owner of the repo.
      I did not create or maintain any of the repos downloaded from any other profile that is not "ceramicskate0".
      Actually we all should try to create detections for these and their variations as well as for everything they do ;D
+     For a complete list of repos please view my starred repos.
 --------------------------------------------------------------------------------
 
 # Contrib:
