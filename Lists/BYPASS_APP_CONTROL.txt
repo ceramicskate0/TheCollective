@@ -1,3 +1,2 @@
 git clone https://github.com/GreatSCT/GreatSCT
-git clone https://github.com/api0cradle/LOLBAS
 git clone https://github.com/subTee/AllTheThings
