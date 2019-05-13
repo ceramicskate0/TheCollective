@@ -1,2 +1,4 @@
 git clone https://github.com/ustayready/fireprox
 git clone https://github.com/GouveaHeitor/nipe
+git clone https://github.com/realgam3/pymultitor
+git clone https://github.com/OffensivePython/Proxist
