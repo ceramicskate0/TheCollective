@@ -29,3 +29,4 @@ git clone https://github.com/matterpreter/DefenderCheck
 git clone https://github.com/netbiosX/Digital-Signature-Hijack
 git clone https://github.com/Illuminopi/RCEvil.NET
 git clone https://github.com/TheWover/EasyNet
+git clone https://github.com/Ch0pin/AVIator
