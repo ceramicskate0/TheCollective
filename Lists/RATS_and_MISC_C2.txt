@@ -34,3 +34,4 @@ git clone https://github.com/fadinglr/Parat
 git clone https://github.com/erikbarzdukas/CrunchRAT
 git clone https://github.com/thelinuxchoice/pyRAT
 git clone https://github.com/KINGSABRI/godofwar
+git clone https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp
