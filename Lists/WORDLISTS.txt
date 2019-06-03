@@ -5,3 +5,4 @@ git clone https://github.com/scadastrangelove/SCADAPASS
 git clone https://github.com/berzerk0/Probable-Wordlists
 git clone https://github.com/xajkep/wordlists
 git clone https://github.com/netbiosX/Default-Credentials
+git clone https://github.com/lavalamp-/password-lists
