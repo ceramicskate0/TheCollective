@@ -40,6 +40,12 @@
      1. ./update.sh
 --------------------------------------------------------------------
 
+# "Keep this in mind":
+
+--------------------------------------------------------------------
+When using this repo's setup/update scripts you need to be aware that you are downloading source from Github. ALL of the source from each repo you download. This can be ALOT of storage requirements for your machine. If this is an issue for you I recommend you delete the *.txt file(s) you do not wish to use or edit the file by deleteing repos you dont want.
+--------------------------------------------------------------------
+
 # For the Blue Team:
 
 --------------------------------------------------------------------
