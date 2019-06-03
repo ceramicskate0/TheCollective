@@ -51,3 +51,4 @@ git clone https://github.com/itsKindred/pyEmbed
 git clone https://github.com/pwntester/ysoserial.net
 git clone https://github.com/GreatSCT/GreatSCT
 git clone https://github.com/artkond/bat-armor
+git clone https://github.com/ustayready/CasperStager
