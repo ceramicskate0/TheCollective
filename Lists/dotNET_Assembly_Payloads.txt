@@ -3,7 +3,6 @@ git clone https://github.com/0xbadjuju/rundotnetdll32
 git clone https://github.com/0xbadjuju/WheresMyImplant
 git clone https://github.com/3gstudent/Office-Persistence
 git clone https://github.com/malcomvetter/ManagedInjection
-git clone https://github.com/GhostPack/SharpRoast
 git clone https://github.com/GhostPack/SharpUp
 git clone https://github.com/GhostPack/Seatbelt
 git clone https://github.com/GhostPack/SharpDump
