@@ -36,3 +36,4 @@ git clone https://github.com/GhostPack/SharpDPAPI
 git clone https://github.com/matterpreter/OffensiveCSharp
 git clone https://github.com/rasta-mouse/Watson
 git clone https://github.com/Arno0x/CSharpScripts
+git clone https://github.com/GhostPack/SafetyKatz
