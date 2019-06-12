@@ -17,3 +17,4 @@ git clone https://github.com/oze4/PaaWS-PowerShell-as-a-Windows-Service
 git clone https://github.com/beahunt3r/Windows-Hunting/blob/master/Persistence
 git clone https://github.com/3gstudent/Office-Persistence
 git clone https://github.com/P1CKLES/Reg_Built
+git clone https://github.com/ewhitehats/InvisiblePersistence
