@@ -5,3 +5,5 @@ git clone https://github.com/invokethreatguy/C2Kv2
 git clone https://github.com/khast3x/redcloud
 git clone https://gist.github.com/jivoi/a33ace2e25515a31aa2ffbae246d98c9
 git clone https://github.com/obscuritylabs/RAI
+git clone https://github.com/rmikehodges/hideNsneak
+git clone https://github.com/stevenaldinger/decker
