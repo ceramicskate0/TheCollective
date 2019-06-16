@@ -1,40 +1,40 @@
 git clone https://github.com/johnnyDEP/cobaltstrike
 git clone https://github.com/Coalfire-Research/Vampire
-git clone https://github.com/harleyQu1nn/AggressorScripts
+git clone https://github.com/harleyQu1nn/AggressorScripts harleyQu1nn_CNA
 git clone https://github.com/killswitch-GUI/CobaltStrike-ToolKit
 git clone https://github.com/vysec/ANGRYPUPPY
 git clone https://github.com/rsmudge/ElevateKit
-git clone https://github.com/ZonkSec/persistence-aggressor-script
-git clone https://github.com/invokethreatguy/aggressor_scripts_collection
-git clone https://github.com/Und3rf10w/Aggressor-scripts
-git clone https://github.com/rasta-mouse/Aggressor-Script
+git clone https://github.com/ZonkSec/persistence-aggressor-script ZonkSec_CNA
+git clone https://github.com/invokethreatguy/aggressor_scripts_collection invokethreatguy_CNA
+git clone https://github.com/Und3rf10w/Aggressor-scripts Und3rf10w_CNA
+git clone https://github.com/rasta-mouse/Aggressor-Script rasta-mouse_CNA
 git clone https://github.com/ThunderGunExpress/OutlookToolbox
 git clone https://github.com/bluscreenofjeff/MalleableC2Profiles
 git clone https://github.com/bluscreenofjeff/Malleable-C2-Randomizer
-git clone https://github.com/bluscreenofjeff/AggressorScripts
-git clone https://github.com/ramen0x3f/AggressorScripts
+git clone https://github.com/bluscreenofjeff/AggressorScripts bluscreenofjeff_CNA
+git clone https://github.com/ramen0x3f/AggressorScripts ramen0x3f_CNA
 git clone https://gist.github.com/rsmudge/8b2f699ea212c09201a5cb65650c6fa2
 git clone https://gist.github.com/rsmudge/9b54a66744a94f3950cc171254057942
 git clone https://github.com/tevora-threat/aggressor-powerview
-git clone https://github.com/RhinoSecurityLabs/Aggressor-Scripts
+git clone https://github.com/RhinoSecurityLabs/Aggressor-Scripts RhinoSecurityLabs_CNA
 git clone https://github.com/vysec/Aggressor-VYSEC
 git clone https://github.com/invokethreatguy/CSASC
-git clone https://github.com/001SPARTaN/aggressor_scripts
+git clone https://github.com/001SPARTaN/aggressor_scripts 001SPARTaN_CNA
 git clone https://github.com/xx0hcd/Malleable-C2-Profiles
 git clone https://github.com/threatexpress/cs2modrewrite
 git clone https://github.com/tevora-threat/PowerView3-Aggressor
-git clone https://github.com/ars3n11/Aggressor-Scripts
-git clone https://github.com/secgroundzero/CS-Aggressor-Scripts
+git clone https://github.com/ars3n11/Aggressor-Scripts ars3n11_CNA
+git clone https://github.com/secgroundzero/CS-Aggressor-Scripts secgroundzero_CNA
 git clone https://github.com/SpiderLabs/SharpCompile
 git clone https://github.com/Truneski/external_c2_framework
-git clone https://github.com/FortyNorthSecurity/AggressorAssessor
+git clone https://github.com/FortyNorthSecurity/AggressorAssessor FortyNorthSecurity_CNA
 git clone https://github.com/360-A-Team/CobaltStrike-Toolset
 git clone https://github.com/codewhitesec/LethalHTA
-git clone https://github.com/offsecginger/AggressorScripts
+git clone https://github.com/offsecginger/AggressorScripts offsecginger_CNA
 git clone https://github.com/darkoperator/vscode-language-aggressor
 git clone https://github.com/rvrsh3ll/CPLResourceRunner
 git clone https://github.com/outflanknl/Excel4-DCOM
-git clone https://github.com/threatexpress/aggressor-scripts
+git clone https://github.com/threatexpress/aggressor-scripts threatexpress_CNA
 git clone https://github.com/phink-team/Cobaltstrike-MS17-010
 git clone https://github.com/ryhanson/ExternalC2
 git clone https://github.com/SpiderLabs/DoHC2
