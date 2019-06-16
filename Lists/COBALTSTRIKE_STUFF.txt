@@ -5,7 +5,6 @@ git clone https://github.com/killswitch-GUI/CobaltStrike-ToolKit
 git clone https://github.com/vysec/ANGRYPUPPY
 git clone https://github.com/rsmudge/ElevateKit
 git clone https://github.com/ZonkSec/persistence-aggressor-script ZonkSec_CNA
-git clone https://github.com/invokethreatguy/aggressor_scripts_collection invokethreatguy_CNA
 git clone https://github.com/Und3rf10w/Aggressor-scripts Und3rf10w_CNA
 git clone https://github.com/rasta-mouse/Aggressor-Script rasta-mouse_CNA
 git clone https://github.com/ThunderGunExpress/OutlookToolbox
