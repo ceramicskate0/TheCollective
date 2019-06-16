@@ -37,3 +37,5 @@ git clone https://github.com/threatexpress/aggressor-scripts threatexpress_CNA
 git clone https://github.com/phink-team/Cobaltstrike-MS17-010
 git clone https://github.com/ryhanson/ExternalC2
 git clone https://github.com/SpiderLabs/DoHC2
+git clone https://github.com/p292/Phant0m_cobaltstrike
+git clone https://github.com/invokethreatguy/AggressorCollection invokethreatguy_CNA
