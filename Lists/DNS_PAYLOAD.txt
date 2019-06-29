@@ -5,3 +5,4 @@ git clone https://github.com/DamonMohammadbagher/NativePayload_DNS2
 git clone https://github.com/eik00d/Reverse_DNS_Shellcode
 git clone https://github.com/no0be/DNSlivery
 git clone https://github.com/krmaxwell/dns-exfiltration
+git clone https://github.com/iagox86/dnscat2
