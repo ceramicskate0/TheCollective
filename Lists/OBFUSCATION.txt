@@ -15,3 +15,5 @@ git clone https://github.com/Mr-Un1k0d3r/SCT-obfuscator
 git clone https://github.com/Arno0x/ObfuscateCactusTorch
 git clone https://github.com/ewwink/MD5-Hash-Changer
 git clone https://github.com/Bashfuscator/Bashfuscator
+git clone https://github.com/alberties/Ghostfuscator
+git clone https://github.com/d35ha/CallObfuscator
