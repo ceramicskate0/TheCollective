@@ -39,3 +39,4 @@ git clone https://github.com/GhostPack/SafetyKatz
 git clone https://github.com/re4lity/subTee-gits-backups
 git clone https://github.com/mwrlabs/SharpGPOAbuse
 git clone https://github.com/djhohnstein/ProcessReimaging
+git clone https://github.com/goldshtn/minidumper
