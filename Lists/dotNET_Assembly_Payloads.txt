@@ -41,3 +41,4 @@ git clone https://github.com/mwrlabs/SharpGPOAbuse
 git clone https://github.com/djhohnstein/ProcessReimaging
 git clone https://github.com/goldshtn/minidumper
 git clone https://github.com/bonesoul/uhttpsharp
+git clonehttps://github.com/xfox64x/AppDomainExample
