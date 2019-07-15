@@ -36,3 +36,4 @@ git clone https://github.com/thelinuxchoice/pyRAT
 git clone https://github.com/KINGSABRI/godofwar
 git clone https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp
 git clone https://github.com/p3nt4/Nuages
+git clone https://github.com/maraudershell/Marauder
