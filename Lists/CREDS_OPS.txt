@@ -1,4 +1,3 @@
-git clone https://github.com/trustedsec/hate_crack
 git clone https://github.com/ChrisTruncer/EyeWitness
 git clone https://github.com/TryCatchHCF/Cloakify
 git clone https://github.com/AlessandroZ/LaZagne
