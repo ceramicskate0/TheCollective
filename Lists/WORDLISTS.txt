@@ -6,3 +6,4 @@ git clone https://github.com/berzerk0/Probable-Wordlists
 git clone https://github.com/xajkep/wordlists
 git clone https://github.com/netbiosX/Default-Credentials
 git clone https://github.com/lavalamp-/password-lists
+git clone https://github.com/steveklabnik/password-cracker
