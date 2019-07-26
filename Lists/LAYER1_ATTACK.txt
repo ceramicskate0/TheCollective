@@ -3,3 +3,4 @@ git clone https://github.com/thunderclap-io
 git clone https://github.com/tenable/router_badusb
 git clone https://github.com/hak5/bashbunny-payloads
 git clone https://github.com/hak5/lanturtle-modules
+git clone https://github.com/insecurityofthings/jackit
