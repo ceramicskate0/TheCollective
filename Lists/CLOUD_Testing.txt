@@ -1,0 +1,5 @@
+git clone https://github.com/s0md3v/AwesomeXSS
+git clone https://github.com/jordanpotti/AWSBucketDump
+git clone https://github.com/kromtech/s3-inspector
+git clone https://github.com/bbb31/slurp
+git clone https://github.com/eth0izzle/bucket-stream
