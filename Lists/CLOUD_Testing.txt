@@ -4,3 +4,4 @@ git clone https://github.com/bbb31/slurp
 git clone https://github.com/eth0izzle/bucket-stream
 git clone https://github.com/nagwww/s3-leaks
 git clone https://github.com/RhinoSecurityLabs/pacu
+git clone https://github.com/brianwarehime/inSp3ctor
