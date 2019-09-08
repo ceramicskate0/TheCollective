@@ -7,3 +7,4 @@ git clone https://github.com/pwndizzle/c-sharp-memory-injection
 git clone https://github.com/marcin-chwedczuk/dll-inject
 git clone https://github.com/OpenSecurityResearch/dllinjector
 git clone https://github.com/OmerYa/ROPInjector
+git clone https://github.com/3xpl01tc0d3r/ProcessInjection
