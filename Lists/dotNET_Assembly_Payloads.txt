@@ -42,3 +42,4 @@ git clone https://github.com/djhohnstein/ProcessReimaging
 git clone https://github.com/goldshtn/minidumper
 git clone https://github.com/bonesoul/uhttpsharp
 git clonehttps://github.com/xfox64x/AppDomainExample
+git clone https://github.com/Mr-Un1k0d3r/MiniDump
