@@ -5,7 +5,7 @@
 
 While TheCollective has a script to install/update a install of everything, I recommend you only install the repos you want and look up the file (catigory) you want and find the tool from there you wish to use and install just that one. Use a search command in linux to find what you want from directory tree.
 
-This repo contains mostly a collection pointers to scripts, apps, repos, and/or programs that I have found useful during my time on Red Team Ops. 
+This repo contains mostly a collection pointers to scripts, apps, repos, and/or programs that I have found useful during my time on Red Team Ops and/or pen tests. 
 
 I maintain the collection of what is basically pointers to the repos here so I only have 1 place to go to get them all and not have to remember them all. 
 
