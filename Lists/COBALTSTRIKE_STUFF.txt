@@ -41,3 +41,4 @@ git clone https://github.com/p292/Phant0m_cobaltstrike
 git clone https://github.com/invokethreatguy/AggressorCollection invokethreatguy_CNA
 git clone https://github.com/jnqpblc/SharpTask
 git clone https://github.com/SuperDong0/Aggressor_mail
+git clone https://github.com/michalkoczwara/aggressor_scripts_collection
