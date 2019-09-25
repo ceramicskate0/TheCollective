@@ -26,3 +26,4 @@ git clone https://github.com/Dviros/CredsLeaker
 git clone https://github.com/hoangprod/AndrewSpecial
 git clone https://github.com/hc0d3r/sshd-poison
 git clone https://github.com/skelsec/pypykatz
+git clone https://github.com/vyrus001/go-mimikatz
