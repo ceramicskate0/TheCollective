@@ -41,3 +41,4 @@ git clone https://github.com/s0md3v/Photon
 git clone https://github.com/khast3x/h8mail
 git clone https://github.com/UndeadSec/SocialFish
 git clone https://github.com/trustedsec/hardcidr
+git clone https://github.com/OWASP/Amass
