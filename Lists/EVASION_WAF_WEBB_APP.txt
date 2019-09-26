@@ -1,0 +1,5 @@
+git clone https://github.com/nettitude/xss_payloads
+git clone https://github.com/mandatoryprogrammer/xssless
+git clone https://github.com/davidson679/Bypass-Web-Application-Firewalls
+git clone https://github.com/frizb/Bypassing-Web-Application-Firewalls
+git clone https://github.com/ismailtasdelen/xss-payload-list
