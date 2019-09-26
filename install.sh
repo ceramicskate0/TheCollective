@@ -88,7 +88,7 @@ apt-get install -y  fruitywifi
 apt-get install -y tesseract-ocr
 apt-get install -y libtesseract-dev
 apt-get install -y pip3
-pip3 install --upgrade --user awscli
+apt-get install -y awscli
 apt autoremove -y
 apt-get clean
 chmod +777 GetClones.py
