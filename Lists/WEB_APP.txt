@@ -1,5 +1,3 @@
-git clone https://github.com/nettitude/xss_payloads
-git clone https://github.com/mandatoryprogrammer/xssless
 git clone https://github.com/CoalfireLabs/java_deserialization_exploits
 git clone https://github.com/rezasp/vbscan
 git clone https://github.com/Netflix/sleepy-puppy
@@ -25,8 +23,5 @@ git clone https://github.com/viraintel/OWASP-ZSC
 git clone https://github.com/Arno0x/WebDavC2
 git clone https://github.com/Ekultek/WhatWaf
 git clone https://github.com/grCod/poly
-git clone https://github.com/frizb/Bypassing-Web-Application-Firewalls
 git clone https://github.com/jcesarstef/dotdotslash
-git clone https://github.com/ismailtasdelen/xss-payload-list
 git clone https://github.com/theInfectedDrake/TIDoS-Framework
-git clone https://github.com/davidson679/Bypass-Web-Application-Firewalls
