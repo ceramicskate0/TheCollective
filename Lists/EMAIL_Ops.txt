@@ -6,3 +6,4 @@ git clone https://github.com/rasta-mouse/EWSToolkit
 git clone https://github.com/ceramicskate0/Outlook_Data_Exfil
 git clone https://github.com/bcoles/SimplyEmail
 git clone https://github.com/righettod/pst-digger
+git clone https://github.com/johnnyDEP/OWA-Toolkit
