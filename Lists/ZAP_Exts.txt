@@ -1,3 +1,5 @@
 git clone https://github.com/zaproxy/zap-hud.git
 git clone https://github.com/zaproxy/community-scripts
 git clone https://github.com/zaproxy/zap-extensions
+git clone https://github.com/viraintel/OWASP-ZSC
+git clone https://github.com/ajinabraham/OWASP-Xenotix-XSS-Exploit-Framework
