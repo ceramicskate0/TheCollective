@@ -6,3 +6,4 @@ git clone https://github.com/redteam-cyberark/Google-Domain-fronting
 git clone https://github.com/elceef/dnstwist
 git clone https://github.com/infosec-au/altdns
 git clone https://github.com/ring0lab/catphish
+git clone https://github.com/fullmetalcache/domainGain
