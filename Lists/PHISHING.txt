@@ -12,3 +12,4 @@ git clone https://github.com/pan0pt1c0n/PhishBait
 git clone https://github.com/wifiphisher/extra-phishing-pages
 git clone https://github.com/L4bF0x/PhishingPretexts
 git clone https://github.com/thelinuxchoice/blackeye
+git clone https://github.com/kgretzky/evilginx2
