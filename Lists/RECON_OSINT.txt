@@ -42,3 +42,4 @@ git clone https://github.com/khast3x/h8mail
 git clone https://github.com/UndeadSec/SocialFish
 git clone https://github.com/trustedsec/hardcidr
 git clone https://github.com/OWASP/Amass
+git clone https://github.com/m8r0wn/CrossLinked
