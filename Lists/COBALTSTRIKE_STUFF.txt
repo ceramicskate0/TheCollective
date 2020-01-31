@@ -43,3 +43,4 @@ git clone https://github.com/jnqpblc/SharpTask
 git clone https://github.com/SuperDong0/Aggressor_mail
 git clone https://github.com/michalkoczwara/aggressor_scripts_collection
 git clone https://github.com/0xthirteen/StayKit
+git clone https://github.com/0xthirteen/MoveKit
