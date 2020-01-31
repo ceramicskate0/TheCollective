@@ -8,3 +8,4 @@ git clone https://github.com/infosec-au/altdns
 git clone https://github.com/ring0lab/catphish
 git clone https://github.com/fullmetalcache/domainGain
 git clone https://github.com/UndeadSec/EvilURL
+git clone https://github.com/fullmetalcache/domainGain
