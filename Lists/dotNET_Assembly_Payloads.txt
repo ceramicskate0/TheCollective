@@ -46,3 +46,4 @@ git clone https://github.com/Mr-Un1k0d3r/MiniDump
 git clone https://github.com/b4rtik/RedPeanut
 git clone https://github.com/tevora-threat/SharpView
 git clone https://github.com/SteveSyfuhs/Kerberos.NET
+git clone https://github.com/0xthirteen/SharpStay
