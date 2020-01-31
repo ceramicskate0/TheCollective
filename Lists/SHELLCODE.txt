@@ -5,3 +5,4 @@ git clone https://github.com/neurobin/shc
 git clone https://github.com/sysdream/hershell
 git clone https://github.com/merrychap/shellen
 git clone https://github.com/djhohnstein/ScatterBrain
+git clone https://github.com/TheWover/donut
