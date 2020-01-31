@@ -10,3 +10,4 @@ git clone https://gist.github.com/enigma0x3/8d0cabdb8d49084cdcf03ad89454798b
 git clone https://github.com/CoreSecurity/impacket
 git clone https://github.com/mkellerman/Invoke-CommandAs
 git clone https://github.com/garywill/proxc
+git clone https://github.com/Mr-Un1k0d3r/PoisonHandler
