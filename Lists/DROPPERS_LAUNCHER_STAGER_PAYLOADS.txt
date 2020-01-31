@@ -54,3 +54,4 @@ git clone https://github.com/artkond/bat-armor
 git clone https://github.com/ustayready/CasperStager
 git clone https://github.com/s1egesystems/GhostDelivery
 git clone https://github.com/MooseDojo/spotter
+git clone https://github.com/Plazmaz/LNKUp
