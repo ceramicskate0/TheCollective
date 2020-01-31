@@ -51,3 +51,4 @@ git clone https://github.com/airzero24/WMIReg
 git clone https://github.com/m0rv4i/SharpCookieMonster
 git clone https://github.com/Pickfordmatt/SharpLocker
 git clone https://github.com/med0x2e/GadgetToJScript
+git clone https://github.com/outflanknl/SharpHide
