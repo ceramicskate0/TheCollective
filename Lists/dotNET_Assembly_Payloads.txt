@@ -47,3 +47,4 @@ git clone https://github.com/b4rtik/RedPeanut
 git clone https://github.com/tevora-threat/SharpView
 git clone https://github.com/SteveSyfuhs/Kerberos.NET
 git clone https://github.com/0xthirteen/SharpStay
+git clone https://github.com/airzero24/WMIReg
