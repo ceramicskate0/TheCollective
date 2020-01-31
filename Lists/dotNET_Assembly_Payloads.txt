@@ -49,3 +49,4 @@ git clone https://github.com/SteveSyfuhs/Kerberos.NET
 git clone https://github.com/0xthirteen/SharpStay
 git clone https://github.com/airzero24/WMIReg
 git clone https://github.com/m0rv4i/SharpCookieMonster
+git clone https://github.com/Pickfordmatt/SharpLocker
