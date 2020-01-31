@@ -4,3 +4,4 @@ git clone https://github.com/vulnersCom/burp-vulners-scanner
 git clone https://github.com/snoopysecurity/awesome-burp-extensions
 git clone https://github.com/abhijitsverma/burp_extension_MultiScanner
 git clone https://github.com/capt-meelo/Telewreck
+git clone https://github.com/payloadbox/sql-injection-payload-list
