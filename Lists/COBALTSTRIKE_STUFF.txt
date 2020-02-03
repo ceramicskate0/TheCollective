@@ -20,7 +20,6 @@ git clone https://github.com/vysec/Aggressor-VYSEC
 git clone https://github.com/invokethreatguy/CSASC
 git clone https://github.com/001SPARTaN/aggressor_scripts 001SPARTaN_CNA
 git clone https://github.com/xx0hcd/Malleable-C2-Profiles
-git clone https://github.com/threatexpress/cs2modrewrite
 git clone https://github.com/tevora-threat/PowerView3-Aggressor
 git clone https://github.com/ars3n11/Aggressor-Scripts ars3n11_CNA
 git clone https://github.com/secgroundzero/CS-Aggressor-Scripts secgroundzero_CNA
