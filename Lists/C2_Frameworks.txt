@@ -1,1 +1,2 @@
 git clone https://github.com/FSecureLABS/C3
+git clone https://github.com/FactionC2/Faction
